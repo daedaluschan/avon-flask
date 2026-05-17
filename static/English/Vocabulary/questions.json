@@ -2526,5 +2526,637 @@
       }
     ],
     "explanation": "Excellent! 'Summarize' is an action word telling you what you need to do, so it is a verb."
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "uncanny",
+    "prompt": {},
+    "question": "What does the word \"uncanny\" mean?",
+    "choices": [
+      {
+        "text": "strangely mysterious",
+        "correct": true
+      },
+      {
+        "text": "brightly coloured",
+        "correct": false
+      },
+      {
+        "text": "carefully folded",
+        "correct": false
+      },
+      {
+        "text": "lightly cooked",
+        "correct": false
+      },
+      {
+        "text": "quickly repaired",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Uncanny\" means strange or mysterious in a slightly unsettling way. The other choices describe colour, folding, cooking, or fixing.",
+    "id": "eng-vocab-0081"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "tidings",
+    "prompt": {
+      "meaning": "news or information about something that has happened"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "warnings",
+        "correct": false
+      },
+      {
+        "text": "tidings",
+        "correct": true
+      },
+      {
+        "text": "journeys",
+        "correct": false
+      },
+      {
+        "text": "patterns",
+        "correct": false
+      },
+      {
+        "text": "borders",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Tidings\" means news or information. The other options refer to dangers, trips, designs, or edges.",
+    "id": "eng-vocab-0082"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "alighted",
+    "prompt": {
+      "sentence": "The bird _____ on the fence and looked around the garden."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "argued",
+        "correct": false
+      },
+      {
+        "text": "alighted",
+        "correct": true
+      },
+      {
+        "text": "polished",
+        "correct": false
+      },
+      {
+        "text": "borrowed",
+        "correct": false
+      },
+      {
+        "text": "measured",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Alighted\" means landed or settled on something. The other choices do not describe what a bird does on a fence.",
+    "id": "eng-vocab-0083"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "solemn",
+    "prompt": {
+      "sentence": "The class became solemn during the minute of silence."
+    },
+    "question": "Which word could replace \"solemn\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "serious",
+        "correct": true
+      },
+      {
+        "text": "noisy",
+        "correct": false
+      },
+      {
+        "text": "greedy",
+        "correct": false
+      },
+      {
+        "text": "cheerful",
+        "correct": false
+      },
+      {
+        "text": "careless",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Solemn\" means serious and respectful. The other words do not fit the mood of a minute of silence.",
+    "id": "eng-vocab-0084"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "heartily",
+    "prompt": {
+      "sentence": "The team cheered heartily after winning the final match."
+    },
+    "question": "What part of speech is \"heartily\" in this sentence?",
+    "choices": [
+      {
+        "text": "noun",
+        "correct": false
+      },
+      {
+        "text": "adverb",
+        "correct": true
+      },
+      {
+        "text": "verb",
+        "correct": false
+      },
+      {
+        "text": "adjective",
+        "correct": false
+      },
+      {
+        "text": "conjunction",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Heartily\" is an adverb because it tells us how the team cheered. The other choices do not describe how an action is done.",
+    "id": "eng-vocab-0085"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "vengeance",
+    "prompt": {},
+    "question": "What does the word \"vengeance\" mean?",
+    "choices": [
+      {
+        "text": "a peaceful agreement",
+        "correct": false
+      },
+      {
+        "text": "a careful measurement",
+        "correct": false
+      },
+      {
+        "text": "punishment in return",
+        "correct": true
+      },
+      {
+        "text": "a sudden illness",
+        "correct": false
+      },
+      {
+        "text": "an honest mistake",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Vengeance\" means revenge or punishment given back for a wrong. The other choices do not involve paying someone back for harm.",
+    "id": "eng-vocab-0086"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "dingy",
+    "prompt": {
+      "meaning": "dark, dull, and rather dirty"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "glossy",
+        "correct": false
+      },
+      {
+        "text": "dingy",
+        "correct": true
+      },
+      {
+        "text": "formal",
+        "correct": false
+      },
+      {
+        "text": "gentle",
+        "correct": false
+      },
+      {
+        "text": "steady",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Dingy\" means dull, dark, or dirty. The other options describe shine, manners, softness, or balance.",
+    "id": "eng-vocab-0087"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "beckoned",
+    "prompt": {
+      "sentence": "Dad _____ from the doorway to show that dinner was ready."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "crumbled",
+        "correct": false
+      },
+      {
+        "text": "beckoned",
+        "correct": true
+      },
+      {
+        "text": "filtered",
+        "correct": false
+      },
+      {
+        "text": "balanced",
+        "correct": false
+      },
+      {
+        "text": "wandered",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Beckoned\" means signalled to someone to come closer. The other words do not fit the idea of calling someone over.",
+    "id": "eng-vocab-0088"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "feeble",
+    "prompt": {
+      "sentence": "The old torch gave a feeble light in the dark cave."
+    },
+    "question": "Which word could replace \"feeble\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "bright",
+        "correct": false
+      },
+      {
+        "text": "heavy",
+        "correct": false
+      },
+      {
+        "text": "weak",
+        "correct": true
+      },
+      {
+        "text": "fresh",
+        "correct": false
+      },
+      {
+        "text": "bitter",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Feeble\" means weak or not strong. A weak light fits the sentence, while the other choices describe different qualities.",
+    "id": "eng-vocab-0089"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "frantic",
+    "prompt": {
+      "sentence": "The frantic child searched every pocket for the missing ticket."
+    },
+    "question": "What part of speech is \"frantic\" in this sentence?",
+    "choices": [
+      {
+        "text": "verb",
+        "correct": false
+      },
+      {
+        "text": "noun",
+        "correct": false
+      },
+      {
+        "text": "preposition",
+        "correct": false
+      },
+      {
+        "text": "adjective",
+        "correct": true
+      },
+      {
+        "text": "adverb",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Frantic\" is an adjective because it describes the child. It tells us the child was panicked or very worried.",
+    "id": "eng-vocab-0090"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "contentment",
+    "prompt": {},
+    "question": "What does the word \"contentment\" mean?",
+    "choices": [
+      {
+        "text": "quiet satisfaction",
+        "correct": true
+      },
+      {
+        "text": "sudden movement",
+        "correct": false
+      },
+      {
+        "text": "strict punishment",
+        "correct": false
+      },
+      {
+        "text": "heavy rainfall",
+        "correct": false
+      },
+      {
+        "text": "secret warning",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Contentment\" means a calm feeling of happiness or satisfaction. The other choices describe actions, punishment, weather, or warnings.",
+    "id": "eng-vocab-0091"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "persistent",
+    "prompt": {
+      "meaning": "continuing firmly and not giving up"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "fragile",
+        "correct": false
+      },
+      {
+        "text": "distant",
+        "correct": false
+      },
+      {
+        "text": "persistent",
+        "correct": true
+      },
+      {
+        "text": "bashful",
+        "correct": false
+      },
+      {
+        "text": "careless",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Persistent\" means continuing and not giving up. The other words mean weak, far away, shy, or not careful.",
+    "id": "eng-vocab-0092"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "quenched",
+    "prompt": {
+      "sentence": "After the long run, a bottle of water _____ Liam's thirst."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "quenched",
+        "correct": true
+      },
+      {
+        "text": "scattered",
+        "correct": false
+      },
+      {
+        "text": "invented",
+        "correct": false
+      },
+      {
+        "text": "polished",
+        "correct": false
+      },
+      {
+        "text": "twisted",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Quenched\" means satisfied thirst or put out a fire. Water can quench thirst, but the other choices do not fit.",
+    "id": "eng-vocab-0093"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "grubby",
+    "prompt": {
+      "sentence": "The toddler's grubby hands left marks on the clean wall."
+    },
+    "question": "Which word could replace \"grubby\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "tiny",
+        "correct": false
+      },
+      {
+        "text": "sticky",
+        "correct": false
+      },
+      {
+        "text": "quick",
+        "correct": false
+      },
+      {
+        "text": "dirty",
+        "correct": true
+      },
+      {
+        "text": "empty",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Grubby\" means dirty. The sentence says the hands left marks, so \"dirty\" is the best replacement.",
+    "id": "eng-vocab-0094"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "indignantly",
+    "prompt": {
+      "sentence": "Ella indignantly denied taking the last slice of cake."
+    },
+    "question": "What part of speech is \"indignantly\" in this sentence?",
+    "choices": [
+      {
+        "text": "noun",
+        "correct": false
+      },
+      {
+        "text": "adverb",
+        "correct": true
+      },
+      {
+        "text": "verb",
+        "correct": false
+      },
+      {
+        "text": "adjective",
+        "correct": false
+      },
+      {
+        "text": "interjection",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Indignantly\" is an adverb because it describes how Ella denied it. It shows she spoke with anger at being accused.",
+    "id": "eng-vocab-0095"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "parley",
+    "prompt": {},
+    "question": "What does the word \"parley\" mean?",
+    "choices": [
+      {
+        "text": "a sudden chase",
+        "correct": false
+      },
+      {
+        "text": "a formal talk",
+        "correct": true
+      },
+      {
+        "text": "a broken tool",
+        "correct": false
+      },
+      {
+        "text": "a hidden door",
+        "correct": false
+      },
+      {
+        "text": "a small feast",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Parley\" means a discussion, often between opposing sides. The other choices are not about talking or negotiating.",
+    "id": "eng-vocab-0096"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "enmity",
+    "prompt": {
+      "meaning": "strong dislike or hostility between people"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "patience",
+        "correct": false
+      },
+      {
+        "text": "enmity",
+        "correct": true
+      },
+      {
+        "text": "comfort",
+        "correct": false
+      },
+      {
+        "text": "honesty",
+        "correct": false
+      },
+      {
+        "text": "harmony",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Enmity\" means strong dislike or hostility. The other choices are positive or neutral qualities, not hatred.",
+    "id": "eng-vocab-0097"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "deceive",
+    "prompt": {
+      "sentence": "The fake email tried to _____ people into sharing their passwords."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "protect",
+        "correct": false
+      },
+      {
+        "text": "deceive",
+        "correct": true
+      },
+      {
+        "text": "comfort",
+        "correct": false
+      },
+      {
+        "text": "polish",
+        "correct": false
+      },
+      {
+        "text": "rescue",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Deceive\" means trick someone into believing something false. A fake email might try to trick people, so it fits best.",
+    "id": "eng-vocab-0098"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "conspicuous",
+    "prompt": {
+      "sentence": "His bright orange hat was conspicuous in the crowd."
+    },
+    "question": "Which word could replace \"conspicuous\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "ordinary",
+        "correct": false
+      },
+      {
+        "text": "noticeable",
+        "correct": true
+      },
+      {
+        "text": "private",
+        "correct": false
+      },
+      {
+        "text": "silent",
+        "correct": false
+      },
+      {
+        "text": "difficult",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Conspicuous\" means easy to notice. A bright orange hat in a crowd would be noticeable.",
+    "id": "eng-vocab-0099"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "quivering",
+    "prompt": {
+      "sentence": "The quivering leaf shook in the cold wind."
+    },
+    "question": "What part of speech is \"quivering\" in this sentence?",
+    "choices": [
+      {
+        "text": "noun",
+        "correct": false
+      },
+      {
+        "text": "conjunction",
+        "correct": false
+      },
+      {
+        "text": "verb",
+        "correct": false
+      },
+      {
+        "text": "adverb",
+        "correct": false
+      },
+      {
+        "text": "adjective",
+        "correct": true
+      }
+    ],
+    "explanation": "\"Quivering\" is an adjective here because it describes the leaf. It tells us the leaf was shaking slightly.",
+    "id": "eng-vocab-0100"
   }
 ]
