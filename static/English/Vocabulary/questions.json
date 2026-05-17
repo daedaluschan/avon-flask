@@ -3798,5 +3798,1285 @@
       }
     ],
     "explanation": "Awesome! To 'reinforce' means to strengthen or provide extra support to a structure or an idea."
+  },
+  {
+    "id": "eng-vocab-0121",
+    "type": "fill_in_blank",
+    "target_word": "meticulously",
+    "prompt": {
+      "sentence": "The detective ____ examined the crime scene for any overlooked clues."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "carelessly",
+        "correct": false
+      },
+      {
+        "text": "forcefully",
+        "correct": false
+      },
+      {
+        "text": "meticulously",
+        "correct": true
+      },
+      {
+        "text": "generously",
+        "correct": false
+      },
+      {
+        "text": "sorrowfully",
+        "correct": false
+      }
+    ],
+    "explanation": "'Meticulously' means doing something with great attention to detail, which makes sense for a detective searching for clues."
+  },
+  {
+    "id": "eng-vocab-0122",
+    "type": "fill_in_blank",
+    "target_word": "reluctant",
+    "prompt": {
+      "sentence": "Despite his friends' encouragement, James was ____ to jump off the high diving board."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "thrilled",
+        "correct": false
+      },
+      {
+        "text": "reluctant",
+        "correct": true
+      },
+      {
+        "text": "confused",
+        "correct": false
+      },
+      {
+        "text": "desperate",
+        "correct": false
+      },
+      {
+        "text": "delighted",
+        "correct": false
+      }
+    ],
+    "explanation": "'Reluctant' means unwilling or hesitant. James was hesitant to jump from a high place, even though his friends encouraged him."
+  },
+  {
+    "id": "eng-vocab-0123",
+    "type": "fill_in_blank",
+    "target_word": "ambiguous",
+    "prompt": {
+      "sentence": "The instructions for the assignment were so ____ that half the class did it incorrectly."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "hilarious",
+        "correct": false
+      },
+      {
+        "text": "brilliant",
+        "correct": false
+      },
+      {
+        "text": "ambiguous",
+        "correct": true
+      },
+      {
+        "text": "delicious",
+        "correct": false
+      },
+      {
+        "text": "beautiful",
+        "correct": false
+      }
+    ],
+    "explanation": "'Ambiguous' means unclear or having more than one possible meaning, explaining why the students got confused."
+  },
+  {
+    "id": "eng-vocab-0124",
+    "type": "fill_in_blank",
+    "target_word": "comprehend",
+    "prompt": {
+      "sentence": "It took me a few hours to fully ____ the complex rules of the new board game."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "compromise",
+        "correct": false
+      },
+      {
+        "text": "comprehend",
+        "correct": true
+      },
+      {
+        "text": "compliment",
+        "correct": false
+      },
+      {
+        "text": "complicate",
+        "correct": false
+      },
+      {
+        "text": "compensate",
+        "correct": false
+      }
+    ],
+    "explanation": "'Comprehend' means to understand something completely. The other words have entirely different meanings that do not fit learning rules."
+  },
+  {
+    "id": "eng-vocab-0125",
+    "type": "fill_in_blank",
+    "target_word": "diligent",
+    "prompt": {
+      "sentence": "The ____ student stayed after school every day to ensure her science project was perfect."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "ignorant",
+        "correct": false
+      },
+      {
+        "text": "arrogant",
+        "correct": false
+      },
+      {
+        "text": "hesitant",
+        "correct": false
+      },
+      {
+        "text": "diligent",
+        "correct": true
+      },
+      {
+        "text": "stubborn",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'diligent' person shows care and conscientious effort in their work. Staying after school shows hard work."
+  },
+  {
+    "id": "eng-vocab-0126",
+    "type": "fill_in_blank",
+    "target_word": "eccentric",
+    "prompt": {
+      "sentence": "Our new neighbor is quite ____; he wears a top hat and a monocle to the supermarket."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "realistic",
+        "correct": false
+      },
+      {
+        "text": "eccentric",
+        "correct": true
+      },
+      {
+        "text": "identical",
+        "correct": false
+      },
+      {
+        "text": "miserable",
+        "correct": false
+      },
+      {
+        "text": "offensive",
+        "correct": false
+      }
+    ],
+    "explanation": "'Eccentric' describes behavior that is unconventional or slightly strange. Wearing a top hat to a supermarket fits this perfectly."
+  },
+  {
+    "id": "eng-vocab-0127",
+    "type": "fill_in_blank",
+    "target_word": "formidable",
+    "prompt": {
+      "sentence": "The reigning champions proved to be a ____ opponent, winning the rugby match effortlessly."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "vulnerable",
+        "correct": false
+      },
+      {
+        "text": "reasonable",
+        "correct": false
+      },
+      {
+        "text": "profitable",
+        "correct": false
+      },
+      {
+        "text": "forgivable",
+        "correct": false
+      },
+      {
+        "text": "formidable",
+        "correct": true
+      }
+    ],
+    "explanation": "A 'formidable' opponent is one who inspires fear or respect because they are very powerful or capable."
+  },
+  {
+    "id": "eng-vocab-0128",
+    "type": "fill_in_blank",
+    "target_word": "genuine",
+    "prompt": {
+      "sentence": "Her apology seemed ____, as she had tears in her eyes and promised to make amends."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "artificial",
+        "correct": false
+      },
+      {
+        "text": "genuine",
+        "correct": true
+      },
+      {
+        "text": "ridiculous",
+        "correct": false
+      },
+      {
+        "text": "malicious",
+        "correct": false
+      },
+      {
+        "text": "poisonous",
+        "correct": false
+      }
+    ],
+    "explanation": "'Genuine' means truly what something is said to be; sincere. Tears and promises show her feelings were real."
+  },
+  {
+    "id": "eng-vocab-0129",
+    "type": "fill_in_blank",
+    "target_word": "hospitable",
+    "prompt": {
+      "sentence": "The host was incredibly ____, offering us fresh towels and a warm meal upon our arrival."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "hostile",
+        "correct": false
+      },
+      {
+        "text": "terrified",
+        "correct": false
+      },
+      {
+        "text": "hospitable",
+        "correct": true
+      },
+      {
+        "text": "aggressive",
+        "correct": false
+      },
+      {
+        "text": "suspicious",
+        "correct": false
+      }
+    ],
+    "explanation": "'Hospitable' describes someone who is friendly and welcoming to guests. Providing food and comfort matches this."
+  },
+  {
+    "id": "eng-vocab-0130",
+    "type": "fill_in_blank",
+    "target_word": "inevitable",
+    "prompt": {
+      "sentence": "Once the dark clouds gathered and the wind howled, the heavy thunderstorm became ____."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "impossible",
+        "correct": false
+      },
+      {
+        "text": "inevitable",
+        "correct": true
+      },
+      {
+        "text": "reversible",
+        "correct": false
+      },
+      {
+        "text": "debatable",
+        "correct": false
+      },
+      {
+        "text": "incredible",
+        "correct": false
+      }
+    ],
+    "explanation": "'Inevitable' means certain to happen or unavoidable. Dark clouds and wind meant a storm was definitely coming."
+  },
+  {
+    "id": "eng-vocab-0131",
+    "type": "fill_in_blank",
+    "target_word": "justify",
+    "prompt": {
+      "sentence": "You cannot ____ arriving an hour late to the exam without a valid doctor's note."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "multiply",
+        "correct": false
+      },
+      {
+        "text": "magnify",
+        "correct": false
+      },
+      {
+        "text": "justify",
+        "correct": true
+      },
+      {
+        "text": "terrify",
+        "correct": false
+      },
+      {
+        "text": "falsify",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'justify' means to show or prove to be right or reasonable. You need a good reason to explain being late."
+  },
+  {
+    "id": "eng-vocab-0132",
+    "type": "fill_in_blank",
+    "target_word": "lucrative",
+    "prompt": {
+      "sentence": "The young entrepreneur started a ____ business selling custom phone cases online, making a huge profit."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "destructive",
+        "correct": false
+      },
+      {
+        "text": "supportive",
+        "correct": false
+      },
+      {
+        "text": "combative",
+        "correct": false
+      },
+      {
+        "text": "lucrative",
+        "correct": true
+      },
+      {
+        "text": "repetitive",
+        "correct": false
+      }
+    ],
+    "explanation": "'Lucrative' means producing a great deal of profit or wealth, which matches the clue 'making a huge profit'."
+  },
+  {
+    "id": "eng-vocab-0133",
+    "type": "fill_in_blank",
+    "target_word": "mediocre",
+    "prompt": {
+      "sentence": "The restaurant reviews were terrible because the food was, at best, incredibly ____."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "excellent",
+        "correct": false
+      },
+      {
+        "text": "brilliant",
+        "correct": false
+      },
+      {
+        "text": "mediocre",
+        "correct": true
+      },
+      {
+        "text": "fantastic",
+        "correct": false
+      },
+      {
+        "text": "wonderful",
+        "correct": false
+      }
+    ],
+    "explanation": "'Mediocre' means of only average quality or not very good. The other choices mean very good, which contradicts 'terrible reviews'."
+  },
+  {
+    "id": "eng-vocab-0134",
+    "type": "fill_in_blank",
+    "target_word": "notorious",
+    "prompt": {
+      "sentence": "The pirate Blackbeard was ____ for his fearsome appearance and ruthless tactics on the high seas."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "celebrated",
+        "correct": false
+      },
+      {
+        "text": "courageous",
+        "correct": false
+      },
+      {
+        "text": "mysterious",
+        "correct": false
+      },
+      {
+        "text": "notorious",
+        "correct": true
+      },
+      {
+        "text": "victorious",
+        "correct": false
+      }
+    ],
+    "explanation": "'Notorious' means famous or well known, typically for some bad quality or deed. A ruthless pirate fits this perfectly."
+  },
+  {
+    "id": "eng-vocab-0135",
+    "type": "fill_in_blank",
+    "target_word": "obsolete",
+    "prompt": {
+      "sentence": "Floppy disks have become entirely ____ now that we have cloud storage and high-capacity flash drives."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "absolute",
+        "correct": false
+      },
+      {
+        "text": "obsolete",
+        "correct": true
+      },
+      {
+        "text": "accurate",
+        "correct": false
+      },
+      {
+        "text": "adequate",
+        "correct": false
+      },
+      {
+        "text": "moderate",
+        "correct": false
+      }
+    ],
+    "explanation": "'Obsolete' means no longer produced or used, often because something newer exists. Floppy disks are no longer used."
+  },
+  {
+    "id": "eng-vocab-0136",
+    "type": "fill_in_blank",
+    "target_word": "plausible",
+    "prompt": {
+      "sentence": "His excuse for not doing his homework was not ____, so the teacher decided to give him a detention."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "laughable",
+        "correct": false
+      },
+      {
+        "text": "plausible",
+        "correct": true
+      },
+      {
+        "text": "miserable",
+        "correct": false
+      },
+      {
+        "text": "impossible",
+        "correct": false
+      },
+      {
+        "text": "terrible",
+        "correct": false
+      }
+    ],
+    "explanation": "'Plausible' means seeming reasonable or probable. If an excuse is not plausible, it is unbelievable."
+  },
+  {
+    "id": "eng-vocab-0137",
+    "type": "fill_in_blank",
+    "target_word": "query",
+    "prompt": {
+      "sentence": "If you have any sort of ____ about the exam timetable, please ask the school receptionist."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "compliment",
+        "correct": false
+      },
+      {
+        "text": "statement",
+        "correct": false
+      },
+      {
+        "text": "query",
+        "correct": true
+      },
+      {
+        "text": "memory",
+        "correct": false
+      },
+      {
+        "text": "theory",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'query' is a question, especially one expressing doubt or requesting information. You ask questions about a timetable."
+  },
+  {
+    "id": "eng-vocab-0138",
+    "type": "fill_in_blank",
+    "target_word": "resilient",
+    "prompt": {
+      "sentence": "Rubber is a very ____ material, bouncing back into its original shape even after being stretched heavily."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "fragile",
+        "correct": false
+      },
+      {
+        "text": "brittle",
+        "correct": false
+      },
+      {
+        "text": "delicate",
+        "correct": false
+      },
+      {
+        "text": "stubborn",
+        "correct": false
+      },
+      {
+        "text": "resilient",
+        "correct": true
+      }
+    ],
+    "explanation": "'Resilient' refers to the ability of an object or a person to spring back into shape or recover quickly from difficulties."
+  },
+  {
+    "id": "eng-vocab-0139",
+    "type": "fill_in_blank",
+    "target_word": "scrutinize",
+    "prompt": {
+      "sentence": "The art expert had to carefully ____ the painting to confirm it wasn't a clever fake."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "vandalize",
+        "correct": false
+      },
+      {
+        "text": "memorize",
+        "correct": false
+      },
+      {
+        "text": "scrutinize",
+        "correct": true
+      },
+      {
+        "text": "criticize",
+        "correct": false
+      },
+      {
+        "text": "summarize",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'scrutinize' means to examine or inspect something closely and thoroughly, which is necessary to detect a fake."
+  },
+  {
+    "id": "eng-vocab-0140",
+    "type": "fill_in_blank",
+    "target_word": "tentative",
+    "prompt": {
+      "sentence": "We made ____ plans to go to the beach on Saturday, but it will completely depend on the weather forecast."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "absolute",
+        "correct": false
+      },
+      {
+        "text": "definitive",
+        "correct": false
+      },
+      {
+        "text": "tentative",
+        "correct": true
+      },
+      {
+        "text": "permanent",
+        "correct": false
+      },
+      {
+        "text": "excellent",
+        "correct": false
+      }
+    ],
+    "explanation": "'Tentative' means not certain or fixed. Plans that depend on the weather are subject to change."
+  },
+  {
+    "id": "eng-vocab-0141",
+    "type": "fill_in_blank",
+    "target_word": "prudent",
+    "prompt": {
+      "sentence": "It was _____ to take a torch on the hike because the path would be dark by sunset."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "careless",
+        "correct": false
+      },
+      {
+        "text": "prudent",
+        "correct": true
+      },
+      {
+        "text": "ordinary",
+        "correct": false
+      },
+      {
+        "text": "jealous",
+        "correct": false
+      },
+      {
+        "text": "noisy",
+        "correct": false
+      }
+    ],
+    "explanation": "Prudent means sensible and careful. Taking a torch before dark is a wise choice; the other words do not show careful planning."
+  },
+  {
+    "id": "eng-vocab-0142",
+    "type": "fill_in_blank",
+    "target_word": "courteous",
+    "prompt": {
+      "sentence": "The receptionist was _____ and greeted every visitor with a warm smile."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "courteous",
+        "correct": true
+      },
+      {
+        "text": "furious",
+        "correct": false
+      },
+      {
+        "text": "clumsy",
+        "correct": false
+      },
+      {
+        "text": "distant",
+        "correct": false
+      },
+      {
+        "text": "greedy",
+        "correct": false
+      }
+    ],
+    "explanation": "Courteous means polite and respectful. A warm greeting shows politeness; the other choices do not fit that friendly behaviour."
+  },
+  {
+    "id": "eng-vocab-0143",
+    "type": "fill_in_blank",
+    "target_word": "uncanny",
+    "prompt": {
+      "sentence": "The twins had an _____ habit of saying the same sentence at exactly the same time."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "useful",
+        "correct": false
+      },
+      {
+        "text": "uncanny",
+        "correct": true
+      },
+      {
+        "text": "polite",
+        "correct": false
+      },
+      {
+        "text": "empty",
+        "correct": false
+      },
+      {
+        "text": "minor",
+        "correct": false
+      }
+    ],
+    "explanation": "Uncanny means strange or mysterious in a surprising way. The twins speaking together feels unusual; the other choices do not suggest mystery."
+  },
+  {
+    "id": "eng-vocab-0144",
+    "type": "fill_in_blank",
+    "target_word": "solemn",
+    "prompt": {
+      "sentence": "During the remembrance service, the whole hall became quiet and _____."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "playful",
+        "correct": false
+      },
+      {
+        "text": "sleepy",
+        "correct": false
+      },
+      {
+        "text": "solemn",
+        "correct": true
+      },
+      {
+        "text": "greedy",
+        "correct": false
+      },
+      {
+        "text": "messy",
+        "correct": false
+      }
+    ],
+    "explanation": "Solemn means serious and respectful. A remembrance service is a serious occasion; the other words do not match the mood."
+  },
+  {
+    "id": "eng-vocab-0145",
+    "type": "fill_in_blank",
+    "target_word": "treacherous",
+    "prompt": {
+      "sentence": "The mountain road was _____ after the rain, so the driver slowed down."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "cheerful",
+        "correct": false
+      },
+      {
+        "text": "treacherous",
+        "correct": true
+      },
+      {
+        "text": "generous",
+        "correct": false
+      },
+      {
+        "text": "colourful",
+        "correct": false
+      },
+      {
+        "text": "peaceful",
+        "correct": false
+      }
+    ],
+    "explanation": "Treacherous means dangerous or unsafe. A wet mountain road can be risky; the other choices do not explain why the driver slowed down."
+  },
+  {
+    "id": "eng-vocab-0146",
+    "type": "fill_in_blank",
+    "target_word": "benevolent",
+    "prompt": {
+      "sentence": "The _____ neighbour helped the family carry their shopping bags upstairs."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "careless",
+        "correct": false
+      },
+      {
+        "text": "restless",
+        "correct": false
+      },
+      {
+        "text": "benevolent",
+        "correct": true
+      },
+      {
+        "text": "awkward",
+        "correct": false
+      },
+      {
+        "text": "doubtful",
+        "correct": false
+      }
+    ],
+    "explanation": "Benevolent means kind and helpful. Carrying bags for someone shows kindness; the other words do not describe helpful behaviour."
+  },
+  {
+    "id": "eng-vocab-0147",
+    "type": "fill_in_blank",
+    "target_word": "apprehensive",
+    "prompt": {
+      "sentence": "Maya felt _____ before her first debate, even though she had practised for days."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "apprehensive",
+        "correct": true
+      },
+      {
+        "text": "carefree",
+        "correct": false
+      },
+      {
+        "text": "reckless",
+        "correct": false
+      },
+      {
+        "text": "grateful",
+        "correct": false
+      },
+      {
+        "text": "certain",
+        "correct": false
+      }
+    ],
+    "explanation": "Apprehensive means worried or nervous about something. Feeling this way before a first debate makes sense; the other choices do not show nervousness."
+  },
+  {
+    "id": "eng-vocab-0148",
+    "type": "fill_in_blank",
+    "target_word": "tangible",
+    "prompt": {
+      "sentence": "The charity wanted _____ proof that the donated money had helped local families."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "fictional",
+        "correct": false
+      },
+      {
+        "text": "tangible",
+        "correct": true
+      },
+      {
+        "text": "careless",
+        "correct": false
+      },
+      {
+        "text": "distant",
+        "correct": false
+      },
+      {
+        "text": "jealous",
+        "correct": false
+      }
+    ],
+    "explanation": "Tangible means real and clear enough to notice or prove. The charity wants solid evidence; the other words do not mean clear proof."
+  },
+  {
+    "id": "eng-vocab-0149",
+    "type": "fill_in_blank",
+    "target_word": "reluctant",
+    "prompt": {
+      "sentence": "Leo was _____ to speak first because he was unsure of his answer."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "eager",
+        "correct": false
+      },
+      {
+        "text": "reluctant",
+        "correct": true
+      },
+      {
+        "text": "careful",
+        "correct": false
+      },
+      {
+        "text": "cheerful",
+        "correct": false
+      },
+      {
+        "text": "graceful",
+        "correct": false
+      }
+    ],
+    "explanation": "Reluctant means unwilling or hesitant. Leo is unsure, so he does not want to speak first; the other words do not show hesitation."
+  },
+  {
+    "id": "eng-vocab-0150",
+    "type": "fill_in_blank",
+    "target_word": "precise",
+    "prompt": {
+      "sentence": "The science teacher asked for a _____ measurement, not a rough guess."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "precise",
+        "correct": true
+      },
+      {
+        "text": "muddled",
+        "correct": false
+      },
+      {
+        "text": "speedy",
+        "correct": false
+      },
+      {
+        "text": "fragile",
+        "correct": false
+      },
+      {
+        "text": "casual",
+        "correct": false
+      }
+    ],
+    "explanation": "Precise means exact and accurate. A measurement should be exact, not guessed; the other choices do not mean accurate."
+  },
+  {
+    "id": "eng-vocab-0151",
+    "type": "fill_in_blank",
+    "target_word": "ambiguous",
+    "prompt": {
+      "sentence": "The instruction was _____, so several pupils were not sure what to do."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "helpful",
+        "correct": false
+      },
+      {
+        "text": "ambiguous",
+        "correct": true
+      },
+      {
+        "text": "colourful",
+        "correct": false
+      },
+      {
+        "text": "peaceful",
+        "correct": false
+      },
+      {
+        "text": "fearless",
+        "correct": false
+      }
+    ],
+    "explanation": "Ambiguous means unclear or having more than one possible meaning. If pupils are unsure, the instruction was not clear; the other words do not fit."
+  },
+  {
+    "id": "eng-vocab-0152",
+    "type": "fill_in_blank",
+    "target_word": "versatile",
+    "prompt": {
+      "sentence": "This _____ jacket can be worn for school, hiking, or a smart family meal."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "shallow",
+        "correct": false
+      },
+      {
+        "text": "versatile",
+        "correct": true
+      },
+      {
+        "text": "fragile",
+        "correct": false
+      },
+      {
+        "text": "jealous",
+        "correct": false
+      },
+      {
+        "text": "silent",
+        "correct": false
+      }
+    ],
+    "explanation": "Versatile means useful in many different ways. The jacket suits several situations; the other choices do not suggest flexibility."
+  },
+  {
+    "id": "eng-vocab-0153",
+    "type": "fill_in_blank",
+    "target_word": "innovate",
+    "prompt": {
+      "sentence": "To solve the problem, the team had to _____ instead of copying old ideas."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "complain",
+        "correct": false
+      },
+      {
+        "text": "innovate",
+        "correct": true
+      },
+      {
+        "text": "wander",
+        "correct": false
+      },
+      {
+        "text": "whisper",
+        "correct": false
+      },
+      {
+        "text": "borrow",
+        "correct": false
+      }
+    ],
+    "explanation": "Innovate means to create new ideas or methods. The sentence contrasts it with copying old ideas; the other verbs do not mean creating something new."
+  },
+  {
+    "id": "eng-vocab-0154",
+    "type": "fill_in_blank",
+    "target_word": "sequence",
+    "prompt": {
+      "sentence": "Put the events in the correct _____ so the story makes sense."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "texture",
+        "correct": false
+      },
+      {
+        "text": "sequence",
+        "correct": true
+      },
+      {
+        "text": "surface",
+        "correct": false
+      },
+      {
+        "text": "weather",
+        "correct": false
+      },
+      {
+        "text": "silence",
+        "correct": false
+      }
+    ],
+    "explanation": "Sequence means the order in which things happen. A story needs events in the right order; the other choices do not mean order."
+  },
+  {
+    "id": "eng-vocab-0155",
+    "type": "fill_in_blank",
+    "target_word": "evaluate",
+    "prompt": {
+      "sentence": "Before choosing a winner, the judges had to _____ each performance carefully."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "decorate",
+        "correct": false
+      },
+      {
+        "text": "evaluate",
+        "correct": true
+      },
+      {
+        "text": "interrupt",
+        "correct": false
+      },
+      {
+        "text": "remember",
+        "correct": false
+      },
+      {
+        "text": "vanish",
+        "correct": false
+      }
+    ],
+    "explanation": "Evaluate means to judge or assess something carefully. Judges assess performances before deciding; the other words do not mean judging quality."
+  },
+  {
+    "id": "eng-vocab-0156",
+    "type": "fill_in_blank",
+    "target_word": "contrast",
+    "prompt": {
+      "sentence": "In your paragraph, _____ the two characters by explaining how they are different."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "contrast",
+        "correct": true
+      },
+      {
+        "text": "collect",
+        "correct": false
+      },
+      {
+        "text": "comfort",
+        "correct": false
+      },
+      {
+        "text": "continue",
+        "correct": false
+      },
+      {
+        "text": "confuse",
+        "correct": false
+      }
+    ],
+    "explanation": "Contrast means to show differences. The sentence asks for how the characters are different; the other choices do not mean this."
+  },
+  {
+    "id": "eng-vocab-0157",
+    "type": "fill_in_blank",
+    "target_word": "chronological",
+    "prompt": {
+      "sentence": "A timeline shows events in _____ order, from earliest to latest."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "random",
+        "correct": false
+      },
+      {
+        "text": "chronological",
+        "correct": true
+      },
+      {
+        "text": "personal",
+        "correct": false
+      },
+      {
+        "text": "colourful",
+        "correct": false
+      },
+      {
+        "text": "secret",
+        "correct": false
+      }
+    ],
+    "explanation": "Chronological means arranged in time order. A timeline goes from earliest to latest; the other choices do not mean time order."
+  },
+  {
+    "id": "eng-vocab-0158",
+    "type": "fill_in_blank",
+    "target_word": "perspective",
+    "prompt": {
+      "sentence": "The diary entry helped us understand the event from the soldier's _____."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "perspective",
+        "correct": true
+      },
+      {
+        "text": "equipment",
+        "correct": false
+      },
+      {
+        "text": "direction",
+        "correct": false
+      },
+      {
+        "text": "collection",
+        "correct": false
+      },
+      {
+        "text": "distance",
+        "correct": false
+      }
+    ],
+    "explanation": "Perspective means a point of view. A diary shows how the soldier saw the event; the other choices do not mean viewpoint."
+  },
+  {
+    "id": "eng-vocab-0159",
+    "type": "fill_in_blank",
+    "target_word": "isolate",
+    "prompt": {
+      "sentence": "The scientist tried to _____ the cause of the strange smell in the lab."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "celebrate",
+        "correct": false
+      },
+      {
+        "text": "isolate",
+        "correct": true
+      },
+      {
+        "text": "decorate",
+        "correct": false
+      },
+      {
+        "text": "complain",
+        "correct": false
+      },
+      {
+        "text": "imitate",
+        "correct": false
+      }
+    ],
+    "explanation": "Isolate means to separate or identify one thing from others. The scientist wants to find the exact cause; the other verbs do not fit this investigation."
+  },
+  {
+    "id": "eng-vocab-0160",
+    "type": "fill_in_blank",
+    "target_word": "justify",
+    "prompt": {
+      "sentence": "You should _____ your opinion by using evidence from the text."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "ignore",
+        "correct": false
+      },
+      {
+        "text": "justify",
+        "correct": true
+      },
+      {
+        "text": "borrow",
+        "correct": false
+      },
+      {
+        "text": "forget",
+        "correct": false
+      },
+      {
+        "text": "repeat",
+        "correct": false
+      }
+    ],
+    "explanation": "Justify means to support an answer with reasons or evidence. Evidence from the text supports an opinion; the other choices do not mean support with proof."
   }
 ]
