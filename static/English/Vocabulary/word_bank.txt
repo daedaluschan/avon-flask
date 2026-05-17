@@ -323,3 +323,5 @@ alternative
 hypothesis
 analyze
 summarize
+billeting
+imminent
