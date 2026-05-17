@@ -3158,5 +3158,645 @@
     ],
     "explanation": "\"Quivering\" is an adjective here because it describes the leaf. It tells us the leaf was shaking slightly.",
     "id": "eng-vocab-0100"
+  },
+  {
+    "id": "eng-vocab-0101",
+    "type": "fill_in_blank",
+    "target_word": "anticipate",
+    "prompt": {
+      "sentence": "We didn't ____ such a large crowd, so we ran out of tickets in just ten minutes."
+    },
+    "question": "Which word correctly fills in the blank?",
+    "choices": [
+      {
+        "text": "describe",
+        "correct": false
+      },
+      {
+        "text": "anticipate",
+        "correct": true
+      },
+      {
+        "text": "organize",
+        "correct": false
+      },
+      {
+        "text": "celebrate",
+        "correct": false
+      },
+      {
+        "text": "remember",
+        "correct": false
+      }
+    ],
+    "explanation": "Great job! To 'anticipate' means to expect or predict that something will happen."
+  },
+  {
+    "id": "eng-vocab-0102",
+    "type": "fill_in_blank",
+    "target_word": "beneficial",
+    "prompt": {
+      "sentence": "Eating plenty of fresh vegetables is highly ____ to your long-term health."
+    },
+    "question": "Choose the word that best completes the sentence.",
+    "choices": [
+      {
+        "text": "dangerous",
+        "correct": false
+      },
+      {
+        "text": "confusing",
+        "correct": false
+      },
+      {
+        "text": "poisonous",
+        "correct": false
+      },
+      {
+        "text": "beneficial",
+        "correct": true
+      },
+      {
+        "text": "invisible",
+        "correct": false
+      }
+    ],
+    "explanation": "Spot on! 'Beneficial' means something is helpful, good, or advantageous for you."
+  },
+  {
+    "id": "eng-vocab-0103",
+    "type": "fill_in_blank",
+    "target_word": "compile",
+    "prompt": {
+      "sentence": "The detective had to ____ all the scattered clues into one single report to solve the case."
+    },
+    "question": "Which word correctly fits the blank?",
+    "choices": [
+      {
+        "text": "destroy",
+        "correct": false
+      },
+      {
+        "text": "pretend",
+        "correct": false
+      },
+      {
+        "text": "compile",
+        "correct": true
+      },
+      {
+        "text": "swallow",
+        "correct": false
+      },
+      {
+        "text": "abandon",
+        "correct": false
+      }
+    ],
+    "explanation": "Excellent! To 'compile' means to gather information from different places and put it together in one place."
+  },
+  {
+    "id": "eng-vocab-0104",
+    "type": "fill_in_blank",
+    "target_word": "continuous",
+    "prompt": {
+      "sentence": "The loud, ____ beeping from the broken alarm clock kept everyone awake all night."
+    },
+    "question": "Select the best word to complete the sentence.",
+    "choices": [
+      {
+        "text": "continuous",
+        "correct": true
+      },
+      {
+        "text": "temporary",
+        "correct": false
+      },
+      {
+        "text": "beautiful",
+        "correct": false
+      },
+      {
+        "text": "delicious",
+        "correct": false
+      },
+      {
+        "text": "silent",
+        "correct": false
+      }
+    ],
+    "explanation": "Perfect! 'Continuous' describes something that goes on and on without stopping or pausing."
+  },
+  {
+    "id": "eng-vocab-0105",
+    "type": "fill_in_blank",
+    "target_word": "declare",
+    "prompt": {
+      "sentence": "After winning the final battle, the king stood on the balcony to ____ a national holiday."
+    },
+    "question": "Which word correctly fills in the blank?",
+    "choices": [
+      {
+        "text": "whisper",
+        "correct": false
+      },
+      {
+        "text": "conceal",
+        "correct": false
+      },
+      {
+        "text": "hesitate",
+        "correct": false
+      },
+      {
+        "text": "swallow",
+        "correct": false
+      },
+      {
+        "text": "declare",
+        "correct": true
+      }
+    ],
+    "explanation": "Well done! To 'declare' means to announce something clearly, firmly, and publicly."
+  },
+  {
+    "id": "eng-vocab-0106",
+    "type": "fill_in_blank",
+    "target_word": "dialogue",
+    "prompt": {
+      "sentence": "The stage play was mostly silent, with very little ____ between the two main characters."
+    },
+    "question": "Choose the word that best completes the sentence.",
+    "choices": [
+      {
+        "text": "furniture",
+        "correct": false
+      },
+      {
+        "text": "dialogue",
+        "correct": true
+      },
+      {
+        "text": "sunshine",
+        "correct": false
+      },
+      {
+        "text": "gravity",
+        "correct": false
+      },
+      {
+        "text": "temperature",
+        "correct": false
+      }
+    ],
+    "explanation": "Awesome! 'Dialogue' refers to a conversation between two or more people, especially in a book or play."
+  },
+  {
+    "id": "eng-vocab-0107",
+    "type": "fill_in_blank",
+    "target_word": "emerge",
+    "prompt": {
+      "sentence": "We waited patiently for hours to see the rare bear ____ from its dark winter cave."
+    },
+    "question": "Which word correctly fits the blank?",
+    "choices": [
+      {
+        "text": "dissolve",
+        "correct": false
+      },
+      {
+        "text": "stumble",
+        "correct": false
+      },
+      {
+        "text": "emerge",
+        "correct": true
+      },
+      {
+        "text": "explode",
+        "correct": false
+      },
+      {
+        "text": "collapse",
+        "correct": false
+      }
+    ],
+    "explanation": "Fantastic! To 'emerge' means to come out of a dark or hidden place so that you can be seen."
+  },
+  {
+    "id": "eng-vocab-0108",
+    "type": "fill_in_blank",
+    "target_word": "exaggerate",
+    "prompt": {
+      "sentence": "Tom loves to ____ when he tells stories, making the tiny fish he caught sound like a giant shark."
+    },
+    "question": "Select the best word to complete the sentence.",
+    "choices": [
+      {
+        "text": "exaggerate",
+        "correct": true
+      },
+      {
+        "text": "apologize",
+        "correct": false
+      },
+      {
+        "text": "exercise",
+        "correct": false
+      },
+      {
+        "text": "calculate",
+        "correct": false
+      },
+      {
+        "text": "complain",
+        "correct": false
+      }
+    ],
+    "explanation": "Great job! To 'exaggerate' means to describe something as being larger, better, or worse than it really is."
+  },
+  {
+    "id": "eng-vocab-0109",
+    "type": "fill_in_blank",
+    "target_word": "formulate",
+    "prompt": {
+      "sentence": "During the timeout, the coach took out his whiteboard to ____ a clever new plan for the second half."
+    },
+    "question": "Which word correctly fills in the blank?",
+    "choices": [
+      {
+        "text": "destroy",
+        "correct": false
+      },
+      {
+        "text": "confuse",
+        "correct": false
+      },
+      {
+        "text": "swallow",
+        "correct": false
+      },
+      {
+        "text": "formulate",
+        "correct": true
+      },
+      {
+        "text": "abandon",
+        "correct": false
+      }
+    ],
+    "explanation": "Spot on! To 'formulate' means to create or prepare something carefully, like a plan or an idea."
+  },
+  {
+    "id": "eng-vocab-0110",
+    "type": "fill_in_blank",
+    "target_word": "hostile",
+    "prompt": {
+      "sentence": "The explorers were warned about the ____ environment of the desert, where there is no water and fierce winds."
+    },
+    "question": "Choose the word that best completes the sentence.",
+    "choices": [
+      {
+        "text": "friendly",
+        "correct": false
+      },
+      {
+        "text": "comfortable",
+        "correct": false
+      },
+      {
+        "text": "luxurious",
+        "correct": false
+      },
+      {
+        "text": "hostile",
+        "correct": true
+      },
+      {
+        "text": "musical",
+        "correct": false
+      }
+    ],
+    "explanation": "Exactly! 'Hostile' describes a situation, place, or person that is unfriendly, harsh, or difficult to survive in."
+  },
+  {
+    "id": "eng-vocab-0111",
+    "type": "fill_in_blank",
+    "target_word": "immense",
+    "prompt": {
+      "sentence": "The museum had an ____ skeleton of a dinosaur that took up the entire main hall."
+    },
+    "question": "Which word correctly fits the blank?",
+    "choices": [
+      {
+        "text": "immense",
+        "correct": true
+      },
+      {
+        "text": "invisible",
+        "correct": false
+      },
+      {
+        "text": "ordinary",
+        "correct": false
+      },
+      {
+        "text": "fragile",
+        "correct": false
+      },
+      {
+        "text": "tiny",
+        "correct": false
+      }
+    ],
+    "explanation": "Brilliant! 'Immense' means something is extremely large in size or scale."
+  },
+  {
+    "id": "eng-vocab-0112",
+    "type": "fill_in_blank",
+    "target_word": "integrate",
+    "prompt": {
+      "sentence": "Because she was so friendly, the new student was able to quickly ____ into the class and make lots of friends."
+    },
+    "question": "Select the best word to complete the sentence.",
+    "choices": [
+      {
+        "text": "separate",
+        "correct": false
+      },
+      {
+        "text": "integrate",
+        "correct": true
+      },
+      {
+        "text": "hesitate",
+        "correct": false
+      },
+      {
+        "text": "explode",
+        "correct": false
+      },
+      {
+        "text": "complain",
+        "correct": false
+      }
+    ],
+    "explanation": "Perfect! To 'integrate' means to join in and become a fully accepted part of a group or society."
+  },
+  {
+    "id": "eng-vocab-0113",
+    "type": "fill_in_blank",
+    "target_word": "literal",
+    "prompt": {
+      "sentence": "When I said I was 'starving', I didn't mean it in the ____ sense; I was just really hungry for lunch!"
+    },
+    "question": "Which word correctly fills in the blank?",
+    "choices": [
+      {
+        "text": "magical",
+        "correct": false
+      },
+      {
+        "text": "fictional",
+        "correct": false
+      },
+      {
+        "text": "literal",
+        "correct": true
+      },
+      {
+        "text": "musical",
+        "correct": false
+      },
+      {
+        "text": "colorful",
+        "correct": false
+      }
+    ],
+    "explanation": "Well done! The 'literal' meaning of a word is its exact, factual, dictionary definition, without any exaggeration."
+  },
+  {
+    "id": "eng-vocab-0114",
+    "type": "fill_in_blank",
+    "target_word": "manipulate",
+    "prompt": {
+      "sentence": "The clever villain tried to ____ the hero into giving up the secret code by telling him a lie."
+    },
+    "question": "Choose the word that best completes the sentence.",
+    "choices": [
+      {
+        "text": "manipulate",
+        "correct": true
+      },
+      {
+        "text": "congratulate",
+        "correct": false
+      },
+      {
+        "text": "celebrate",
+        "correct": false
+      },
+      {
+        "text": "decorate",
+        "correct": false
+      },
+      {
+        "text": "entertain",
+        "correct": false
+      }
+    ],
+    "explanation": "Awesome! To 'manipulate' someone means to control or trick them into doing what you want, often in a dishonest way."
+  },
+  {
+    "id": "eng-vocab-0115",
+    "type": "fill_in_blank",
+    "target_word": "massive",
+    "prompt": {
+      "sentence": "A ____ boulder rolled down the mountain, completely blocking the road so no cars could pass."
+    },
+    "question": "Which word correctly fits the blank?",
+    "choices": [
+      {
+        "text": "tiny",
+        "correct": false
+      },
+      {
+        "text": "silent",
+        "correct": false
+      },
+      {
+        "text": "massive",
+        "correct": true
+      },
+      {
+        "text": "fragile",
+        "correct": false
+      },
+      {
+        "text": "invisible",
+        "correct": false
+      }
+    ],
+    "explanation": "Great job! 'Massive' describes something that is exceptionally large, heavy, and solid."
+  },
+  {
+    "id": "eng-vocab-0116",
+    "type": "fill_in_blank",
+    "target_word": "navigate",
+    "prompt": {
+      "sentence": "In the dense fog, the captain had to rely on his radar to safely ____ the ship through the dangerous rocks."
+    },
+    "question": "Select the best word to complete the sentence.",
+    "choices": [
+      {
+        "text": "decorate",
+        "correct": false
+      },
+      {
+        "text": "destroy",
+        "correct": false
+      },
+      {
+        "text": "swallow",
+        "correct": false
+      },
+      {
+        "text": "abandon",
+        "correct": false
+      },
+      {
+        "text": "navigate",
+        "correct": true
+      }
+    ],
+    "explanation": "Spot on! To 'navigate' means to find the right direction and steer a ship, plane, or car safely."
+  },
+  {
+    "id": "eng-vocab-0117",
+    "type": "fill_in_blank",
+    "target_word": "originate",
+    "prompt": {
+      "sentence": "Did you know that the game of chess is thought to ____ in ancient India thousands of years ago?"
+    },
+    "question": "Which word correctly fills in the blank?",
+    "choices": [
+      {
+        "text": "originate",
+        "correct": true
+      },
+      {
+        "text": "explode",
+        "correct": false
+      },
+      {
+        "text": "disappear",
+        "correct": false
+      },
+      {
+        "text": "complain",
+        "correct": false
+      },
+      {
+        "text": "stumble",
+        "correct": false
+      }
+    ],
+    "explanation": "Perfect! To 'originate' means to have a specified beginning or to be created in a particular place."
+  },
+  {
+    "id": "eng-vocab-0118",
+    "type": "fill_in_blank",
+    "target_word": "previous",
+    "prompt": {
+      "sentence": "Because I missed the ____ episode of the show, I had no idea why the main character was suddenly in jail."
+    },
+    "question": "Choose the word that best completes the sentence.",
+    "choices": [
+      {
+        "text": "future",
+        "correct": false
+      },
+      {
+        "text": "massive",
+        "correct": false
+      },
+      {
+        "text": "previous",
+        "correct": true
+      },
+      {
+        "text": "delicious",
+        "correct": false
+      },
+      {
+        "text": "invisible",
+        "correct": false
+      }
+    ],
+    "explanation": "Excellent! 'Previous' refers to something that happened or existed before the current time or event."
+  },
+  {
+    "id": "eng-vocab-0119",
+    "type": "fill_in_blank",
+    "target_word": "provoke",
+    "prompt": {
+      "sentence": "You shouldn't poke the sleeping tiger with a stick, as it might ____ a very angry and violent reaction."
+    },
+    "question": "Which word correctly fits the blank?",
+    "choices": [
+      {
+        "text": "soothe",
+        "correct": false
+      },
+      {
+        "text": "provoke",
+        "correct": true
+      },
+      {
+        "text": "ignore",
+        "correct": false
+      },
+      {
+        "text": "decorate",
+        "correct": false
+      },
+      {
+        "text": "celebrate",
+        "correct": false
+      }
+    ],
+    "explanation": "Well done! To 'provoke' means to purposely make someone or something annoyed or angry enough to react."
+  },
+  {
+    "id": "eng-vocab-0120",
+    "type": "fill_in_blank",
+    "target_word": "reinforce",
+    "prompt": {
+      "sentence": "The builders used thick steel beams to ____ the bridge so it could safely hold the weight of heavy trucks."
+    },
+    "question": "Select the best word to complete the sentence.",
+    "choices": [
+      {
+        "text": "weaken",
+        "correct": false
+      },
+      {
+        "text": "destroy",
+        "correct": false
+      },
+      {
+        "text": "abandon",
+        "correct": false
+      },
+      {
+        "text": "reinforce",
+        "correct": true
+      },
+      {
+        "text": "confuse",
+        "correct": false
+      }
+    ],
+    "explanation": "Awesome! To 'reinforce' means to strengthen or provide extra support to a structure or an idea."
   }
 ]
