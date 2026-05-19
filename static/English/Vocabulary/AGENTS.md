@@ -81,3 +81,39 @@ Each new question object must include:
 ## Validation
 After editing `questions.json`, run:
 - `python3 -m json.tool static/English/Vocabulary/questions.json`
+
+## "Words Census" Procedure
+When the user asks for the "words census" exercise, compute how often vocabulary words are used as `target_word` values in `questions.json`, including zero-usage words from `word_bank.txt`.
+
+1. Load `static/English/Vocabulary/questions.json` and count occurrences of each non-empty `target_word`.
+2. Load `static/English/Vocabulary/word_bank.txt`, trim whitespace, and ignore empty lines.
+3. Build a unique word-bank list (de-duplicate exact duplicates while preserving first appearance order for reporting).
+4. For each unique word-bank entry, look up its count from the `target_word` counts; if absent, treat as `0`.
+5. Produce a histogram summary of how many word-bank entries appear `0`, `1`, `2`, `3`, ... times.
+6. Report supporting totals:
+   - non-empty word-bank lines
+   - unique word-bank entries
+   - total questions
+   - unique `target_word` values in questions
+   - number of `target_word` values not present in `word_bank.txt`
+7. If requested, also provide:
+   - the full list of zero-usage word-bank entries
+   - the full list of `target_word` values that are outside `word_bank.txt`
+
+Recommended implementation: use a short Python script with `collections.Counter` for reproducible counting.
+
+## "Questions Re-balance" Procedure
+When the user asks for "Questions Re-balance", rebalance the candidate vocabulary list so future question generation focuses on words that appear zero or one time in `questions.json`.
+
+1. Create a backup of `word_bank.txt` using the next numeric suffix format: `word_bank.txt.backup.02`, then `.03`, `.04`, and so on (do not keep reusing `.01`).
+2. Load `static/English/Vocabulary/questions.json` and count occurrences of each non-empty `target_word`.
+3. Load `static/English/Vocabulary/word_bank.txt`, trim whitespace, and ignore empty lines.
+4. Remove from `word_bank.txt` any word that already appears **2 or more times** as a `target_word` in `questions.json`.
+5. Keep words with usage counts of `0` or `1` so future question generation is biased toward underused vocabulary.
+6. Preserve one word per line and keep the original order of retained entries.
+7. Report a short post-change summary with concrete counts:
+   - original non-empty word-bank entries
+   - retained entries
+   - removed entries
+
+Recommended implementation: use a short Python script with `collections.Counter` and perform deterministic filtering based on exact string matches.
