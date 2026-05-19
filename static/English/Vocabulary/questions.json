@@ -5078,5 +5078,953 @@
       }
     ],
     "explanation": "Justify means to support an answer with reasons or evidence. Evidence from the text supports an opinion; the other choices do not mean support with proof."
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "forlorn",
+    "prompt": {},
+    "question": "What does the word \"forlorn\" mean?",
+    "choices": [
+      {
+        "text": "full of hope",
+        "correct": false
+      },
+      {
+        "text": "very lonely",
+        "correct": true
+      },
+      {
+        "text": "quite noisy",
+        "correct": false
+      },
+      {
+        "text": "neatly folded",
+        "correct": false
+      },
+      {
+        "text": "brightly coloured",
+        "correct": false
+      }
+    ],
+    "explanation": "Forlorn means sad, lonely, or abandoned. The other choices suggest hope, noise, tidiness, or colour, which do not match the meaning.",
+    "id": "eng-vocab-0161"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "obstinate",
+    "prompt": {},
+    "question": "What does the word \"obstinate\" mean?",
+    "choices": [
+      {
+        "text": "easily amused",
+        "correct": false
+      },
+      {
+        "text": "deeply tired",
+        "correct": false
+      },
+      {
+        "text": "quietly polite",
+        "correct": false
+      },
+      {
+        "text": "stubbornly firm",
+        "correct": true
+      },
+      {
+        "text": "lightly cooked",
+        "correct": false
+      }
+    ],
+    "explanation": "Obstinate means stubborn and unwilling to change your mind. The other choices describe different qualities and do not show stubbornness.",
+    "id": "eng-vocab-0162"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "dingy",
+    "prompt": {},
+    "question": "What does the word \"dingy\" mean?",
+    "choices": [
+      {
+        "text": "dark and dirty",
+        "correct": true
+      },
+      {
+        "text": "wide and open",
+        "correct": false
+      },
+      {
+        "text": "kind and gentle",
+        "correct": false
+      },
+      {
+        "text": "fast and eager",
+        "correct": false
+      },
+      {
+        "text": "sweet and fresh",
+        "correct": false
+      }
+    ],
+    "explanation": "Dingy means dull, dark, and rather dirty. The other choices describe space, kindness, speed, or freshness instead.",
+    "id": "eng-vocab-0163"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "dispatch",
+    "prompt": {
+      "meaning": "to send something or someone off to a place"
+    },
+    "question": "Which word matches this meaning?",
+    "choices": [
+      {
+        "text": "delay",
+        "correct": false
+      },
+      {
+        "text": "wander",
+        "correct": false
+      },
+      {
+        "text": "dispatch",
+        "correct": true
+      },
+      {
+        "text": "decorate",
+        "correct": false
+      },
+      {
+        "text": "borrow",
+        "correct": false
+      }
+    ],
+    "explanation": "Dispatch means to send something or someone off. Delay means to slow something down, and the other words do not mean sending.",
+    "id": "eng-vocab-0164"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "valour",
+    "prompt": {
+      "meaning": "great courage, especially in danger"
+    },
+    "question": "Which word matches this meaning?",
+    "choices": [
+      {
+        "text": "comfort",
+        "correct": false
+      },
+      {
+        "text": "valour",
+        "correct": true
+      },
+      {
+        "text": "hunger",
+        "correct": false
+      },
+      {
+        "text": "silence",
+        "correct": false
+      },
+      {
+        "text": "habit",
+        "correct": false
+      }
+    ],
+    "explanation": "Valour means great courage, especially in a dangerous situation. The other choices do not describe bravery.",
+    "id": "eng-vocab-0165"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "promontory",
+    "prompt": {
+      "meaning": "a high piece of land that sticks out into the sea"
+    },
+    "question": "Which word matches this meaning?",
+    "choices": [
+      {
+        "text": "courtyard",
+        "correct": false
+      },
+      {
+        "text": "warehouse",
+        "correct": false
+      },
+      {
+        "text": "promontory",
+        "correct": true
+      },
+      {
+        "text": "meadow",
+        "correct": false
+      },
+      {
+        "text": "chimney",
+        "correct": false
+      }
+    ],
+    "explanation": "A promontory is a raised piece of land projecting into the sea. The other choices are different places or objects.",
+    "id": "eng-vocab-0166"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "abundant",
+    "prompt": {
+      "sentence": "After the heavy rain, there was an _____ supply of water in the village wells."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "abundant",
+        "correct": true
+      },
+      {
+        "text": "anxious",
+        "correct": false
+      },
+      {
+        "text": "awkward",
+        "correct": false
+      },
+      {
+        "text": "ancient",
+        "correct": false
+      },
+      {
+        "text": "absent",
+        "correct": false
+      }
+    ],
+    "explanation": "Abundant means more than enough. Heavy rain would make the water supply plentiful, while the other words do not describe amount.",
+    "id": "eng-vocab-0167"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "mischief",
+    "prompt": {
+      "sentence": "The broken vase made Mum suspect that the kitten had been up to _____."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "patience",
+        "correct": false
+      },
+      {
+        "text": "mischief",
+        "correct": true
+      },
+      {
+        "text": "wisdom",
+        "correct": false
+      },
+      {
+        "text": "silence",
+        "correct": false
+      },
+      {
+        "text": "courage",
+        "correct": false
+      }
+    ],
+    "explanation": "Mischief means naughty or troublesome behaviour. A broken vase suggests the kitten caused trouble; the other nouns do not fit.",
+    "id": "eng-vocab-0168"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "fervent",
+    "prompt": {
+      "sentence": "Amira gave a _____ speech about protecting the local park from being closed."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "fervent",
+        "correct": true
+      },
+      {
+        "text": "frozen",
+        "correct": false
+      },
+      {
+        "text": "fragile",
+        "correct": false
+      },
+      {
+        "text": "forgetful",
+        "correct": false
+      },
+      {
+        "text": "familiar",
+        "correct": false
+      }
+    ],
+    "explanation": "Fervent means passionate and strongly felt. A speech defending a park could be passionate; the other choices do not show strong feeling.",
+    "id": "eng-vocab-0169"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "coarse",
+    "prompt": {
+      "sentence": "The rope felt coarse against his hands after hours of climbing."
+    },
+    "question": "Which word could replace \"coarse\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "rough",
+        "correct": true
+      },
+      {
+        "text": "silent",
+        "correct": false
+      },
+      {
+        "text": "careful",
+        "correct": false
+      },
+      {
+        "text": "gentle",
+        "correct": false
+      },
+      {
+        "text": "narrow",
+        "correct": false
+      }
+    ],
+    "explanation": "Coarse can mean rough in texture, so rough fits the sentence. The other choices do not describe how the rope feels.",
+    "id": "eng-vocab-0170"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "avenge",
+    "prompt": {
+      "sentence": "The knight wanted to avenge the insult to his family."
+    },
+    "question": "Which word could replace \"avenge\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "admire",
+        "correct": false
+      },
+      {
+        "text": "repair",
+        "correct": false
+      },
+      {
+        "text": "forget",
+        "correct": false
+      },
+      {
+        "text": "revenge",
+        "correct": true
+      },
+      {
+        "text": "welcome",
+        "correct": false
+      }
+    ],
+    "explanation": "Avenge means to take revenge for a wrong. The other choices do not mean responding to an insult with revenge.",
+    "id": "eng-vocab-0171"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "beseech",
+    "prompt": {
+      "sentence": "The villagers came to beseech the king for help after the flood."
+    },
+    "question": "Which word could replace \"beseech\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "praise",
+        "correct": false
+      },
+      {
+        "text": "ignore",
+        "correct": false
+      },
+      {
+        "text": "beg",
+        "correct": true
+      },
+      {
+        "text": "follow",
+        "correct": false
+      },
+      {
+        "text": "measure",
+        "correct": false
+      }
+    ],
+    "explanation": "Beseech means to beg or ask urgently. The villagers need help badly, so beg fits best; the other words do not show urgent asking.",
+    "id": "eng-vocab-0172"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "stealthily",
+    "prompt": {
+      "sentence": "The fox moved stealthily through the long grass."
+    },
+    "question": "What part of speech is \"stealthily\" in this sentence?",
+    "choices": [
+      {
+        "text": "noun",
+        "correct": false
+      },
+      {
+        "text": "adverb",
+        "correct": true
+      },
+      {
+        "text": "verb",
+        "correct": false
+      },
+      {
+        "text": "adjective",
+        "correct": false
+      },
+      {
+        "text": "preposition",
+        "correct": false
+      }
+    ],
+    "explanation": "Stealthily is an adverb because it tells us how the fox moved. It is not a noun, verb, adjective, or preposition.",
+    "id": "eng-vocab-0173"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "tribute",
+    "prompt": {
+      "sentence": "The class wrote a tribute to their retiring teacher."
+    },
+    "question": "What part of speech is \"tribute\" in this sentence?",
+    "choices": [
+      {
+        "text": "adjective",
+        "correct": false
+      },
+      {
+        "text": "verb",
+        "correct": false
+      },
+      {
+        "text": "conjunction",
+        "correct": false
+      },
+      {
+        "text": "noun",
+        "correct": true
+      },
+      {
+        "text": "adverb",
+        "correct": false
+      }
+    ],
+    "explanation": "Tribute is a noun because it names a thing: a message or act showing respect. The other choices do not fit its job in the sentence.",
+    "id": "eng-vocab-0174"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "trickled",
+    "prompt": {
+      "sentence": "Rainwater trickled down the classroom window."
+    },
+    "question": "What part of speech is \"trickled\" in this sentence?",
+    "choices": [
+      {
+        "text": "preposition",
+        "correct": false
+      },
+      {
+        "text": "adverb",
+        "correct": false
+      },
+      {
+        "text": "noun",
+        "correct": false
+      },
+      {
+        "text": "verb",
+        "correct": true
+      },
+      {
+        "text": "adjective",
+        "correct": false
+      }
+    ],
+    "explanation": "Trickled is a verb because it shows the action of the rainwater moving slowly. The other choices do not describe an action.",
+    "id": "eng-vocab-0175"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "abundant",
+    "prompt": {},
+    "question": "What is the most accurate meaning of the word 'abundant'?",
+    "choices": [
+      {
+        "text": "Very rare or hard to find in nature.",
+        "correct": false
+      },
+      {
+        "text": "Lacking the necessary skills for a task.",
+        "correct": false
+      },
+      {
+        "text": "Existing or available in large quantities.",
+        "correct": true
+      },
+      {
+        "text": "Moving quickly and with great force.",
+        "correct": false
+      },
+      {
+        "text": "Showing a strong desire for revenge.",
+        "correct": false
+      }
+    ],
+    "explanation": "'Abundant' means there is plenty of something. If you have an abundant supply of food, you have more than enough.",
+    "id": "eng-vocab-0176"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "boisterous",
+    "prompt": {},
+    "question": "Choose the correct definition for the word 'boisterous'.",
+    "choices": [
+      {
+        "text": "Noisy, energetic, and cheerful.",
+        "correct": true
+      },
+      {
+        "text": "Quiet, shy, and avoiding attention.",
+        "correct": false
+      },
+      {
+        "text": "Extremely dangerous or harmful.",
+        "correct": false
+      },
+      {
+        "text": "Having a deep, mysterious meaning.",
+        "correct": false
+      },
+      {
+        "text": "Clever and good at solving puzzles.",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'boisterous' person or group is loud, active, and lively. Think of a crowded playground at recess.",
+    "id": "eng-vocab-0177"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "chronological",
+    "prompt": {},
+    "question": "Which of the following defines 'chronological'?",
+    "choices": [
+      {
+        "text": "Colored with bright and vibrant shades.",
+        "correct": false
+      },
+      {
+        "text": "Relating to the study of ancient rocks.",
+        "correct": false
+      },
+      {
+        "text": "Happening suddenly without warning.",
+        "correct": false
+      },
+      {
+        "text": "Arranged in the order that things happened.",
+        "correct": true
+      },
+      {
+        "text": "Written in a highly emotional style.",
+        "correct": false
+      }
+    ],
+    "explanation": "'Chronological' order means putting events in a timeline from the earliest to the most recent.",
+    "id": "eng-vocab-0178"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "eloquent",
+    "prompt": {
+      "meaning": "Fluent or persuasive in speaking or writing."
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "arrogant",
+        "correct": false
+      },
+      {
+        "text": "eloquent",
+        "correct": true
+      },
+      {
+        "text": "hesitant",
+        "correct": false
+      },
+      {
+        "text": "ignorant",
+        "correct": false
+      },
+      {
+        "text": "clumsy",
+        "correct": false
+      }
+    ],
+    "explanation": "An 'eloquent' speaker can express their thoughts clearly, beautifully, and convincingly.",
+    "id": "eng-vocab-0179"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "fluctuate",
+    "prompt": {
+      "meaning": "To rise and fall irregularly in number or amount."
+    },
+    "question": "Which word best fits this description?",
+    "choices": [
+      {
+        "text": "stabilize",
+        "correct": false
+      },
+      {
+        "text": "accelerate",
+        "correct": false
+      },
+      {
+        "text": "evaporate",
+        "correct": false
+      },
+      {
+        "text": "calculate",
+        "correct": false
+      },
+      {
+        "text": "fluctuate",
+        "correct": true
+      }
+    ],
+    "explanation": "To 'fluctuate' means to constantly change back and forth, like the temperature during a changing season.",
+    "id": "eng-vocab-0180"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "gregarious",
+    "prompt": {
+      "meaning": "Fond of company; sociable and outgoing."
+    },
+    "question": "What word is defined here?",
+    "choices": [
+      {
+        "text": "isolated",
+        "correct": false
+      },
+      {
+        "text": "gregarious",
+        "correct": true
+      },
+      {
+        "text": "notorious",
+        "correct": false
+      },
+      {
+        "text": "aggressive",
+        "correct": false
+      },
+      {
+        "text": "secretive",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'gregarious' person loves being around other people and making friends.",
+    "id": "eng-vocab-0181"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "hypocrite",
+    "prompt": {
+      "sentence": "Mark is such a ____; he tells everyone to recycle, but he constantly throws his plastic bottles in the regular bin."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "genius",
+        "correct": false
+      },
+      {
+        "text": "leader",
+        "correct": false
+      },
+      {
+        "text": "bystander",
+        "correct": false
+      },
+      {
+        "text": "hypocrite",
+        "correct": true
+      },
+      {
+        "text": "visionary",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'hypocrite' is someone who tells others to act a certain way, but does the exact opposite themselves.",
+    "id": "eng-vocab-0182"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "impartial",
+    "prompt": {
+      "sentence": "The referee for the final cup match must be completely ____ so that neither team has an unfair advantage."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "impartial",
+        "correct": true
+      },
+      {
+        "text": "emotional",
+        "correct": false
+      },
+      {
+        "text": "aggressive",
+        "correct": false
+      },
+      {
+        "text": "furious",
+        "correct": false
+      },
+      {
+        "text": "exhausted",
+        "correct": false
+      }
+    ],
+    "explanation": "Being 'impartial' means treating all rivals or disputants equally, which is essential for a fair referee.",
+    "id": "eng-vocab-0183"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "jovial",
+    "prompt": {
+      "sentence": "Uncle Arthur was in a ____ mood, laughing loudly and telling amusing jokes at the dinner table."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "miserable",
+        "correct": false
+      },
+      {
+        "text": "furious",
+        "correct": false
+      },
+      {
+        "text": "jovial",
+        "correct": true
+      },
+      {
+        "text": "anxious",
+        "correct": false
+      },
+      {
+        "text": "terrified",
+        "correct": false
+      }
+    ],
+    "explanation": "'Jovial' means cheerful and friendly. Laughing and joking are clear signs of a jovial mood.",
+    "id": "eng-vocab-0184"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "kindled",
+    "prompt": {
+      "sentence": "The teacher's fascinating story kindled a lifelong interest in ancient history for many students."
+    },
+    "question": "Which word could replace 'kindled' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "destroyed",
+        "correct": false
+      },
+      {
+        "text": "confused",
+        "correct": false
+      },
+      {
+        "text": "prevented",
+        "correct": false
+      },
+      {
+        "text": "delayed",
+        "correct": false
+      },
+      {
+        "text": "sparked",
+        "correct": true
+      }
+    ],
+    "explanation": "To 'kindle' means to inspire or ignite an emotion or idea, much like sparking a fire.",
+    "id": "eng-vocab-0185"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "lucrative",
+    "prompt": {
+      "sentence": "She decided to study finance because she knew banking was a highly lucrative career."
+    },
+    "question": "Which word could replace 'lucrative' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "dangerous",
+        "correct": false
+      },
+      {
+        "text": "profitable",
+        "correct": true
+      },
+      {
+        "text": "exhausting",
+        "correct": false
+      },
+      {
+        "text": "temporary",
+        "correct": false
+      },
+      {
+        "text": "boring",
+        "correct": false
+      }
+    ],
+    "explanation": "'Lucrative' refers to something that produces a great deal of money or profit.",
+    "id": "eng-vocab-0186"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "meticulous",
+    "prompt": {
+      "sentence": "The architect was meticulous in her planning, double-checking every single measurement to avoid errors."
+    },
+    "question": "Which word could replace 'meticulous' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "reckless",
+        "correct": false
+      },
+      {
+        "text": "sluggish",
+        "correct": false
+      },
+      {
+        "text": "angry",
+        "correct": false
+      },
+      {
+        "text": "careful",
+        "correct": true
+      },
+      {
+        "text": "confused",
+        "correct": false
+      }
+    ],
+    "explanation": "Being 'meticulous' means showing great attention to detail. 'Careful' is the closest synonym here.",
+    "id": "eng-vocab-0187"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "nostalgic",
+    "prompt": {
+      "sentence": "Listening to the old pop songs made him feel nostalgic for his primary school days."
+    },
+    "question": "What part of speech is the word 'nostalgic' in this sentence?",
+    "choices": [
+      {
+        "text": "adjective",
+        "correct": true
+      },
+      {
+        "text": "noun",
+        "correct": false
+      },
+      {
+        "text": "verb",
+        "correct": false
+      },
+      {
+        "text": "adverb",
+        "correct": false
+      },
+      {
+        "text": "preposition",
+        "correct": false
+      }
+    ],
+    "explanation": "'Nostalgic' is an adjective here because it describes the feeling or state of the person ('him').",
+    "id": "eng-vocab-0188"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "obscure",
+    "prompt": {
+      "sentence": "The ancient map led the explorers to an obscure village hidden deep within the mountain valleys."
+    },
+    "question": "What part of speech is the word 'obscure' in this sentence?",
+    "choices": [
+      {
+        "text": "verb",
+        "correct": false
+      },
+      {
+        "text": "noun",
+        "correct": false
+      },
+      {
+        "text": "adjective",
+        "correct": true
+      },
+      {
+        "text": "adverb",
+        "correct": false
+      },
+      {
+        "text": "conjunction",
+        "correct": false
+      }
+    ],
+    "explanation": "'Obscure' is used as an adjective because it describes the noun 'village' (meaning the village is unknown or hard to find).",
+    "id": "eng-vocab-0189"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "diligently",
+    "prompt": {
+      "sentence": "The students worked diligently on their science projects all through the weekend."
+    },
+    "question": "What part of speech is the word 'diligently' in this sentence?",
+    "choices": [
+      {
+        "text": "adjective",
+        "correct": false
+      },
+      {
+        "text": "adverb",
+        "correct": true
+      },
+      {
+        "text": "noun",
+        "correct": false
+      },
+      {
+        "text": "verb",
+        "correct": false
+      },
+      {
+        "text": "interjection",
+        "correct": false
+      }
+    ],
+    "explanation": "'Diligently' is an adverb because it modifies the verb 'worked', telling us *how* the students worked.",
+    "id": "eng-vocab-0190"
   }
 ]
