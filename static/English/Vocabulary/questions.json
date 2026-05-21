@@ -6026,5 +6026,953 @@
     ],
     "explanation": "'Diligently' is an adverb because it modifies the verb 'worked', telling us *how* the students worked.",
     "id": "eng-vocab-0190"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "effrontery",
+    "prompt": {},
+    "question": "What does the word \"effrontery\" mean?",
+    "choices": [
+      {
+        "text": "a careful plan",
+        "correct": false
+      },
+      {
+        "text": "a sudden noise",
+        "correct": false
+      },
+      {
+        "text": "rude boldness",
+        "correct": true
+      },
+      {
+        "text": "deep sadness",
+        "correct": false
+      },
+      {
+        "text": "quiet patience",
+        "correct": false
+      }
+    ],
+    "explanation": "Effrontery means rude or shocking boldness. The other choices describe planning, noise, sadness, or patience, not cheeky disrespect.",
+    "id": "eng-vocab-0191"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "slovenly",
+    "prompt": {},
+    "question": "What does the word \"slovenly\" mean?",
+    "choices": [
+      {
+        "text": "neat and tidy",
+        "correct": false
+      },
+      {
+        "text": "quick and lively",
+        "correct": false
+      },
+      {
+        "text": "messy and careless",
+        "correct": true
+      },
+      {
+        "text": "bright and cheerful",
+        "correct": false
+      },
+      {
+        "text": "calm and gentle",
+        "correct": false
+      }
+    ],
+    "explanation": "Slovenly means untidy or careless in appearance. The other choices suggest neatness, speed, cheerfulness, or calmness.",
+    "id": "eng-vocab-0192"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "amiable",
+    "prompt": {},
+    "question": "What does the word \"amiable\" mean?",
+    "choices": [
+      {
+        "text": "friendly and pleasant",
+        "correct": true
+      },
+      {
+        "text": "angry and sharp",
+        "correct": false
+      },
+      {
+        "text": "silent and hidden",
+        "correct": false
+      },
+      {
+        "text": "weak and tired",
+        "correct": false
+      },
+      {
+        "text": "strange and eerie",
+        "correct": false
+      }
+    ],
+    "explanation": "Amiable means friendly and easy to like. The other choices describe anger, secrecy, weakness, or strangeness.",
+    "id": "eng-vocab-0193"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "cataract",
+    "prompt": {
+      "meaning": "a large waterfall"
+    },
+    "question": "Which word matches this meaning?",
+    "choices": [
+      {
+        "text": "meadow",
+        "correct": false
+      },
+      {
+        "text": "cataract",
+        "correct": true
+      },
+      {
+        "text": "harbour",
+        "correct": false
+      },
+      {
+        "text": "cairn",
+        "correct": false
+      },
+      {
+        "text": "avenue",
+        "correct": false
+      }
+    ],
+    "explanation": "A cataract can mean a large waterfall. The other choices are different places or objects, not waterfalls.",
+    "id": "eng-vocab-0194"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "parley",
+    "prompt": {
+      "meaning": "a discussion between enemies or opposing sides"
+    },
+    "question": "Which word matches this meaning?",
+    "choices": [
+      {
+        "text": "banquet",
+        "correct": false
+      },
+      {
+        "text": "journey",
+        "correct": false
+      },
+      {
+        "text": "parley",
+        "correct": true
+      },
+      {
+        "text": "portrait",
+        "correct": false
+      },
+      {
+        "text": "shelter",
+        "correct": false
+      }
+    ],
+    "explanation": "A parley is a meeting or discussion between opposing sides. The other choices do not mean a negotiation.",
+    "id": "eng-vocab-0195"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "perspicacious",
+    "prompt": {
+      "meaning": "quick to notice and understand things clearly"
+    },
+    "question": "Which word matches this meaning?",
+    "choices": [
+      {
+        "text": "clumsy",
+        "correct": false
+      },
+      {
+        "text": "forgetful",
+        "correct": false
+      },
+      {
+        "text": "perspicacious",
+        "correct": true
+      },
+      {
+        "text": "careless",
+        "correct": false
+      },
+      {
+        "text": "gloomy",
+        "correct": false
+      }
+    ],
+    "explanation": "Perspicacious means sharp-minded and good at understanding things. The other words do not show clear insight.",
+    "id": "eng-vocab-0196"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "scanty",
+    "prompt": {
+      "sentence": "The explorers had only a _____ supply of food left after the storm."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "generous",
+        "correct": false
+      },
+      {
+        "text": "colourful",
+        "correct": false
+      },
+      {
+        "text": "scanty",
+        "correct": true
+      },
+      {
+        "text": "famous",
+        "correct": false
+      },
+      {
+        "text": "careless",
+        "correct": false
+      }
+    ],
+    "explanation": "Scanty means very small or not enough. After the storm, the explorers had little food left, so scanty fits best.",
+    "id": "eng-vocab-0197"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "overawed",
+    "prompt": {
+      "sentence": "The young actor felt _____ when she stepped onto the huge theatre stage."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "overawed",
+        "correct": true
+      },
+      {
+        "text": "careless",
+        "correct": false
+      },
+      {
+        "text": "ordinary",
+        "correct": false
+      },
+      {
+        "text": "greedy",
+        "correct": false
+      },
+      {
+        "text": "distant",
+        "correct": false
+      }
+    ],
+    "explanation": "Overawed means deeply impressed or slightly frightened by something grand. A huge stage could make someone feel that way.",
+    "id": "eng-vocab-0198"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "pristine",
+    "prompt": {
+      "sentence": "The museum kept the ancient manuscript in _____ condition behind glass."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "pristine",
+        "correct": true
+      },
+      {
+        "text": "muddy",
+        "correct": false
+      },
+      {
+        "text": "broken",
+        "correct": false
+      },
+      {
+        "text": "careless",
+        "correct": false
+      },
+      {
+        "text": "noisy",
+        "correct": false
+      }
+    ],
+    "explanation": "Pristine means perfectly clean or in excellent original condition. The other choices would not describe a carefully protected manuscript.",
+    "id": "eng-vocab-0199"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "raucous",
+    "prompt": {
+      "sentence": "The raucous crowd cheered loudly after the final goal."
+    },
+    "question": "Which word could replace \"raucous\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "sleepy",
+        "correct": false
+      },
+      {
+        "text": "noisy",
+        "correct": true
+      },
+      {
+        "text": "nervous",
+        "correct": false
+      },
+      {
+        "text": "lonely",
+        "correct": false
+      },
+      {
+        "text": "careful",
+        "correct": false
+      }
+    ],
+    "explanation": "Raucous means loud and noisy. The crowd is cheering loudly, so noisy is the closest replacement.",
+    "id": "eng-vocab-0200"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "contrive",
+    "prompt": {
+      "sentence": "The pupils tried to contrive a clever way to rescue the ball from the roof."
+    },
+    "question": "Which word could replace \"contrive\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "devise",
+        "correct": true
+      },
+      {
+        "text": "forget",
+        "correct": false
+      },
+      {
+        "text": "admire",
+        "correct": false
+      },
+      {
+        "text": "scatter",
+        "correct": false
+      },
+      {
+        "text": "borrow",
+        "correct": false
+      }
+    ],
+    "explanation": "Contrive means to devise or think up a plan. The other choices do not mean creating a clever method.",
+    "id": "eng-vocab-0201"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "irresolute",
+    "prompt": {
+      "sentence": "Tom stood irresolute at the crossroads, unable to choose which path to take."
+    },
+    "question": "Which word could replace \"irresolute\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "confident",
+        "correct": false
+      },
+      {
+        "text": "undecided",
+        "correct": true
+      },
+      {
+        "text": "furious",
+        "correct": false
+      },
+      {
+        "text": "careless",
+        "correct": false
+      },
+      {
+        "text": "cheerful",
+        "correct": false
+      }
+    ],
+    "explanation": "Irresolute means unsure or unable to decide. Tom cannot choose a path, so undecided fits best.",
+    "id": "eng-vocab-0202"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "bivouacked",
+    "prompt": {
+      "sentence": "The soldiers bivouacked beside the river for the night."
+    },
+    "question": "What part of speech is \"bivouacked\" in this sentence?",
+    "choices": [
+      {
+        "text": "noun",
+        "correct": false
+      },
+      {
+        "text": "verb",
+        "correct": true
+      },
+      {
+        "text": "adjective",
+        "correct": false
+      },
+      {
+        "text": "adverb",
+        "correct": false
+      },
+      {
+        "text": "preposition",
+        "correct": false
+      }
+    ],
+    "explanation": "Bivouacked is a verb because it shows the action of camping or resting outdoors for the night.",
+    "id": "eng-vocab-0203"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "mourners",
+    "prompt": {
+      "sentence": "The mourners walked quietly behind the carriage."
+    },
+    "question": "What part of speech is \"mourners\" in this sentence?",
+    "choices": [
+      {
+        "text": "adverb",
+        "correct": false
+      },
+      {
+        "text": "noun",
+        "correct": true
+      },
+      {
+        "text": "verb",
+        "correct": false
+      },
+      {
+        "text": "conjunction",
+        "correct": false
+      },
+      {
+        "text": "adjective",
+        "correct": false
+      }
+    ],
+    "explanation": "Mourners is a noun because it names people who are grieving. It is the subject of the sentence.",
+    "id": "eng-vocab-0204"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "quivering",
+    "prompt": {
+      "sentence": "Her hands were quivering as she opened the mysterious letter."
+    },
+    "question": "What part of speech is \"quivering\" in this sentence?",
+    "choices": [
+      {
+        "text": "preposition",
+        "correct": false
+      },
+      {
+        "text": "adjective",
+        "correct": false
+      },
+      {
+        "text": "verb",
+        "correct": true
+      },
+      {
+        "text": "noun",
+        "correct": false
+      },
+      {
+        "text": "conjunction",
+        "correct": false
+      }
+    ],
+    "explanation": "Quivering is a verb here because it is part of the action phrase 'were quivering', showing what her hands were doing.",
+    "id": "eng-vocab-0205"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "abundant",
+    "prompt": {},
+    "question": "What is the meaning of the word 'abundant'?",
+    "choices": [
+      {
+        "text": "Lacking in quantity; not enough to meet current demands.",
+        "correct": false
+      },
+      {
+        "text": "Having a strong desire for personal success or achievement.",
+        "correct": false
+      },
+      {
+        "text": "Present in great quantity; more than adequate; plentiful.",
+        "correct": true
+      },
+      {
+        "text": "Showing a lack of proper respect or seriousness.",
+        "correct": false
+      },
+      {
+        "text": "Careful and very precise in one's work or daily duties.",
+        "correct": false
+      }
+    ],
+    "explanation": "'Abundant' means having plenty of something. The other options describe being scarce, ambitious, disrespectful, or meticulous.",
+    "id": "eng-vocab-0206"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "benevolent",
+    "prompt": {},
+    "question": "Choose the correct definition for the word 'benevolent'.",
+    "choices": [
+      {
+        "text": "Extremely angry, full of uncontrollable fury or rage.",
+        "correct": false
+      },
+      {
+        "text": "Characterized by or expressing goodwill or kindly feelings.",
+        "correct": true
+      },
+      {
+        "text": "Unwilling or completely unable to believe something.",
+        "correct": false
+      },
+      {
+        "text": "Refusing to change one's mind or course of action.",
+        "correct": false
+      },
+      {
+        "text": "Requiring a significant amount of effort and energy.",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'benevolent' person is kind and generous. It comes from Latin roots meaning 'well-wishing'.",
+    "id": "eng-vocab-0207"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "candid",
+    "prompt": {},
+    "question": "What does the word 'candid' mean?",
+    "choices": [
+      {
+        "text": "Secretive and unwilling to share any information.",
+        "correct": false
+      },
+      {
+        "text": "Highly skilled or experienced in a specific field.",
+        "correct": false
+      },
+      {
+        "text": "Intentionally harmful or malicious towards others.",
+        "correct": false
+      },
+      {
+        "text": "Easily broken, damaged, or destroyed by pressure.",
+        "correct": false
+      },
+      {
+        "text": "Frank, outspoken, open, and completely sincere.",
+        "correct": true
+      }
+    ],
+    "explanation": "Being 'candid' means being honest and straightforward, rather than secretive or harmful.",
+    "id": "eng-vocab-0208"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "desolate",
+    "prompt": {
+      "meaning": "Barren or laid waste; devastated; completely deprived of inhabitants."
+    },
+    "question": "Which word best matches this definition?",
+    "choices": [
+      {
+        "text": "desolate",
+        "correct": true
+      },
+      {
+        "text": "vibrant",
+        "correct": false
+      },
+      {
+        "text": "crowded",
+        "correct": false
+      },
+      {
+        "text": "fortunate",
+        "correct": false
+      },
+      {
+        "text": "luminous",
+        "correct": false
+      }
+    ],
+    "explanation": "'Desolate' perfectly describes a place that is empty, barren, and uninhabited. 'Vibrant' and 'crowded' mean the exact opposite.",
+    "id": "eng-vocab-0209"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "eloquent",
+    "prompt": {
+      "meaning": "Having or exercising the power of fluent, forceful, and appropriate speech."
+    },
+    "question": "Which of the following words matches the provided meaning?",
+    "choices": [
+      {
+        "text": "awkward",
+        "correct": false
+      },
+      {
+        "text": "hesitant",
+        "correct": false
+      },
+      {
+        "text": "silent",
+        "correct": false
+      },
+      {
+        "text": "eloquent",
+        "correct": true
+      },
+      {
+        "text": "confused",
+        "correct": false
+      }
+    ],
+    "explanation": "Someone who is 'eloquent' speaks beautifully and persuasively. The other words describe poor or absent communication skills.",
+    "id": "eng-vocab-0210"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "fluctuate",
+    "prompt": {
+      "meaning": "To change continually; shift back and forth or up and down."
+    },
+    "question": "Which word is defined by this statement?",
+    "choices": [
+      {
+        "text": "stabilize",
+        "correct": false
+      },
+      {
+        "text": "fluctuate",
+        "correct": true
+      },
+      {
+        "text": "remain",
+        "correct": false
+      },
+      {
+        "text": "concentrate",
+        "correct": false
+      },
+      {
+        "text": "distribute",
+        "correct": false
+      }
+    ],
+    "explanation": "'Fluctuate' means to constantly change, like temperatures going up and down. 'Stabilize' and 'remain' mean to stay the same.",
+    "id": "eng-vocab-0211"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "gregarious",
+    "prompt": {
+      "sentence": "Because she was so __________, she made friends easily wherever she went."
+    },
+    "question": "Fill in the blank with the most appropriate word.",
+    "choices": [
+      {
+        "text": "introverted",
+        "correct": false
+      },
+      {
+        "text": "isolated",
+        "correct": false
+      },
+      {
+        "text": "gregarious",
+        "correct": true
+      },
+      {
+        "text": "hostile",
+        "correct": false
+      },
+      {
+        "text": "timid",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'gregarious' person is highly sociable and loves being around people. This explains why she makes friends easily.",
+    "id": "eng-vocab-0212"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "hierarchy",
+    "prompt": {
+      "sentence": "The corporation has a strict __________, with the CEO at the very top and entry-level employees at the bottom."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "democracy",
+        "correct": false
+      },
+      {
+        "text": "landscape",
+        "correct": false
+      },
+      {
+        "text": "rebellion",
+        "correct": false
+      },
+      {
+        "text": "technique",
+        "correct": false
+      },
+      {
+        "text": "hierarchy",
+        "correct": true
+      }
+    ],
+    "explanation": "A 'hierarchy' is a system where people or groups are ranked one above the other according to status or authority.",
+    "id": "eng-vocab-0213"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "illuminate",
+    "prompt": {
+      "sentence": "The bright moon helped to __________ the dark path through the dense forest."
+    },
+    "question": "Select the word that correctly fills in the blank.",
+    "choices": [
+      {
+        "text": "illuminate",
+        "correct": true
+      },
+      {
+        "text": "complicate",
+        "correct": false
+      },
+      {
+        "text": "intimidate",
+        "correct": false
+      },
+      {
+        "text": "obliterate",
+        "correct": false
+      },
+      {
+        "text": "camouflage",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'illuminate' means to light up. The moon provides light, making it easier to see the path.",
+    "id": "eng-vocab-0214"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "juxtapose",
+    "prompt": {
+      "sentence": "The art exhibit will juxtapose classical paintings with modern digital art to show the dramatic contrast in styles."
+    },
+    "question": "Which word could replace 'juxtapose' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "separate",
+        "correct": false
+      },
+      {
+        "text": "remove",
+        "correct": false
+      },
+      {
+        "text": "ignore",
+        "correct": false
+      },
+      {
+        "text": "compare",
+        "correct": true
+      },
+      {
+        "text": "destroy",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'juxtapose' means to place things side by side specifically to compare them or show contrast.",
+    "id": "eng-vocab-0215"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "lethargic",
+    "prompt": {
+      "sentence": "After eating the massive holiday dinner, everyone felt lethargic and just wanted to sleep."
+    },
+    "question": "Choose the best alternative word for 'lethargic' in this sentence.",
+    "choices": [
+      {
+        "text": "energetic",
+        "correct": false
+      },
+      {
+        "text": "sluggish",
+        "correct": true
+      },
+      {
+        "text": "anxious",
+        "correct": false
+      },
+      {
+        "text": "furious",
+        "correct": false
+      },
+      {
+        "text": "creative",
+        "correct": false
+      }
+    ],
+    "explanation": "Being 'lethargic' means lacking energy. 'Sluggish' is a strong synonym, while 'energetic' means the exact opposite.",
+    "id": "eng-vocab-0216"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "meticulous",
+    "prompt": {
+      "sentence": "The architect was meticulous in her planning, double-checking every single measurement."
+    },
+    "question": "Which of the following words is the closest synonym for 'meticulous' in the given sentence?",
+    "choices": [
+      {
+        "text": "careful",
+        "correct": true
+      },
+      {
+        "text": "careless",
+        "correct": false
+      },
+      {
+        "text": "hurried",
+        "correct": false
+      },
+      {
+        "text": "confused",
+        "correct": false
+      },
+      {
+        "text": "angry",
+        "correct": false
+      }
+    ],
+    "explanation": "Someone who is 'meticulous' shows great attention to detail. 'Careful' is the best replacement among the choices.",
+    "id": "eng-vocab-0217"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "nostalgic",
+    "prompt": {
+      "sentence": "Listening to the old songs made my grandfather feel incredibly nostalgic for his youth."
+    },
+    "question": "Identify the part of speech of the word 'nostalgic' as used in the sentence.",
+    "choices": [
+      {
+        "text": "noun",
+        "correct": false
+      },
+      {
+        "text": "verb",
+        "correct": false
+      },
+      {
+        "text": "adjective",
+        "correct": true
+      },
+      {
+        "text": "adverb",
+        "correct": false
+      },
+      {
+        "text": "preposition",
+        "correct": false
+      }
+    ],
+    "explanation": "In this sentence, 'nostalgic' describes the grandfather's feelings, making it an adjective.",
+    "id": "eng-vocab-0218"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "obsolete",
+    "prompt": {
+      "sentence": "Because of rapid technological advancements, floppy disks have become obsolete."
+    },
+    "question": "What part of speech is the word 'obsolete' in this context?",
+    "choices": [
+      {
+        "text": "noun",
+        "correct": false
+      },
+      {
+        "text": "verb",
+        "correct": false
+      },
+      {
+        "text": "adverb",
+        "correct": false
+      },
+      {
+        "text": "conjunction",
+        "correct": false
+      },
+      {
+        "text": "adjective",
+        "correct": true
+      }
+    ],
+    "explanation": "The word 'obsolete' modifies or describes the noun 'floppy disks', so it is acting as an adjective.",
+    "id": "eng-vocab-0219"
+  },
+  {
+    "type": "part_of_speech",
+    "target_word": "fluctuate",
+    "prompt": {
+      "sentence": "The prices of fresh vegetables fluctuate depending on the season and weather."
+    },
+    "question": "Determine the part of speech for the word 'fluctuate' in the provided sentence.",
+    "choices": [
+      {
+        "text": "verb",
+        "correct": true
+      },
+      {
+        "text": "noun",
+        "correct": false
+      },
+      {
+        "text": "adjective",
+        "correct": false
+      },
+      {
+        "text": "adverb",
+        "correct": false
+      },
+      {
+        "text": "preposition",
+        "correct": false
+      }
+    ],
+    "explanation": "The word 'fluctuate' describes the action that the prices are performing (they are changing), which makes it a verb.",
+    "id": "eng-vocab-0220"
   }
 ]
