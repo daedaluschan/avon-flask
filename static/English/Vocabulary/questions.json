@@ -7918,5 +7918,951 @@
     ],
     "explanation": "\"Forsaken\" means abandoned or left behind. A hut at the edge of the forest could be described this way.",
     "id": "eng-vocab-0250"
+  },
+  {
+    "id": "eng-vocab-0251",
+    "type": "word_meaning",
+    "target_word": "authentic",
+    "prompt": {},
+    "question": "What is the most accurate meaning of the word 'authentic'?",
+    "choices": [
+      {
+        "text": "Made to look like something else.",
+        "correct": false
+      },
+      {
+        "text": "Known to be real and genuine.",
+        "correct": true
+      },
+      {
+        "text": "Having a very loud and bright quality.",
+        "correct": false
+      },
+      {
+        "text": "Moving quickly and without thought.",
+        "correct": false
+      },
+      {
+        "text": "Showing a lack of basic intelligence.",
+        "correct": false
+      }
+    ],
+    "explanation": "'Authentic' describes something that is real, true, or genuine, rather than a fake or a copy."
+  },
+  {
+    "id": "eng-vocab-0252",
+    "type": "word_meaning",
+    "target_word": "benevolent",
+    "prompt": {},
+    "question": "Choose the correct definition for the word 'benevolent'.",
+    "choices": [
+      {
+        "text": "Extremely cruel and unforgiving.",
+        "correct": false
+      },
+      {
+        "text": "Quick to anger and start a fight.",
+        "correct": false
+      },
+      {
+        "text": "Well meaning and kindly to others.",
+        "correct": true
+      },
+      {
+        "text": "Hidden away in a secret location.",
+        "correct": false
+      },
+      {
+        "text": "Lacking the energy to move quickly.",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'benevolent' person is kind, generous, and has good intentions toward other people."
+  },
+  {
+    "id": "eng-vocab-0253",
+    "type": "word_meaning",
+    "target_word": "candid",
+    "prompt": {},
+    "question": "Which of the following defines 'candid'?",
+    "choices": [
+      {
+        "text": "Truthful and entirely straightforward.",
+        "correct": true
+      },
+      {
+        "text": "Covered in brightly colored paint.",
+        "correct": false
+      },
+      {
+        "text": "Curved or bent in a strange shape.",
+        "correct": false
+      },
+      {
+        "text": "Hiding a deep and dangerous secret.",
+        "correct": false
+      },
+      {
+        "text": "Showing great wealth and luxury.",
+        "correct": false
+      }
+    ],
+    "explanation": "To be 'candid' means to be honest, frank, and open about your thoughts or feelings."
+  },
+  {
+    "id": "eng-vocab-0254",
+    "type": "word_meaning",
+    "target_word": "dawdle",
+    "prompt": {},
+    "question": "What is the most accurate meaning of the word 'dawdle'?",
+    "choices": [
+      {
+        "text": "To rush quickly toward a goal.",
+        "correct": false
+      },
+      {
+        "text": "To waste time or move very slowly.",
+        "correct": true
+      },
+      {
+        "text": "To paint a picture with watercolors.",
+        "correct": false
+      },
+      {
+        "text": "To sing loudly in a public space.",
+        "correct": false
+      },
+      {
+        "text": "To leap over a tall obstacle easily.",
+        "correct": false
+      }
+    ],
+    "explanation": "'Dawdle' means taking more time than necessary or moving very slowly when you should be quicker."
+  },
+  {
+    "id": "eng-vocab-0255",
+    "type": "word_meaning",
+    "target_word": "evaluate",
+    "prompt": {},
+    "question": "Choose the correct definition for the word 'evaluate'.",
+    "choices": [
+      {
+        "text": "To ignore someone who is speaking.",
+        "correct": false
+      },
+      {
+        "text": "To completely destroy an old building.",
+        "correct": false
+      },
+      {
+        "text": "To sleep deeply for several hours.",
+        "correct": false
+      },
+      {
+        "text": "To judge the quality or value of something.",
+        "correct": true
+      },
+      {
+        "text": "To plant new seeds in the garden.",
+        "correct": false
+      }
+    ],
+    "explanation": "When you 'evaluate' something, you carefully judge or assess its worth, condition, or importance."
+  },
+  {
+    "id": "eng-vocab-0256",
+    "type": "word_meaning",
+    "target_word": "fathom",
+    "prompt": {},
+    "question": "Which of the following defines 'fathom'?",
+    "choices": [
+      {
+        "text": "To forget a very important memory.",
+        "correct": false
+      },
+      {
+        "text": "To throw a heavy object far away.",
+        "correct": false
+      },
+      {
+        "text": "To understand after much deep thought.",
+        "correct": true
+      },
+      {
+        "text": "To freeze water in sub-zero temperatures.",
+        "correct": false
+      },
+      {
+        "text": "To swim quickly across a wide river.",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'fathom' something means to finally comprehend or understand it, usually after thinking about it carefully."
+  },
+  {
+    "id": "eng-vocab-0257",
+    "type": "word_meaning",
+    "target_word": "gingerly",
+    "prompt": {},
+    "question": "What is the most accurate meaning of the word 'gingerly'?",
+    "choices": [
+      {
+        "text": "In a very careful or cautious manner.",
+        "correct": true
+      },
+      {
+        "text": "Acting recklessly without any thought.",
+        "correct": false
+      },
+      {
+        "text": "Speaking loudly in a crowded room.",
+        "correct": false
+      },
+      {
+        "text": "Walking blindly through a dark area.",
+        "correct": false
+      },
+      {
+        "text": "Moving rapidly from one place to another.",
+        "correct": false
+      }
+    ],
+    "explanation": "Doing something 'gingerly' means doing it with great care or caution so you don't cause harm or make a mistake."
+  },
+  {
+    "id": "eng-vocab-0258",
+    "type": "reverse_meaning",
+    "target_word": "haughty",
+    "prompt": {
+      "meaning": "Arrogantly superior and disdainful of others."
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "humble",
+        "correct": false
+      },
+      {
+        "text": "haughty",
+        "correct": true
+      },
+      {
+        "text": "friendly",
+        "correct": false
+      },
+      {
+        "text": "nervous",
+        "correct": false
+      },
+      {
+        "text": "confused",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'haughty' person acts as if they are better than everyone else and looks down on other people."
+  },
+  {
+    "id": "eng-vocab-0259",
+    "type": "reverse_meaning",
+    "target_word": "immense",
+    "prompt": {
+      "meaning": "Extremely large or great, especially in scale or degree."
+    },
+    "question": "Which word best fits this description?",
+    "choices": [
+      {
+        "text": "tiny",
+        "correct": false
+      },
+      {
+        "text": "average",
+        "correct": false
+      },
+      {
+        "text": "immense",
+        "correct": true
+      },
+      {
+        "text": "fragile",
+        "correct": false
+      },
+      {
+        "text": "hollow",
+        "correct": false
+      }
+    ],
+    "explanation": "'Immense' means something is huge or massive, like the vastness of the ocean."
+  },
+  {
+    "id": "eng-vocab-0260",
+    "type": "reverse_meaning",
+    "target_word": "jeopardy",
+    "prompt": {
+      "meaning": "Danger of loss, harm, or failure."
+    },
+    "question": "What word is defined here?",
+    "choices": [
+      {
+        "text": "safety",
+        "correct": false
+      },
+      {
+        "text": "success",
+        "correct": false
+      },
+      {
+        "text": "harmony",
+        "correct": false
+      },
+      {
+        "text": "jeopardy",
+        "correct": true
+      },
+      {
+        "text": "mystery",
+        "correct": false
+      }
+    ],
+    "explanation": "When something is in 'jeopardy', it is at risk of being damaged, lost, or completely ruined."
+  },
+  {
+    "id": "eng-vocab-0261",
+    "type": "reverse_meaning",
+    "target_word": "knack",
+    "prompt": {
+      "meaning": "An acquired or natural skill at doing a specific task."
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "failure",
+        "correct": false
+      },
+      {
+        "text": "knack",
+        "correct": true
+      },
+      {
+        "text": "struggle",
+        "correct": false
+      },
+      {
+        "text": "disaster",
+        "correct": false
+      },
+      {
+        "text": "weakness",
+        "correct": false
+      }
+    ],
+    "explanation": "Having a 'knack' for something means you have a special talent or ability to do it easily."
+  },
+  {
+    "id": "eng-vocab-0262",
+    "type": "reverse_meaning",
+    "target_word": "lavish",
+    "prompt": {
+      "meaning": "Sumptuously rich, elaborate, or extremely luxurious."
+    },
+    "question": "Which word best fits this description?",
+    "choices": [
+      {
+        "text": "simple",
+        "correct": false
+      },
+      {
+        "text": "lavish",
+        "correct": true
+      },
+      {
+        "text": "modest",
+        "correct": false
+      },
+      {
+        "text": "cheap",
+        "correct": false
+      },
+      {
+        "text": "plain",
+        "correct": false
+      }
+    ],
+    "explanation": "'Lavish' describes things that are highly expensive, extravagant, and luxurious."
+  },
+  {
+    "id": "eng-vocab-0263",
+    "type": "reverse_meaning",
+    "target_word": "mar",
+    "prompt": {
+      "meaning": "To ruin or severely impair the appearance or quality of something."
+    },
+    "question": "What word is defined here?",
+    "choices": [
+      {
+        "text": "enhance",
+        "correct": false
+      },
+      {
+        "text": "protect",
+        "correct": false
+      },
+      {
+        "text": "mar",
+        "correct": true
+      },
+      {
+        "text": "create",
+        "correct": false
+      },
+      {
+        "text": "repair",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'mar' means to spoil or damage the look or perfection of an object or situation."
+  },
+  {
+    "id": "eng-vocab-0264",
+    "type": "reverse_meaning",
+    "target_word": "naive",
+    "prompt": {
+      "meaning": "Showing a lack of worldly experience, wisdom, or sound judgment."
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "experienced",
+        "correct": false
+      },
+      {
+        "text": "cynical",
+        "correct": false
+      },
+      {
+        "text": "wise",
+        "correct": false
+      },
+      {
+        "text": "naive",
+        "correct": true
+      },
+      {
+        "text": "brilliant",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'naive' person is often too trusting and lacks the experience to see when they might be tricked."
+  },
+  {
+    "id": "eng-vocab-0265",
+    "type": "fill_in_blank",
+    "target_word": "ominous",
+    "prompt": {
+      "sentence": "The dark, swirling clouds looked incredibly ____, warning us that a severe storm was approaching."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "cheerful",
+        "correct": false
+      },
+      {
+        "text": "ominous",
+        "correct": true
+      },
+      {
+        "text": "beautiful",
+        "correct": false
+      },
+      {
+        "text": "invisible",
+        "correct": false
+      },
+      {
+        "text": "peaceful",
+        "correct": false
+      }
+    ],
+    "explanation": "'Ominous' means giving the worrying impression that something bad is going to happen, like dark storm clouds."
+  },
+  {
+    "id": "eng-vocab-0266",
+    "type": "fill_in_blank",
+    "target_word": "pacify",
+    "prompt": {
+      "sentence": "The mother tried to ____ her crying baby by gently rocking him and singing a soft lullaby."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "terrify",
+        "correct": false
+      },
+      {
+        "text": "provoke",
+        "correct": false
+      },
+      {
+        "text": "pacify",
+        "correct": true
+      },
+      {
+        "text": "ignore",
+        "correct": false
+      },
+      {
+        "text": "confuse",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'pacify' someone means to calm them down and bring peace to a tense or upset situation."
+  },
+  {
+    "id": "eng-vocab-0267",
+    "type": "fill_in_blank",
+    "target_word": "quagmire",
+    "prompt": {
+      "sentence": "Days of relentless, heavy rain had turned the rugby field into a sticky, muddy ____."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "desert",
+        "correct": false
+      },
+      {
+        "text": "castle",
+        "correct": false
+      },
+      {
+        "text": "quagmire",
+        "correct": true
+      },
+      {
+        "text": "forest",
+        "correct": false
+      },
+      {
+        "text": "mountain",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'quagmire' is a soft, boggy area of land that gives way underfoot, making it the perfect word for a muddy field."
+  },
+  {
+    "id": "eng-vocab-0268",
+    "type": "fill_in_blank",
+    "target_word": "ramble",
+    "prompt": {
+      "sentence": "My grandfather loves to ____ on about his childhood adventures for hours without getting to the point."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "sprint",
+        "correct": false
+      },
+      {
+        "text": "whisper",
+        "correct": false
+      },
+      {
+        "text": "listen",
+        "correct": false
+      },
+      {
+        "text": "argue",
+        "correct": false
+      },
+      {
+        "text": "ramble",
+        "correct": true
+      }
+    ],
+    "explanation": "To 'ramble' means to talk or write at length in a confused or inconsequential way."
+  },
+  {
+    "id": "eng-vocab-0269",
+    "type": "fill_in_blank",
+    "target_word": "sabotage",
+    "prompt": {
+      "sentence": "The captured spies admitted they were sent to ____ the enemy's main communication tower."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "protect",
+        "correct": false
+      },
+      {
+        "text": "sabotage",
+        "correct": true
+      },
+      {
+        "text": "decorate",
+        "correct": false
+      },
+      {
+        "text": "repair",
+        "correct": false
+      },
+      {
+        "text": "celebrate",
+        "correct": false
+      }
+    ],
+    "explanation": "'Sabotage' means to deliberately destroy, damage, or obstruct something for political or military advantage."
+  },
+  {
+    "id": "eng-vocab-0270",
+    "type": "fill_in_blank",
+    "target_word": "taciturn",
+    "prompt": {
+      "sentence": "The new student was quite ____, rarely speaking to anyone and preferring to eat lunch alone."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "talkative",
+        "correct": false
+      },
+      {
+        "text": "boisterous",
+        "correct": false
+      },
+      {
+        "text": "taciturn",
+        "correct": true
+      },
+      {
+        "text": "friendly",
+        "correct": false
+      },
+      {
+        "text": "hilarious",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'taciturn' person is reserved or uncommunicative in speech; they say very little."
+  },
+  {
+    "id": "eng-vocab-0271",
+    "type": "fill_in_blank",
+    "target_word": "unanimous",
+    "prompt": {
+      "sentence": "The jury reached a ____ decision, with every single member agreeing on the final verdict."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "divided",
+        "correct": false
+      },
+      {
+        "text": "unanimous",
+        "correct": true
+      },
+      {
+        "text": "confused",
+        "correct": false
+      },
+      {
+        "text": "secret",
+        "correct": false
+      },
+      {
+        "text": "terrible",
+        "correct": false
+      }
+    ],
+    "explanation": "'Unanimous' means that everyone involved is in complete agreement with the decision."
+  },
+  {
+    "id": "eng-vocab-0272",
+    "type": "fill_in_blank",
+    "target_word": "vacant",
+    "prompt": {
+      "sentence": "We were relieved to find one last ____ seat in the back row of the crowded cinema."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "broken",
+        "correct": false
+      },
+      {
+        "text": "occupied",
+        "correct": false
+      },
+      {
+        "text": "vacant",
+        "correct": true
+      },
+      {
+        "text": "expensive",
+        "correct": false
+      },
+      {
+        "text": "colorful",
+        "correct": false
+      }
+    ],
+    "explanation": "If a seat or room is 'vacant', it means it is empty and available to be used."
+  },
+  {
+    "id": "eng-vocab-0273",
+    "type": "alternative_word",
+    "target_word": "wane",
+    "prompt": {
+      "sentence": "His intense interest in the new video game began to wane after playing it every day for a month."
+    },
+    "question": "Which word could replace 'wane' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "increase",
+        "correct": false
+      },
+      {
+        "text": "explode",
+        "correct": false
+      },
+      {
+        "text": "decrease",
+        "correct": true
+      },
+      {
+        "text": "improve",
+        "correct": false
+      },
+      {
+        "text": "return",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'wane' means to decrease in power, vigor, or extent, becoming progressively weaker."
+  },
+  {
+    "id": "eng-vocab-0274",
+    "type": "alternative_word",
+    "target_word": "yearn",
+    "prompt": {
+      "sentence": "Walking through the freezing snow made him yearn for a hot cup of cocoa by the fireplace."
+    },
+    "question": "Which word could replace 'yearn' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "long",
+        "correct": true
+      },
+      {
+        "text": "fear",
+        "correct": false
+      },
+      {
+        "text": "hate",
+        "correct": false
+      },
+      {
+        "text": "forget",
+        "correct": false
+      },
+      {
+        "text": "search",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'yearn' means to have an intense feeling of longing for something, typically something you have been separated from."
+  },
+  {
+    "id": "eng-vocab-0275",
+    "type": "alternative_word",
+    "target_word": "zenith",
+    "prompt": {
+      "sentence": "The hot summer sun reached its zenith at midday, shining brightly directly above us."
+    },
+    "question": "Which word could replace 'zenith' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "bottom",
+        "correct": false
+      },
+      {
+        "text": "beginning",
+        "correct": false
+      },
+      {
+        "text": "hiding",
+        "correct": false
+      },
+      {
+        "text": "peak",
+        "correct": true
+      },
+      {
+        "text": "end",
+        "correct": false
+      }
+    ],
+    "explanation": "The 'zenith' is the time at which something is most powerful or successful; physically, it means the highest point in the sky."
+  },
+  {
+    "id": "eng-vocab-0276",
+    "type": "alternative_word",
+    "target_word": "abdicate",
+    "prompt": {
+      "sentence": "The tired, elderly king finally decided to abdicate the throne and let his eldest son rule."
+    },
+    "question": "Which word could replace 'abdicate' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "conquer",
+        "correct": false
+      },
+      {
+        "text": "protect",
+        "correct": false
+      },
+      {
+        "text": "resign",
+        "correct": true
+      },
+      {
+        "text": "expand",
+        "correct": false
+      },
+      {
+        "text": "destroy",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'abdicate' means to formally renounce or give up one's throne or powerful position."
+  },
+  {
+    "id": "eng-vocab-0277",
+    "type": "alternative_word",
+    "target_word": "blemish",
+    "prompt": {
+      "sentence": "The antique vase was absolutely perfect except for one tiny blemish on its left side."
+    },
+    "question": "Which word could replace 'blemish' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "decoration",
+        "correct": false
+      },
+      {
+        "text": "flaw",
+        "correct": true
+      },
+      {
+        "text": "feature",
+        "correct": false
+      },
+      {
+        "text": "handle",
+        "correct": false
+      },
+      {
+        "text": "painting",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'blemish' is a small mark or flaw that spoils the appearance of something."
+  },
+  {
+    "id": "eng-vocab-0278",
+    "type": "alternative_word",
+    "target_word": "clamor",
+    "prompt": {
+      "sentence": "The enthusiastic fans created a huge clamor when the famous band finally walked onto the stage."
+    },
+    "question": "Which word could replace 'clamor' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "silence",
+        "correct": false
+      },
+      {
+        "text": "breeze",
+        "correct": false
+      },
+      {
+        "text": "uproar",
+        "correct": true
+      },
+      {
+        "text": "painting",
+        "correct": false
+      },
+      {
+        "text": "barrier",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'clamor' is a loud and confused noise, typically people shouting loudly together."
+  },
+  {
+    "id": "eng-vocab-0279",
+    "type": "alternative_word",
+    "target_word": "dearth",
+    "prompt": {
+      "sentence": "There was a sudden dearth of fresh vegetables at the market due to the unexpected winter frost."
+    },
+    "question": "Which word could replace 'dearth' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "abundance",
+        "correct": false
+      },
+      {
+        "text": "scarcity",
+        "correct": true
+      },
+      {
+        "text": "variety",
+        "correct": false
+      },
+      {
+        "text": "display",
+        "correct": false
+      },
+      {
+        "text": "delivery",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'dearth' means a scarcity or lack of something; there are not enough vegetables available."
+  },
+  {
+    "id": "eng-vocab-0280",
+    "type": "alternative_word",
+    "target_word": "eerie",
+    "prompt": {
+      "sentence": "The old, abandoned hospital had an eerie silence about it that made all the explorers shiver."
+    },
+    "question": "Which word could replace 'eerie' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "comforting",
+        "correct": false
+      },
+      {
+        "text": "peaceful",
+        "correct": false
+      },
+      {
+        "text": "creepy",
+        "correct": true
+      },
+      {
+        "text": "warm",
+        "correct": false
+      },
+      {
+        "text": "boring",
+        "correct": false
+      }
+    ],
+    "explanation": "If something is 'eerie', it is strange and frightening in a mysterious way."
   }
 ]
