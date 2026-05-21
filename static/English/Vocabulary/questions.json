@@ -6974,5 +6974,949 @@
     ],
     "explanation": "The word 'fluctuate' describes the action that the prices are performing (they are changing), which makes it a verb.",
     "id": "eng-vocab-0220"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "gorge",
+    "prompt": {},
+    "question": "What does the word \"gorge\" mean?",
+    "choices": [
+      {
+        "text": "a deep narrow valley",
+        "correct": true
+      },
+      {
+        "text": "a quiet sandy beach",
+        "correct": false
+      },
+      {
+        "text": "a round stone tower",
+        "correct": false
+      },
+      {
+        "text": "a wooden garden gate",
+        "correct": false
+      },
+      {
+        "text": "a bright open field",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Gorge\" means a deep, narrow valley, often with steep sides. The other choices describe different places or objects.",
+    "id": "eng-vocab-0221"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "bivouacked",
+    "prompt": {},
+    "question": "What does the word \"bivouacked\" mean?",
+    "choices": [
+      {
+        "text": "argued loudly",
+        "correct": false
+      },
+      {
+        "text": "camped temporarily",
+        "correct": true
+      },
+      {
+        "text": "moved silently",
+        "correct": false
+      },
+      {
+        "text": "searched carefully",
+        "correct": false
+      },
+      {
+        "text": "escaped quickly",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Bivouacked\" means camped for a short time, usually without much shelter. The other choices describe different actions.",
+    "id": "eng-vocab-0222"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "overcast",
+    "prompt": {},
+    "question": "What does the word \"overcast\" mean?",
+    "choices": [
+      {
+        "text": "warm and breezy",
+        "correct": false
+      },
+      {
+        "text": "clear and bright",
+        "correct": false
+      },
+      {
+        "text": "covered with clouds",
+        "correct": true
+      },
+      {
+        "text": "wet with frost",
+        "correct": false
+      },
+      {
+        "text": "dark with smoke",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Overcast\" means the sky is covered with clouds. The other choices do not mean cloudy weather.",
+    "id": "eng-vocab-0223"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "frail",
+    "prompt": {},
+    "question": "What does the word \"frail\" mean?",
+    "choices": [
+      {
+        "text": "bold and cheerful",
+        "correct": false
+      },
+      {
+        "text": "rough and noisy",
+        "correct": false
+      },
+      {
+        "text": "plain and simple",
+        "correct": false
+      },
+      {
+        "text": "weak and delicate",
+        "correct": true
+      },
+      {
+        "text": "quick and clever",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Frail\" means weak or delicate, often because of age or illness. The other options have different meanings.",
+    "id": "eng-vocab-0224"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "persistent",
+    "prompt": {},
+    "question": "What does the word \"persistent\" mean?",
+    "choices": [
+      {
+        "text": "continuing firmly",
+        "correct": true
+      },
+      {
+        "text": "hiding nervously",
+        "correct": false
+      },
+      {
+        "text": "laughing rudely",
+        "correct": false
+      },
+      {
+        "text": "moving lazily",
+        "correct": false
+      },
+      {
+        "text": "speaking softly",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Persistent\" means continuing and not giving up. The other choices describe different behaviours.",
+    "id": "eng-vocab-0225"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "indignant",
+    "prompt": {},
+    "question": "What does the word \"indignant\" mean?",
+    "choices": [
+      {
+        "text": "slightly amused",
+        "correct": false
+      },
+      {
+        "text": "angry at unfairness",
+        "correct": true
+      },
+      {
+        "text": "very sleepy",
+        "correct": false
+      },
+      {
+        "text": "quietly thankful",
+        "correct": false
+      },
+      {
+        "text": "easily distracted",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Indignant\" means angry because something seems unfair or wrong. The other choices do not show this sense of unfair anger.",
+    "id": "eng-vocab-0226"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "allegiance",
+    "prompt": {},
+    "question": "What does the word \"allegiance\" mean?",
+    "choices": [
+      {
+        "text": "a sudden accident",
+        "correct": false
+      },
+      {
+        "text": "a secret message",
+        "correct": false
+      },
+      {
+        "text": "loyalty to someone",
+        "correct": true
+      },
+      {
+        "text": "a careful drawing",
+        "correct": false
+      },
+      {
+        "text": "fear of danger",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Allegiance\" means loyalty or support for a person, group, or country. The other options are unrelated meanings.",
+    "id": "eng-vocab-0227"
+  },
+  {
+    "type": "word_meaning",
+    "target_word": "dismay",
+    "prompt": {},
+    "question": "What does the word \"dismay\" mean?",
+    "choices": [
+      {
+        "text": "great surprise and worry",
+        "correct": true
+      },
+      {
+        "text": "quiet pride and joy",
+        "correct": false
+      },
+      {
+        "text": "quick movement away",
+        "correct": false
+      },
+      {
+        "text": "soft music nearby",
+        "correct": false
+      },
+      {
+        "text": "careful written advice",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Dismay\" means a feeling of shock, worry, or disappointment. The other choices do not match this feeling.",
+    "id": "eng-vocab-0228"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "cairn",
+    "prompt": {
+      "meaning": "a small pile of stones used to mark a path or special place"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "visor",
+        "correct": false
+      },
+      {
+        "text": "cairn",
+        "correct": true
+      },
+      {
+        "text": "thicket",
+        "correct": false
+      },
+      {
+        "text": "harbour",
+        "correct": false
+      },
+      {
+        "text": "avenue",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Cairn\" means a small pile of stones used as a marker. The other words name different things.",
+    "id": "eng-vocab-0229"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "raucous",
+    "prompt": {
+      "meaning": "very loud and harsh-sounding"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "velvety",
+        "correct": false
+      },
+      {
+        "text": "languid",
+        "correct": false
+      },
+      {
+        "text": "raucous",
+        "correct": true
+      },
+      {
+        "text": "courtly",
+        "correct": false
+      },
+      {
+        "text": "amiable",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Raucous\" describes a loud, rough, unpleasant sound. The other words suggest softness, slowness, politeness, or friendliness.",
+    "id": "eng-vocab-0230"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "innumerable",
+    "prompt": {
+      "meaning": "too many to count"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "scanty",
+        "correct": false
+      },
+      {
+        "text": "meagre",
+        "correct": false
+      },
+      {
+        "text": "singular",
+        "correct": false
+      },
+      {
+        "text": "innumerable",
+        "correct": true
+      },
+      {
+        "text": "ordinary",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Innumerable\" means countless or too many to count. The other choices do not mean a very large number.",
+    "id": "eng-vocab-0231"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "beseech",
+    "prompt": {
+      "meaning": "to ask someone very seriously or desperately"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "beseech",
+        "correct": true
+      },
+      {
+        "text": "scatter",
+        "correct": false
+      },
+      {
+        "text": "mock",
+        "correct": false
+      },
+      {
+        "text": "polish",
+        "correct": false
+      },
+      {
+        "text": "wander",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Beseech\" means to beg or ask very earnestly. The other choices describe different actions.",
+    "id": "eng-vocab-0232"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "proclamation",
+    "prompt": {
+      "meaning": "an official public announcement"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "complaint",
+        "correct": false
+      },
+      {
+        "text": "proclamation",
+        "correct": true
+      },
+      {
+        "text": "whisper",
+        "correct": false
+      },
+      {
+        "text": "riddle",
+        "correct": false
+      },
+      {
+        "text": "gesture",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Proclamation\" means an official announcement made publicly. The other words are not official public announcements.",
+    "id": "eng-vocab-0233"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "woebegone",
+    "prompt": {
+      "meaning": "looking very sad or miserable"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "cheerful",
+        "correct": false
+      },
+      {
+        "text": "woebegone",
+        "correct": true
+      },
+      {
+        "text": "nimble",
+        "correct": false
+      },
+      {
+        "text": "polished",
+        "correct": false
+      },
+      {
+        "text": "careless",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Woebegone\" means sad-looking or miserable. The other choices do not describe sadness.",
+    "id": "eng-vocab-0234"
+  },
+  {
+    "type": "reverse_meaning",
+    "target_word": "earnest",
+    "prompt": {
+      "meaning": "serious and sincere"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "playful",
+        "correct": false
+      },
+      {
+        "text": "careless",
+        "correct": false
+      },
+      {
+        "text": "earnest",
+        "correct": true
+      },
+      {
+        "text": "greedy",
+        "correct": false
+      },
+      {
+        "text": "sleepy",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Earnest\" means serious and sincere. The other choices suggest different attitudes.",
+    "id": "eng-vocab-0235"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "scree",
+    "prompt": {
+      "sentence": "The path was blocked by loose ____ sliding down the mountain."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "velvet",
+        "correct": false
+      },
+      {
+        "text": "scree",
+        "correct": true
+      },
+      {
+        "text": "music",
+        "correct": false
+      },
+      {
+        "text": "smoke",
+        "correct": false
+      },
+      {
+        "text": "bread",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Scree\" means loose stones on a mountain slope, so it fits the mountain path context.",
+    "id": "eng-vocab-0236"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "indignantly",
+    "prompt": {
+      "sentence": "She spoke ____ when her brother was blamed for something he had not done."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "sleepily",
+        "correct": false
+      },
+      {
+        "text": "politely",
+        "correct": false
+      },
+      {
+        "text": "indignantly",
+        "correct": true
+      },
+      {
+        "text": "silently",
+        "correct": false
+      },
+      {
+        "text": "awkwardly",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Indignantly\" means in an angry way because something is unfair. Being wrongly blamed is an unfair situation.",
+    "id": "eng-vocab-0237"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "battlements",
+    "prompt": {
+      "sentence": "The old castle's ____ rose high above the river."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "battlements",
+        "correct": true
+      },
+      {
+        "text": "sandwiches",
+        "correct": false
+      },
+      {
+        "text": "notebooks",
+        "correct": false
+      },
+      {
+        "text": "candles",
+        "correct": false
+      },
+      {
+        "text": "blankets",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Battlements\" are the top defensive parts of a castle wall, so they fit a castle setting.",
+    "id": "eng-vocab-0238"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "becalmed",
+    "prompt": {
+      "sentence": "After the wind dropped, the sailing boat was ____ in the middle of the lake."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "crowded",
+        "correct": false
+      },
+      {
+        "text": "becalmed",
+        "correct": true
+      },
+      {
+        "text": "painted",
+        "correct": false
+      },
+      {
+        "text": "broken",
+        "correct": false
+      },
+      {
+        "text": "hidden",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Becalmed\" means a boat cannot move because there is no wind. The sentence says the wind dropped.",
+    "id": "eng-vocab-0239"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "obstinate",
+    "prompt": {
+      "sentence": "The ____ child refused to change his mind, even after everyone explained the problem."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "sleepy",
+        "correct": false
+      },
+      {
+        "text": "obstinate",
+        "correct": true
+      },
+      {
+        "text": "gentle",
+        "correct": false
+      },
+      {
+        "text": "musical",
+        "correct": false
+      },
+      {
+        "text": "frozen",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Obstinate\" means stubborn and unwilling to change your mind. The child refusing to change his mind shows this.",
+    "id": "eng-vocab-0240"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "rummaging",
+    "prompt": {
+      "sentence": "Dad was ____ through the drawer, trying to find the missing key."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "rummaging",
+        "correct": true
+      },
+      {
+        "text": "shining",
+        "correct": false
+      },
+      {
+        "text": "boiling",
+        "correct": false
+      },
+      {
+        "text": "singing",
+        "correct": false
+      },
+      {
+        "text": "floating",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Rummaging\" means searching through things, often in a messy way. Looking through a drawer for a key fits this meaning.",
+    "id": "eng-vocab-0241"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "imminent",
+    "prompt": {
+      "sentence": "Dark clouds gathered, and it was clear that rain was ____."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "ancient",
+        "correct": false
+      },
+      {
+        "text": "imminent",
+        "correct": true
+      },
+      {
+        "text": "wooden",
+        "correct": false
+      },
+      {
+        "text": "silent",
+        "correct": false
+      },
+      {
+        "text": "careless",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Imminent\" means about to happen soon. Dark clouds suggest rain is coming soon.",
+    "id": "eng-vocab-0242"
+  },
+  {
+    "type": "fill_in_blank",
+    "target_word": "fidgety",
+    "prompt": {
+      "sentence": "During the long speech, the pupils became ____ and kept shifting in their seats."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "fidgety",
+        "correct": true
+      },
+      {
+        "text": "icy",
+        "correct": false
+      },
+      {
+        "text": "wealthy",
+        "correct": false
+      },
+      {
+        "text": "famous",
+        "correct": false
+      },
+      {
+        "text": "hollow",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Fidgety\" means restless and unable to keep still. Shifting in their seats shows this.",
+    "id": "eng-vocab-0243"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "coarse",
+    "prompt": {
+      "sentence": "The old blanket felt coarse against Mia's skin."
+    },
+    "question": "Which word could replace \"coarse\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "smooth",
+        "correct": false
+      },
+      {
+        "text": "bright",
+        "correct": false
+      },
+      {
+        "text": "rough",
+        "correct": true
+      },
+      {
+        "text": "thin",
+        "correct": false
+      },
+      {
+        "text": "warm",
+        "correct": false
+      }
+    ],
+    "explanation": "In this sentence, \"coarse\" means rough to touch. The other words do not mean rough.",
+    "id": "eng-vocab-0244"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "frantic",
+    "prompt": {
+      "sentence": "The frantic search for the lost puppy lasted all afternoon."
+    },
+    "question": "Which word could replace \"frantic\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "peaceful",
+        "correct": false
+      },
+      {
+        "text": "careless",
+        "correct": false
+      },
+      {
+        "text": "desperate",
+        "correct": true
+      },
+      {
+        "text": "ordinary",
+        "correct": false
+      },
+      {
+        "text": "silent",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Frantic\" means wildly worried or desperate. The other options do not show urgent worry.",
+    "id": "eng-vocab-0245"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "splendour",
+    "prompt": {
+      "sentence": "The visitors admired the splendour of the palace hall."
+    },
+    "question": "Which word could replace \"splendour\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "emptiness",
+        "correct": false
+      },
+      {
+        "text": "beauty",
+        "correct": true
+      },
+      {
+        "text": "danger",
+        "correct": false
+      },
+      {
+        "text": "noise",
+        "correct": false
+      },
+      {
+        "text": "delay",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Splendour\" means impressive beauty or magnificence. In this sentence, \"beauty\" is the closest replacement.",
+    "id": "eng-vocab-0246"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "feeble",
+    "prompt": {
+      "sentence": "The injured bird gave a feeble chirp."
+    },
+    "question": "Which word could replace \"feeble\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "strong",
+        "correct": false
+      },
+      {
+        "text": "sharp",
+        "correct": false
+      },
+      {
+        "text": "weak",
+        "correct": true
+      },
+      {
+        "text": "happy",
+        "correct": false
+      },
+      {
+        "text": "sudden",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Feeble\" means weak or lacking strength. A weak chirp fits the injured bird.",
+    "id": "eng-vocab-0247"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "sinister",
+    "prompt": {
+      "sentence": "A sinister shadow moved behind the curtains."
+    },
+    "question": "Which word could replace \"sinister\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "friendly",
+        "correct": false
+      },
+      {
+        "text": "ordinary",
+        "correct": false
+      },
+      {
+        "text": "cheerful",
+        "correct": false
+      },
+      {
+        "text": "threatening",
+        "correct": true
+      },
+      {
+        "text": "colourful",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Sinister\" means seeming evil, dangerous, or threatening. The other words do not create that scary feeling.",
+    "id": "eng-vocab-0248"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "languid",
+    "prompt": {
+      "sentence": "After the long walk, he moved in a languid way."
+    },
+    "question": "Which word could replace \"languid\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "lazy",
+        "correct": true
+      },
+      {
+        "text": "rapid",
+        "correct": false
+      },
+      {
+        "text": "noisy",
+        "correct": false
+      },
+      {
+        "text": "brave",
+        "correct": false
+      },
+      {
+        "text": "careful",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Languid\" means slow, weak, or lacking energy. Here, \"lazy\" is the closest choice.",
+    "id": "eng-vocab-0249"
+  },
+  {
+    "type": "alternative_word",
+    "target_word": "forsaken",
+    "prompt": {
+      "sentence": "The travellers found a forsaken hut at the edge of the forest."
+    },
+    "question": "Which word could replace \"forsaken\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "crowded",
+        "correct": false
+      },
+      {
+        "text": "modern",
+        "correct": false
+      },
+      {
+        "text": "abandoned",
+        "correct": true
+      },
+      {
+        "text": "polished",
+        "correct": false
+      },
+      {
+        "text": "expensive",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Forsaken\" means abandoned or left behind. A hut at the edge of the forest could be described this way.",
+    "id": "eng-vocab-0250"
   }
 ]
