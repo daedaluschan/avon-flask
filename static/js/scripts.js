@@ -286,7 +286,8 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const showRefreshCountdown = () => {
-        refreshStatus.textContent = `Questions will be refreshed in ${refreshSecondsLeft} seconds.`;
+        refreshStatus.dataset.state = 'countdown';
+        refreshStatus.innerHTML = `Questions will be refreshed in <span class="vocab-refresh-count">${refreshSecondsLeft}</span> seconds.`;
     };
 
     const scheduleAutoRefresh = () => {
@@ -303,6 +304,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         refreshCountdownHandle = setTimeout(async () => {
             clearRefreshTimers();
+            refreshStatus.dataset.state = '';
             refreshStatus.textContent = '';
             await regenerateQuestions();
         }, 4000);
@@ -327,6 +329,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     regenerateButton.addEventListener('click', async () => {
         clearRefreshTimers();
+        refreshStatus.dataset.state = '';
         refreshStatus.textContent = '';
         await regenerateQuestions();
         updateUrlQuery();
