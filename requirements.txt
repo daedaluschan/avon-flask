@@ -9,3 +9,5 @@ Flask-RESTX
 requests==2.26.0
 pytz
 setuptools>=70
+
+psycopg2-binary==2.9.9

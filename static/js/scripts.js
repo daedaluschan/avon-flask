@@ -23,14 +23,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const submitButton = document.getElementById('vocab-submit');
     const typeContainer = document.getElementById('vocab-types');
     const typeSummary = document.getElementById('vocab-type-summary');
+    const profileSelect = document.getElementById('vocab-profile');
 
-    if (!quiz || !questionList || !countInput || !countLabel || !regenerateButton || !scoreElement || !submitStatus || !submitButton || !typeContainer || !typeSummary) {
+    if (!quiz || !questionList || !countInput || !countLabel || !regenerateButton || !scoreElement || !submitStatus || !submitButton || !typeContainer || !typeSummary || !profileSelect) {
         return;
     }
 
     const allowedCounts = window.vocabAllowedCounts || [5, 10, 15, 20, 25, 30];
     const allowedTypes = window.vocabAllowedTypes || [];
     let questions = window.vocabInitialQuestions || [];
+    let activeProfileKey = window.vocabActiveProfileKey || profileSelect.value;
 
     const getSelectedCount = () => allowedCounts[Number(countInput.value)] || 10;
 
@@ -195,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // This dummy call lets the server receive first-attempt misses while the
     // browser continues showing the mark result immediately.
-    const sendFeedback = async (missedTargetWords) => {
+    const sendFeedback = async (results) => {
         setStatus('Sending feedback...', 'pending');
 
         try {
@@ -204,7 +206,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ missed_target_words: missedTargetWords }),
+                body: JSON.stringify({
+                    profile_key: activeProfileKey,
+                    results,
+                }),
             });
 
             if (!response.ok) {
@@ -244,7 +249,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             const typeQuery = encodeURIComponent(selectedTypes.join(','));
-            const response = await fetch(`/vocab/questions?count=${count}&types=${typeQuery}`);
+            const profileQuery = encodeURIComponent(profileSelect.value);
+            const response = await fetch(`/vocab/questions?count=${count}&types=${typeQuery}&profile=${profileQuery}`);
             const data = await response.json();
 
             if (!response.ok) {
@@ -252,6 +258,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             questions = data.questions || [];
+            activeProfileKey = data.active_profile || profileSelect.value;
             renderQuestions();
             setStatus(`Loaded ${questions.length} questions`, 'success');
         } catch (error) {
@@ -276,12 +283,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    profileSelect.addEventListener('change', () => {
+        activeProfileKey = profileSelect.value;
+    });
+
     quiz.addEventListener('submit', (event) => {
         event.preventDefault();
 
-        const missedTargetWords = [];
         const questionElements = questionList.querySelectorAll('.vocab-question');
         let correctCount = 0;
+        const results = [];
 
         questionElements.forEach((questionElement) => {
             const isCorrect = markQuestion(questionElement);
@@ -290,13 +301,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 correctCount += 1;
             }
 
-            if (!isCorrect && questionElement.dataset.targetWord) {
-                missedTargetWords.push(questionElement.dataset.targetWord);
+            const targetWord = questionElement.dataset.targetWord || '';
+            if (targetWord) {
+                results.push({
+                    target_word: targetWord,
+                    first_attempt_correct: isCorrect,
+                });
             }
         });
 
         setScore(correctCount, questionElements.length);
-        sendFeedback(missedTargetWords);
+        sendFeedback(results);
         submitButton.disabled = true;
     });
 
