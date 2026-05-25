@@ -117,3 +117,63 @@ When the user asks for "Questions Re-balance", rebalance the candidate vocabular
    - removed entries
 
 Recommended implementation: use a short Python script with `collections.Counter` and perform deterministic filtering based on exact string matches.
+
+## Database Usage for Adaptive Vocabulary (Neon/Postgres)
+
+This project now uses PostgreSQL (Neon) for adaptive vocabulary weighting and profile-based practice behavior.
+
+### Connection
+- Database connection is provided via environment variable `DATABASE_URL`.
+- `DATABASE_URL` should be the full connection string, including `sslmode=require` for Neon.
+- Do not hardcode credentials in source files.
+
+### Where DB logic is used
+- Profile loading, active profile resolution, weighted sampling state lookup, and feedback persistence are handled in `app.py`.
+- Question content still comes from `questions.json`; DB stores learner/profile state and answer history only.
+
+### Schema overview
+The following tables are expected:
+
+1. `vocab_profiles`
+   - One row per selectable profile (for example: `jinny`, `dd`, `guest`).
+   - Important fields:
+     - `profile_key` (unique profile identifier)
+     - `display_name` (UI label)
+     - `is_guest` (guest profile bypasses adaptive writes)
+     - `is_default` (single default profile)
+
+2. `vocab_word_state`
+   - One row per `(profile_id, target_word)` adaptive state.
+   - Important fields:
+     - `weight` in `{0.5, 1.0, 2.0, 4.0}`
+     - `consecutive_correct`
+     - `last_answered_at`
+   - `UNIQUE (profile_id, target_word)` ensures one state row per word per profile.
+
+3. `vocab_answer_events`
+   - Append-only event history per word outcome.
+   - Important fields:
+     - `profile_id`
+     - `target_word`
+     - `was_correct`
+     - `submitted_at`
+     - optional `quiz_id`
+
+### How to rebuild schema from SQL files
+From repository root:
+
+1. Apply base schema:
+   - `migrations/001_create_vocab_adaptive_tables.sql`
+2. Apply baseline seed profiles:
+   - `migrations/002_seed_vocab_profiles.sql`
+
+Example:
+- `psql "$DATABASE_URL" -f migrations/001_create_vocab_adaptive_tables.sql`
+- `psql "$DATABASE_URL" -f migrations/002_seed_vocab_profiles.sql`
+
+### Seed expectations
+- Seeded profiles should include:
+  - `jinny` (default)
+  - `dd`
+  - `guest`
+- Do not pre-populate `vocab_word_state` for every `target_word`; state rows are created lazily on first recorded submission.
