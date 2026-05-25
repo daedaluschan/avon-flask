@@ -184,16 +184,29 @@ def _fetch_vocab_profiles():
 
 
 def _resolve_active_profile(profiles):
+    requested_user = request.args.get('user', type=str)
+    if requested_user:
+        requested_user = requested_user.strip().lower()
+
     requested_profile = request.args.get('profile', type=str)
     if requested_profile:
         requested_profile = requested_profile.strip().lower()
 
     available = {profile['profile_key']: profile for profile in profiles}
+    by_display_name = {
+        str(profile.get('display_name', '')).strip().lower(): profile
+        for profile in profiles
+        if profile.get('display_name')
+    }
 
     session_profile_key = session.get(VOCAB_PROFILE_SESSION_KEY)
 
     if requested_profile and requested_profile in available:
         active_profile_key = requested_profile
+    elif requested_user and requested_user in available:
+        active_profile_key = requested_user
+    elif requested_user and requested_user in by_display_name:
+        active_profile_key = by_display_name[requested_user]['profile_key']
     elif session_profile_key in available:
         active_profile_key = session_profile_key
     else:

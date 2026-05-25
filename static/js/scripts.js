@@ -24,8 +24,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const typeContainer = document.getElementById('vocab-types');
     const typeSummary = document.getElementById('vocab-type-summary');
     const profileSelect = document.getElementById('vocab-profile');
+    const refreshStatus = document.getElementById('vocab-refresh-status');
 
-    if (!quiz || !questionList || !countInput || !countLabel || !regenerateButton || !scoreElement || !submitStatus || !submitButton || !typeContainer || !typeSummary || !profileSelect) {
+    if (!quiz || !questionList || !countInput || !countLabel || !regenerateButton || !scoreElement || !submitStatus || !submitButton || !typeContainer || !typeSummary || !profileSelect || !refreshStatus) {
         return;
     }
 
@@ -33,12 +34,29 @@ document.addEventListener('DOMContentLoaded', () => {
     const allowedTypes = window.vocabAllowedTypes || [];
     let questions = window.vocabInitialQuestions || [];
     let activeProfileKey = window.vocabActiveProfileKey || profileSelect.value;
+    let refreshCountdownHandle = null;
+    let refreshTickHandle = null;
+    let refreshSecondsLeft = 0;
 
     const getSelectedCount = () => allowedCounts[Number(countInput.value)] || 10;
 
     const getTypeInputs = () => Array.from(typeContainer.querySelectorAll('input[type="checkbox"]'));
 
     const getSelectedTypes = () => getTypeInputs().filter((input) => input.checked).map((input) => input.value);
+
+    const updateUrlQuery = () => {
+        const params = new URLSearchParams(window.location.search);
+        params.set('count', String(getSelectedCount()));
+        params.set('types', getSelectedTypes().join(','));
+        params.set('profile', profileSelect.value);
+        const selectedOption = profileSelect.options[profileSelect.selectedIndex];
+        if (selectedOption) {
+            params.set('user', selectedOption.textContent.trim());
+        }
+        const query = params.toString();
+        const nextUrl = `${window.location.pathname}${query ? `?${query}` : ''}`;
+        window.history.replaceState({}, '', nextUrl);
+    };
 
     const selectAllTypes = () => {
         getTypeInputs().forEach((input) => {
@@ -222,19 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    countInput.addEventListener('input', () => {
-        countLabel.textContent = String(getSelectedCount());
-    });
-
-    typeContainer.addEventListener('change', (event) => {
-        if (event.target.matches('input[type="checkbox"]')) {
-            updateTypeSummary();
-        }
-    });
-
-    updateTypeSummary();
-
-    regenerateButton.addEventListener('click', async () => {
+    const regenerateQuestions = async () => {
         const count = getSelectedCount();
         let selectedTypes = getSelectedTypes();
 
@@ -266,6 +272,67 @@ document.addEventListener('DOMContentLoaded', () => {
         } finally {
             regenerateButton.disabled = false;
         }
+    };
+
+    const clearRefreshTimers = () => {
+        if (refreshCountdownHandle) {
+            clearTimeout(refreshCountdownHandle);
+        }
+        if (refreshTickHandle) {
+            clearInterval(refreshTickHandle);
+        }
+        refreshCountdownHandle = null;
+        refreshTickHandle = null;
+    };
+
+    const showRefreshCountdown = () => {
+        refreshStatus.dataset.state = 'countdown';
+        refreshStatus.innerHTML = `Questions will be refreshed in <span class="vocab-refresh-count">${refreshSecondsLeft}</span> seconds.`;
+    };
+
+    const scheduleAutoRefresh = () => {
+        clearRefreshTimers();
+        refreshSecondsLeft = 4;
+        showRefreshCountdown();
+
+        refreshTickHandle = setInterval(() => {
+            refreshSecondsLeft -= 1;
+            if (refreshSecondsLeft > 0) {
+                showRefreshCountdown();
+            }
+        }, 1000);
+
+        refreshCountdownHandle = setTimeout(async () => {
+            clearRefreshTimers();
+            refreshStatus.dataset.state = '';
+            refreshStatus.textContent = '';
+            await regenerateQuestions();
+        }, 4000);
+    };
+
+    countInput.addEventListener('input', () => {
+        countLabel.textContent = String(getSelectedCount());
+        updateUrlQuery();
+        scheduleAutoRefresh();
+    });
+
+    typeContainer.addEventListener('change', (event) => {
+        if (event.target.matches('input[type="checkbox"]')) {
+            updateTypeSummary();
+            updateUrlQuery();
+            scheduleAutoRefresh();
+        }
+    });
+
+    updateTypeSummary();
+    updateUrlQuery();
+
+    regenerateButton.addEventListener('click', async () => {
+        clearRefreshTimers();
+        refreshStatus.dataset.state = '';
+        refreshStatus.textContent = '';
+        await regenerateQuestions();
+        updateUrlQuery();
     });
 
     quiz.addEventListener('click', (event) => {
@@ -285,6 +352,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     profileSelect.addEventListener('change', () => {
         activeProfileKey = profileSelect.value;
+        updateUrlQuery();
+        scheduleAutoRefresh();
     });
 
     quiz.addEventListener('submit', (event) => {

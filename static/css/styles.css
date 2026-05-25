@@ -665,3 +665,41 @@ footer {
 .vocab-profile-control { display: flex; flex-direction: column; gap: 0.35rem; }
 .vocab-profile-select { padding: 0.45rem 0.6rem; border-radius: 0.55rem; border: 1px solid #cbd5e1; background: #fff; }
 
+.vocab-refresh-status {
+    grid-column: 1 / -1;
+    justify-self: start;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-weight: 800;
+    font-size: 0.95rem;
+    border-radius: 10px;
+    padding: 0.35rem 0.6rem;
+    color: #173b59;
+}
+
+.vocab-refresh-status[data-state="countdown"] {
+    background: #fff4cf;
+    border: 1px solid #f0c95c;
+    animation: vocab-refresh-flash 0.85s steps(2, end) infinite;
+}
+
+.vocab-refresh-count {
+    min-width: 1.35rem;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1;
+    color: #a33b2f;
+    text-shadow: 0 0 12px rgba(163, 59, 47, 0.3);
+    animation: vocab-refresh-pop 0.8s ease-in-out infinite;
+}
+
+@keyframes vocab-refresh-flash {
+    0%, 100% { box-shadow: 0 0 0 rgba(240, 201, 92, 0); }
+    50% { box-shadow: 0 0 0 3px rgba(240, 201, 92, 0.35); }
+}
+
+@keyframes vocab-refresh-pop {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.2); opacity: 0.85; }
+}
