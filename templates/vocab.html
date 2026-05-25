@@ -11,6 +11,8 @@
         window.vocabSelectedCount = {{ selected_count | tojson }};
         window.vocabPageError = {{ page_error | tojson }};
         window.vocabAllowedTypes = {{ allowed_types | tojson }};
+        window.vocabProfiles = {{ profiles | tojson }};
+        window.vocabActiveProfileKey = {{ active_profile_key | tojson }};
     </script>
     <script src="{{ url_for('static', filename='js/scripts.js') }}" defer></script>
 </head>
@@ -22,6 +24,14 @@
                 <h1>Practice quiz</h1>
             </div>
             <div class="vocab-controls" aria-label="Quiz controls">
+                <label class="vocab-profile-control" for="vocab-profile">
+                    <span>Profile</span>
+                    <select id="vocab-profile" class="vocab-profile-select">
+                        {% for profile in profiles %}
+                        <option value="{{ profile.profile_key }}" {% if profile.profile_key == active_profile_key %}selected{% endif %}>{{ profile.display_name }}</option>
+                        {% endfor %}
+                    </select>
+                </label>
                 <label class="vocab-count-control" for="vocab-count">
                     <span>Questions</span>
                     <strong id="vocab-count-label">{{ selected_count }}</strong>

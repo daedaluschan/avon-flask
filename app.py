@@ -4,6 +4,10 @@ import os
 import json
 from datetime import datetime, timedelta
 import random
+from collections import defaultdict
+from decimal import Decimal
+import psycopg2
+from psycopg2.extras import RealDictCursor
 
 api_key = os.getenv("OCTOPUS_KEY")
 
@@ -29,6 +33,7 @@ VOCAB_ALLOWED_TYPES = [
 ]
 VOCAB_RECENT_QUESTION_SESSION_KEY = 'recent_vocab_question_ids'
 VOCAB_RECENT_QUESTION_LIMIT = 40
+VOCAB_PROFILE_SESSION_KEY = 'active_vocab_profile_key'
 
 
 @app.route('/')
@@ -142,6 +147,160 @@ def octopus():
     )
 
 
+def _get_db_connection():
+    database_url = os.getenv('DATABASE_URL')
+    if not database_url:
+        raise RuntimeError('DATABASE_URL is not configured.')
+    return psycopg2.connect(database_url)
+
+
+def _fetch_vocab_profiles():
+    with _get_db_connection() as connection:
+        with connection.cursor(cursor_factory=RealDictCursor) as cursor:
+            cursor.execute(
+                """
+                SELECT profile_key, display_name, is_guest, is_default
+                FROM vocab_profiles
+                ORDER BY is_default DESC, id ASC
+                """
+            )
+            profiles = cursor.fetchall()
+
+    if not profiles:
+        raise RuntimeError('No vocabulary profiles are configured.')
+
+    return [dict(row) for row in profiles]
+
+
+def _resolve_active_profile(profiles):
+    requested_profile = request.args.get('profile', type=str)
+    if requested_profile:
+        requested_profile = requested_profile.strip().lower()
+
+    available = {profile['profile_key']: profile for profile in profiles}
+
+    session_profile_key = session.get(VOCAB_PROFILE_SESSION_KEY)
+
+    if requested_profile and requested_profile in available:
+        active_profile_key = requested_profile
+    elif session_profile_key in available:
+        active_profile_key = session_profile_key
+    else:
+        default_profile = next((profile for profile in profiles if profile.get('is_default')), profiles[0])
+        active_profile_key = default_profile['profile_key']
+
+    session[VOCAB_PROFILE_SESSION_KEY] = active_profile_key
+    return available[active_profile_key], [profile['profile_key'] for profile in profiles]
+
+
+def _load_word_weights(profile):
+    if profile.get('is_guest'):
+        return {}
+
+    with _get_db_connection() as connection:
+        with connection.cursor() as cursor:
+            cursor.execute(
+                """
+                SELECT target_word, weight
+                FROM vocab_word_state
+                WHERE profile_id = (SELECT id FROM vocab_profiles WHERE profile_key = %s)
+                """,
+                (profile['profile_key'],),
+            )
+            rows = cursor.fetchall()
+
+    return {target_word: float(weight) for target_word, weight in rows}
+
+
+def _weighted_sample_without_replacement(questions, weights, sample_size):
+    if sample_size <= 0:
+        return []
+
+    keyed_questions = []
+    for question in questions:
+        target_word = question.get('target_word', '')
+        weight = max(0.01, weights.get(target_word, 1.0))
+        u = random.random() or 1e-9
+        key = u ** (1.0 / weight)
+        keyed_questions.append((key, question))
+
+    keyed_questions.sort(key=lambda item: item[0], reverse=True)
+    return [item[1] for item in keyed_questions[:sample_size]]
+
+
+def _apply_weight_transition(weight, consecutive_correct, was_correct):
+    if not was_correct:
+        if weight in (0.5, 1.0):
+            return 2.0, 0
+        if weight == 2.0:
+            return 4.0, 0
+        return 4.0, 0
+
+    next_cc = consecutive_correct + 1
+    if weight == 4.0 and next_cc >= 2:
+        return 2.0, 0
+    if weight == 2.0 and next_cc >= 2:
+        return 1.0, 0
+    if weight == 1.0 and next_cc >= 3:
+        return 0.5, 0
+    return weight, next_cc
+
+
+def _record_vocab_submission(profile_key, word_outcomes, quiz_id=None):
+    with _get_db_connection() as connection:
+        with connection.cursor() as cursor:
+            cursor.execute('SELECT id, is_guest FROM vocab_profiles WHERE profile_key = %s', (profile_key,))
+            profile_row = cursor.fetchone()
+            if not profile_row:
+                raise ValueError('Unknown profile.')
+
+            profile_id, is_guest = profile_row
+            if is_guest:
+                return {'updated_words': 0, 'skipped_updates': True}
+
+            updated_words = 0
+            for target_word, was_correct in word_outcomes.items():
+                cursor.execute(
+                    """
+                    SELECT weight, consecutive_correct
+                    FROM vocab_word_state
+                    WHERE profile_id = %s AND target_word = %s
+                    FOR UPDATE
+                    """,
+                    (profile_id, target_word),
+                )
+                state_row = cursor.fetchone()
+                current_weight = float(state_row[0]) if state_row else 1.0
+                current_cc = state_row[1] if state_row else 0
+
+                new_weight, new_cc = _apply_weight_transition(current_weight, current_cc, was_correct)
+
+                cursor.execute(
+                    """
+                    INSERT INTO vocab_word_state (profile_id, target_word, weight, consecutive_correct, last_answered_at, updated_at)
+                    VALUES (%s, %s, %s, %s, NOW(), NOW())
+                    ON CONFLICT (profile_id, target_word)
+                    DO UPDATE SET
+                        weight = EXCLUDED.weight,
+                        consecutive_correct = EXCLUDED.consecutive_correct,
+                        last_answered_at = EXCLUDED.last_answered_at,
+                        updated_at = EXCLUDED.updated_at
+                    """,
+                    (profile_id, target_word, Decimal(str(new_weight)), new_cc),
+                )
+
+                cursor.execute(
+                    """
+                    INSERT INTO vocab_answer_events (profile_id, target_word, was_correct, submitted_at, quiz_id, created_at)
+                    VALUES (%s, %s, %s, NOW(), %s, NOW())
+                    """,
+                    (profile_id, target_word, was_correct, quiz_id),
+                )
+                updated_words += 1
+
+    return {'updated_words': updated_words, 'skipped_updates': False}
+
+
 def _get_vocab_count(default=10):
     """Return a supported quiz size, falling back to the default for bad input."""
     count = request.args.get('count', default=default, type=int)
@@ -177,7 +336,7 @@ def _load_vocab_questions():
     return questions
 
 
-def _sample_vocab_questions(count, selected_types=None):
+def _sample_vocab_questions(count, selected_types=None, profile=None):
     """Pick random questions, preferring IDs the current user has not just seen."""
     questions = _load_vocab_questions()
 
@@ -192,23 +351,15 @@ def _sample_vocab_questions(count, selected_types=None):
         if question.get('id') not in recent_question_id_set
     ]
 
-    if sample_size and len(fresh_questions) >= sample_size:
-        selected_questions = random.sample(fresh_questions, sample_size)
-    elif sample_size:
-        selected_questions = list(fresh_questions)
-        selected_question_ids = {
-            question.get('id') for question in selected_questions
-            if question.get('id')
-        }
-        refill_questions = [
-            question for question in questions
-            if question.get('id') not in selected_question_ids
-        ]
-        remaining_count = sample_size - len(selected_questions)
-        selected_questions.extend(random.sample(refill_questions, remaining_count))
-        random.shuffle(selected_questions)
-    else:
+    if not sample_size:
         selected_questions = []
+    else:
+        working_pool = fresh_questions if len(fresh_questions) >= sample_size else questions
+        if profile and not profile.get('is_guest'):
+            weights = _load_word_weights(profile)
+            selected_questions = _weighted_sample_without_replacement(working_pool, weights, sample_size)
+        else:
+            selected_questions = random.sample(working_pool, sample_size)
 
     selected_ids = [question.get('id') for question in selected_questions if question.get('id')]
     session[VOCAB_RECENT_QUESTION_SESSION_KEY] = (
@@ -234,7 +385,9 @@ def vocab():
     selected_types = _get_vocab_types()
 
     try:
-        questions = _sample_vocab_questions(count, selected_types)
+        profiles = _fetch_vocab_profiles()
+        active_profile, available_profile_keys = _resolve_active_profile(profiles)
+        questions = _sample_vocab_questions(count, selected_types, active_profile)
     except (OSError, json.JSONDecodeError, ValueError) as error:
         return render_template(
             'vocab.html',
@@ -243,6 +396,8 @@ def vocab():
             allowed_counts=VOCAB_ALLOWED_COUNTS,
             allowed_types=VOCAB_ALLOWED_TYPES,
             page_error=str(error),
+            profiles=[],
+            active_profile_key='',
         ), 500
 
     return render_template(
@@ -252,6 +407,8 @@ def vocab():
         allowed_counts=VOCAB_ALLOWED_COUNTS,
         allowed_types=VOCAB_ALLOWED_TYPES,
         page_error=None,
+        profiles=profiles,
+        active_profile_key=active_profile['profile_key'],
     )
 
 
@@ -263,26 +420,49 @@ def vocab_questions():
     selected_types = _get_vocab_types()
 
     try:
-        questions = _sample_vocab_questions(count, selected_types)
+        profiles = _fetch_vocab_profiles()
+        active_profile, available_profile_keys = _resolve_active_profile(profiles)
+        questions = _sample_vocab_questions(count, selected_types, active_profile)
     except (OSError, json.JSONDecodeError, ValueError) as error:
         return jsonify(error=str(error)), 500
 
-    return jsonify(questions=questions, count=len(questions), selected_types=selected_types)
+    return jsonify(questions=questions, count=len(questions), selected_types=selected_types, active_profile=active_profile['profile_key'])
 
 
 @app.route('/vocab/feedback', methods=['POST'])
 def vocab_feedback():
-    """Accept first-attempt misses; currently this is a dummy receiver."""
+    """Accept first-attempt outcomes and update adaptive word state."""
     data = request.get_json(silent=True) or {}
-    missed_target_words = data.get('missed_target_words', [])
+    profile_key = str(data.get('profile_key', '')).strip().lower()
+    results = data.get('results', [])
+    quiz_id = data.get('quiz_id')
 
-    if not isinstance(missed_target_words, list):
-        return jsonify(error='missed_target_words must be a list'), 400
+    if not profile_key:
+        return jsonify(error='profile_key is required'), 400
 
-    return jsonify(
-        status='received',
-        missed_count=len(missed_target_words),
-    )
+    if not isinstance(results, list):
+        return jsonify(error='results must be a list'), 400
+
+    word_buckets = defaultdict(list)
+    for row in results:
+        if not isinstance(row, dict):
+            continue
+        target_word = str(row.get('target_word', '')).strip()
+        if not target_word:
+            continue
+        was_correct = bool(row.get('first_attempt_correct'))
+        word_buckets[target_word].append(was_correct)
+
+    word_outcomes = {word: all(attempts) for word, attempts in word_buckets.items()}
+
+    try:
+        summary = _record_vocab_submission(profile_key, word_outcomes, quiz_id=quiz_id)
+    except ValueError as error:
+        return jsonify(error=str(error)), 400
+    except RuntimeError as error:
+        return jsonify(error=str(error)), 500
+
+    return jsonify(status='received', profile_key=profile_key, processed_words=len(word_outcomes), **summary)
 
 
 @app.route('/demo_status')

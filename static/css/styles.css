@@ -661,3 +661,7 @@ footer {
         display: grid;
     }
 }
+
+.vocab-profile-control { display: flex; flex-direction: column; gap: 0.35rem; }
+.vocab-profile-select { padding: 0.45rem 0.6rem; border-radius: 0.55rem; border: 1px solid #cbd5e1; background: #fff; }
+
