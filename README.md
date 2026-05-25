@@ -86,10 +86,18 @@ Default Flask URL:
 - `http://127.0.0.1:5000/octopus`
 - `http://127.0.0.1:5000/vocab`
 
-## Environment variable
+## Environment variables
 
-Set the Octopus API key before running:
+Set the environment variables before running:
 
 ```bash
 export OCTOPUS_KEY="your_octopus_api_key"
+export FLASK_SECRET_KEY="replace_with_a_random_secret"
+export DATABASE_URL="postgresql://user:password@host:5432/dbname?sslmode=require"
 ```
+
+### Variable reference
+
+- `OCTOPUS_KEY` (required for tariff endpoints): Octopus API key used by `/tariff` and `/octopus`.
+- `FLASK_SECRET_KEY` (recommended): Flask session signing key. If omitted, the app falls back to `dev-secret-key`.
+- `DATABASE_URL` (required for vocabulary profile/weight features): Primary PostgreSQL connection string.
