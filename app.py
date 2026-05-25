@@ -147,10 +147,21 @@ def octopus():
     )
 
 
+def _get_database_url():
+    """Resolve database URL from known environment variable names."""
+    return (
+        os.getenv('DATABASE_URL')
+        or os.getenv('DADATBASE_URL')
+        or os.getenv('DB_URL')
+    )
+
+
 def _get_db_connection():
-    database_url = os.getenv('DATABASE_URL')
+    database_url = _get_database_url()
     if not database_url:
-        raise RuntimeError('DATABASE_URL is not configured.')
+        raise RuntimeError(
+            'Database URL is not configured. Set DATABASE_URL (or DADATBASE_URL/DB_URL).'
+        )
     return psycopg2.connect(database_url)
 
 
@@ -388,7 +399,7 @@ def vocab():
         profiles = _fetch_vocab_profiles()
         active_profile, available_profile_keys = _resolve_active_profile(profiles)
         questions = _sample_vocab_questions(count, selected_types, active_profile)
-    except (OSError, json.JSONDecodeError, ValueError) as error:
+    except (OSError, json.JSONDecodeError, ValueError, RuntimeError) as error:
         return render_template(
             'vocab.html',
             questions=[],
@@ -423,7 +434,7 @@ def vocab_questions():
         profiles = _fetch_vocab_profiles()
         active_profile, available_profile_keys = _resolve_active_profile(profiles)
         questions = _sample_vocab_questions(count, selected_types, active_profile)
-    except (OSError, json.JSONDecodeError, ValueError) as error:
+    except (OSError, json.JSONDecodeError, ValueError, RuntimeError) as error:
         return jsonify(error=str(error)), 500
 
     return jsonify(questions=questions, count=len(questions), selected_types=selected_types, active_profile=active_profile['profile_key'])
