@@ -18,8 +18,10 @@ These instructions apply to files under `static/English/Vocabulary/`.
 - Derived forms are allowed when clearly linked to a word-bank base word.
 
 ## Maintaining `word_bank.txt`
-- When asked to add new words or phrases to `word_bank.txt`, first check whether each item already exists in the word bank.
-- Only append items that are not already present.
+- When asked to add new words or phrases to `word_bank.txt`, first check whether each item already exists in the word bank using a case-insensitive comparison.
+- Only append items that are not already present case-insensitively. For example, if `chasms` already exists, do not append `Chasms`.
+- Whenever adding words or phrases to `word_bank.txt`, also remove any duplicate word-bank entries case-insensitively, preserving the first occurrence and original order of retained entries.
+- After editing `word_bank.txt`, validate that it contains no duplicate non-empty entries case-insensitively. A short Python script using `str.casefold()` is recommended for this check.
 - Keep one vocabulary item per line.
 
 ## Question Type Selection Default
