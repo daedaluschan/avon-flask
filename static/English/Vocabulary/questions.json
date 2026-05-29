@@ -8864,5 +8864,635 @@
       }
     ],
     "explanation": "If something is 'eerie', it is strange and frightening in a mysterious way."
+  },
+  {
+    "id": "eng-vocab-0281",
+    "type": "word_meaning",
+    "target_word": "tidings",
+    "prompt": {},
+    "question": "What does the word \"tidings\" mean?",
+    "choices": [
+      {
+        "text": "pieces of news",
+        "correct": true
+      },
+      {
+        "text": "heavy footsteps",
+        "correct": false
+      },
+      {
+        "text": "small rewards",
+        "correct": false
+      },
+      {
+        "text": "secret warnings",
+        "correct": false
+      },
+      {
+        "text": "angry speeches",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Tidings\" means news or information. The other choices suggest sounds, prizes, warnings, or speeches, which are not the main meaning."
+  },
+  {
+    "id": "eng-vocab-0282",
+    "type": "reverse_meaning",
+    "target_word": "obstinate",
+    "prompt": {
+      "meaning": "stubborn and unwilling to change your mind"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "gentle",
+        "correct": false
+      },
+      {
+        "text": "obstinate",
+        "correct": true
+      },
+      {
+        "text": "careless",
+        "correct": false
+      },
+      {
+        "text": "nervous",
+        "correct": false
+      },
+      {
+        "text": "cheerful",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Obstinate\" means stubborn. Gentle, careless, nervous, and cheerful describe different qualities."
+  },
+  {
+    "id": "eng-vocab-0283",
+    "type": "fill_in_blank",
+    "target_word": "bivouacked",
+    "prompt": {
+      "sentence": "The hikers ______ beside the lake because it was too dark to continue."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "vanished",
+        "correct": false
+      },
+      {
+        "text": "bivouacked",
+        "correct": true
+      },
+      {
+        "text": "muttered",
+        "correct": false
+      },
+      {
+        "text": "polished",
+        "correct": false
+      },
+      {
+        "text": "stumbled",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Bivouacked\" means camped temporarily. The sentence is about hikers stopping for the night, not disappearing, speaking, cleaning, or tripping."
+  },
+  {
+    "id": "eng-vocab-0284",
+    "type": "alternative_word",
+    "target_word": "frail",
+    "prompt": {
+      "sentence": "The frail bird trembled in the cold wind."
+    },
+    "question": "Which word could replace \"frail\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "colourful",
+        "correct": false
+      },
+      {
+        "text": "greedy",
+        "correct": false
+      },
+      {
+        "text": "fragile",
+        "correct": true
+      },
+      {
+        "text": "noisy",
+        "correct": false
+      },
+      {
+        "text": "sudden",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Frail\" means weak or delicate, so \"fragile\" fits. The other words describe colour, hunger, sound, or speed."
+  },
+  {
+    "id": "eng-vocab-0285",
+    "type": "word_meaning",
+    "target_word": "enmity",
+    "prompt": {},
+    "question": "What does the word \"enmity\" mean?",
+    "choices": [
+      {
+        "text": "deep kindness",
+        "correct": false
+      },
+      {
+        "text": "strong hatred",
+        "correct": true
+      },
+      {
+        "text": "quiet patience",
+        "correct": false
+      },
+      {
+        "text": "wild laughter",
+        "correct": false
+      },
+      {
+        "text": "sudden hunger",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Enmity\" means strong hatred or hostility. The other choices describe kindness, patience, laughter, or hunger."
+  },
+  {
+    "id": "eng-vocab-0286",
+    "type": "reverse_meaning",
+    "target_word": "imminent",
+    "prompt": {
+      "meaning": "about to happen very soon"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "ancient",
+        "correct": false
+      },
+      {
+        "text": "distant",
+        "correct": false
+      },
+      {
+        "text": "imminent",
+        "correct": true
+      },
+      {
+        "text": "ordinary",
+        "correct": false
+      },
+      {
+        "text": "careful",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Imminent\" means likely to happen very soon. Ancient means old, distant means far away, and the other options do not show nearness in time."
+  },
+  {
+    "id": "eng-vocab-0287",
+    "type": "fill_in_blank",
+    "target_word": "overcast",
+    "prompt": {
+      "sentence": "The sky was ______, so we took umbrellas on the walk."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "overcast",
+        "correct": true
+      },
+      {
+        "text": "polished",
+        "correct": false
+      },
+      {
+        "text": "whispered",
+        "correct": false
+      },
+      {
+        "text": "fearless",
+        "correct": false
+      },
+      {
+        "text": "borrowed",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Overcast\" means covered with cloud. The umbrella clue helps. The other choices do not describe cloudy weather."
+  },
+  {
+    "id": "eng-vocab-0288",
+    "type": "alternative_word",
+    "target_word": "amiable",
+    "prompt": {
+      "sentence": "The amiable guide answered every question with a smile."
+    },
+    "question": "Which word could replace \"amiable\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "sleepy",
+        "correct": false
+      },
+      {
+        "text": "friendly",
+        "correct": true
+      },
+      {
+        "text": "jealous",
+        "correct": false
+      },
+      {
+        "text": "silent",
+        "correct": false
+      },
+      {
+        "text": "gloomy",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Amiable\" means friendly and pleasant. Sleepy, jealous, silent, and gloomy do not match the cheerful, helpful context."
+  },
+  {
+    "id": "eng-vocab-0289",
+    "type": "word_meaning",
+    "target_word": "cataract",
+    "prompt": {},
+    "question": "What does the word \"cataract\" most likely mean in a nature description?",
+    "choices": [
+      {
+        "text": "a steep waterfall",
+        "correct": true
+      },
+      {
+        "text": "a narrow bridge",
+        "correct": false
+      },
+      {
+        "text": "a sandy desert",
+        "correct": false
+      },
+      {
+        "text": "a quiet meadow",
+        "correct": false
+      },
+      {
+        "text": "a wooden shelter",
+        "correct": false
+      }
+    ],
+    "explanation": "In nature writing, a \"cataract\" is a large waterfall or rush of water. The other choices are different places or objects."
+  },
+  {
+    "id": "eng-vocab-0290",
+    "type": "reverse_meaning",
+    "target_word": "slovenly",
+    "prompt": {
+      "meaning": "untidy or careless in appearance"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "elegant",
+        "correct": false
+      },
+      {
+        "text": "slovenly",
+        "correct": true
+      },
+      {
+        "text": "cautious",
+        "correct": false
+      },
+      {
+        "text": "hopeful",
+        "correct": false
+      },
+      {
+        "text": "speedy",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Slovenly\" means untidy or careless-looking. Elegant is almost the opposite, while cautious, hopeful, and speedy describe other ideas."
+  },
+  {
+    "id": "eng-vocab-0291",
+    "type": "fill_in_blank",
+    "target_word": "clamour",
+    "prompt": {
+      "sentence": "A loud ______ rose from the crowd when the gates opened."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "glimmer",
+        "correct": false
+      },
+      {
+        "text": "clamour",
+        "correct": true
+      },
+      {
+        "text": "shadow",
+        "correct": false
+      },
+      {
+        "text": "garment",
+        "correct": false
+      },
+      {
+        "text": "whisper",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Clamour\" means a loud noise or shouting. The word \"loud\" points to this. The other options are not loud crowd sounds."
+  },
+  {
+    "id": "eng-vocab-0292",
+    "type": "alternative_word",
+    "target_word": "nonchalant",
+    "prompt": {
+      "sentence": "She looked nonchalant even though everyone else was panicking."
+    },
+    "question": "Which word could replace \"nonchalant\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "furious",
+        "correct": false
+      },
+      {
+        "text": "relaxed",
+        "correct": true
+      },
+      {
+        "text": "ashamed",
+        "correct": false
+      },
+      {
+        "text": "puzzled",
+        "correct": false
+      },
+      {
+        "text": "greedy",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Nonchalant\" means calm and relaxed, often when others are worried. The other choices show anger, shame, confusion, or greed."
+  },
+  {
+    "id": "eng-vocab-0293",
+    "type": "word_meaning",
+    "target_word": "woebegone",
+    "prompt": {},
+    "question": "What does the word \"woebegone\" mean?",
+    "choices": [
+      {
+        "text": "full of sorrow",
+        "correct": true
+      },
+      {
+        "text": "quick to boast",
+        "correct": false
+      },
+      {
+        "text": "ready to fight",
+        "correct": false
+      },
+      {
+        "text": "hard to notice",
+        "correct": false
+      },
+      {
+        "text": "easy to carry",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Woebegone\" means very sad or miserable. The other choices describe pride, aggression, hiddenness, or lightness."
+  },
+  {
+    "id": "eng-vocab-0294",
+    "type": "reverse_meaning",
+    "target_word": "innumerable",
+    "prompt": {
+      "meaning": "too many to be counted easily"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "innumerable",
+        "correct": true
+      },
+      {
+        "text": "limited",
+        "correct": false
+      },
+      {
+        "text": "lonely",
+        "correct": false
+      },
+      {
+        "text": "visible",
+        "correct": false
+      },
+      {
+        "text": "fragile",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Innumerable\" means countless or too many to count. Limited means the opposite, and the other words describe different qualities."
+  },
+  {
+    "id": "eng-vocab-0295",
+    "type": "fill_in_blank",
+    "target_word": "ravine",
+    "prompt": {
+      "sentence": "The stream rushed along the bottom of the narrow ______."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "mirror",
+        "correct": false
+      },
+      {
+        "text": "ravine",
+        "correct": true
+      },
+      {
+        "text": "banner",
+        "correct": false
+      },
+      {
+        "text": "pocket",
+        "correct": false
+      },
+      {
+        "text": "ladder",
+        "correct": false
+      }
+    ],
+    "explanation": "A \"ravine\" is a deep, narrow valley. A stream at the bottom fits this meaning. The other options are objects, not landforms."
+  },
+  {
+    "id": "eng-vocab-0296",
+    "type": "alternative_word",
+    "target_word": "fidgety",
+    "prompt": {
+      "sentence": "The fidgety child kept tapping the desk during the test."
+    },
+    "question": "Which word could replace \"fidgety\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "restless",
+        "correct": true
+      },
+      {
+        "text": "polite",
+        "correct": false
+      },
+      {
+        "text": "ancient",
+        "correct": false
+      },
+      {
+        "text": "wealthy",
+        "correct": false
+      },
+      {
+        "text": "silent",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Fidgety\" means restless and unable to keep still. Tapping the desk supports this. The other words do not mean unable to sit still."
+  },
+  {
+    "id": "eng-vocab-0297",
+    "type": "word_meaning",
+    "target_word": "pristine",
+    "prompt": {},
+    "question": "What does the word \"pristine\" mean?",
+    "choices": [
+      {
+        "text": "dirty and torn",
+        "correct": false
+      },
+      {
+        "text": "new and clean",
+        "correct": true
+      },
+      {
+        "text": "loud and harsh",
+        "correct": false
+      },
+      {
+        "text": "slow and heavy",
+        "correct": false
+      },
+      {
+        "text": "funny and strange",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Pristine\" means very clean, fresh, or like new. The other choices describe mess, sound, movement, or oddness."
+  },
+  {
+    "id": "eng-vocab-0298",
+    "type": "reverse_meaning",
+    "target_word": "unseemly",
+    "prompt": {
+      "meaning": "not proper or suitable behaviour"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "careful",
+        "correct": false
+      },
+      {
+        "text": "unseemly",
+        "correct": true
+      },
+      {
+        "text": "useful",
+        "correct": false
+      },
+      {
+        "text": "peaceful",
+        "correct": false
+      },
+      {
+        "text": "graceful",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Unseemly\" means improper or unsuitable. Careful, useful, peaceful, and graceful do not carry the idea of bad manners."
+  },
+  {
+    "id": "eng-vocab-0299",
+    "type": "fill_in_blank",
+    "target_word": "aftermath",
+    "prompt": {
+      "sentence": "In the ______ of the storm, broken branches covered the road."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "aftermath",
+        "correct": true
+      },
+      {
+        "text": "mixture",
+        "correct": false
+      },
+      {
+        "text": "festival",
+        "correct": false
+      },
+      {
+        "text": "portrait",
+        "correct": false
+      },
+      {
+        "text": "lantern",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Aftermath\" means the period after a difficult event, especially its results. Broken branches after a storm are part of its aftermath."
+  },
+  {
+    "id": "eng-vocab-0300",
+    "type": "alternative_word",
+    "target_word": "contemptuously",
+    "prompt": {
+      "sentence": "He looked contemptuously at the messy work and refused to praise it."
+    },
+    "question": "Which word could replace \"contemptuously\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "proudly",
+        "correct": false
+      },
+      {
+        "text": "gently",
+        "correct": false
+      },
+      {
+        "text": "angrily",
+        "correct": false
+      },
+      {
+        "text": "scornfully",
+        "correct": true
+      },
+      {
+        "text": "quietly",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Contemptuously\" means in a scornful or disrespectful way. Proudly, gently, angrily, and quietly do not show the same sense of looking down on something."
   }
 ]
