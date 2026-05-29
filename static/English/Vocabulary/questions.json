@@ -8864,5 +8864,1265 @@
       }
     ],
     "explanation": "If something is 'eerie', it is strange and frightening in a mysterious way."
+  },
+  {
+    "id": "eng-vocab-0281",
+    "type": "word_meaning",
+    "target_word": "tidings",
+    "prompt": {},
+    "question": "What does the word \"tidings\" mean?",
+    "choices": [
+      {
+        "text": "pieces of news",
+        "correct": true
+      },
+      {
+        "text": "heavy footsteps",
+        "correct": false
+      },
+      {
+        "text": "small rewards",
+        "correct": false
+      },
+      {
+        "text": "secret warnings",
+        "correct": false
+      },
+      {
+        "text": "angry speeches",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Tidings\" means news or information. The other choices suggest sounds, prizes, warnings, or speeches, which are not the main meaning."
+  },
+  {
+    "id": "eng-vocab-0282",
+    "type": "reverse_meaning",
+    "target_word": "obstinate",
+    "prompt": {
+      "meaning": "stubborn and unwilling to change your mind"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "gentle",
+        "correct": false
+      },
+      {
+        "text": "obstinate",
+        "correct": true
+      },
+      {
+        "text": "careless",
+        "correct": false
+      },
+      {
+        "text": "nervous",
+        "correct": false
+      },
+      {
+        "text": "cheerful",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Obstinate\" means stubborn. Gentle, careless, nervous, and cheerful describe different qualities."
+  },
+  {
+    "id": "eng-vocab-0283",
+    "type": "fill_in_blank",
+    "target_word": "bivouacked",
+    "prompt": {
+      "sentence": "The hikers ______ beside the lake because it was too dark to continue."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "vanished",
+        "correct": false
+      },
+      {
+        "text": "bivouacked",
+        "correct": true
+      },
+      {
+        "text": "muttered",
+        "correct": false
+      },
+      {
+        "text": "polished",
+        "correct": false
+      },
+      {
+        "text": "stumbled",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Bivouacked\" means camped temporarily. The sentence is about hikers stopping for the night, not disappearing, speaking, cleaning, or tripping."
+  },
+  {
+    "id": "eng-vocab-0284",
+    "type": "alternative_word",
+    "target_word": "frail",
+    "prompt": {
+      "sentence": "The frail bird trembled in the cold wind."
+    },
+    "question": "Which word could replace \"frail\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "colourful",
+        "correct": false
+      },
+      {
+        "text": "greedy",
+        "correct": false
+      },
+      {
+        "text": "fragile",
+        "correct": true
+      },
+      {
+        "text": "noisy",
+        "correct": false
+      },
+      {
+        "text": "sudden",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Frail\" means weak or delicate, so \"fragile\" fits. The other words describe colour, hunger, sound, or speed."
+  },
+  {
+    "id": "eng-vocab-0285",
+    "type": "word_meaning",
+    "target_word": "enmity",
+    "prompt": {},
+    "question": "What does the word \"enmity\" mean?",
+    "choices": [
+      {
+        "text": "deep kindness",
+        "correct": false
+      },
+      {
+        "text": "strong hatred",
+        "correct": true
+      },
+      {
+        "text": "quiet patience",
+        "correct": false
+      },
+      {
+        "text": "wild laughter",
+        "correct": false
+      },
+      {
+        "text": "sudden hunger",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Enmity\" means strong hatred or hostility. The other choices describe kindness, patience, laughter, or hunger."
+  },
+  {
+    "id": "eng-vocab-0286",
+    "type": "reverse_meaning",
+    "target_word": "imminent",
+    "prompt": {
+      "meaning": "about to happen very soon"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "ancient",
+        "correct": false
+      },
+      {
+        "text": "distant",
+        "correct": false
+      },
+      {
+        "text": "imminent",
+        "correct": true
+      },
+      {
+        "text": "ordinary",
+        "correct": false
+      },
+      {
+        "text": "careful",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Imminent\" means likely to happen very soon. Ancient means old, distant means far away, and the other options do not show nearness in time."
+  },
+  {
+    "id": "eng-vocab-0287",
+    "type": "fill_in_blank",
+    "target_word": "overcast",
+    "prompt": {
+      "sentence": "The sky was ______, so we took umbrellas on the walk."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "overcast",
+        "correct": true
+      },
+      {
+        "text": "polished",
+        "correct": false
+      },
+      {
+        "text": "whispered",
+        "correct": false
+      },
+      {
+        "text": "fearless",
+        "correct": false
+      },
+      {
+        "text": "borrowed",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Overcast\" means covered with cloud. The umbrella clue helps. The other choices do not describe cloudy weather."
+  },
+  {
+    "id": "eng-vocab-0288",
+    "type": "alternative_word",
+    "target_word": "amiable",
+    "prompt": {
+      "sentence": "The amiable guide answered every question with a smile."
+    },
+    "question": "Which word could replace \"amiable\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "sleepy",
+        "correct": false
+      },
+      {
+        "text": "friendly",
+        "correct": true
+      },
+      {
+        "text": "jealous",
+        "correct": false
+      },
+      {
+        "text": "silent",
+        "correct": false
+      },
+      {
+        "text": "gloomy",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Amiable\" means friendly and pleasant. Sleepy, jealous, silent, and gloomy do not match the cheerful, helpful context."
+  },
+  {
+    "id": "eng-vocab-0289",
+    "type": "word_meaning",
+    "target_word": "cataract",
+    "prompt": {},
+    "question": "What does the word \"cataract\" most likely mean in a nature description?",
+    "choices": [
+      {
+        "text": "a steep waterfall",
+        "correct": true
+      },
+      {
+        "text": "a narrow bridge",
+        "correct": false
+      },
+      {
+        "text": "a sandy desert",
+        "correct": false
+      },
+      {
+        "text": "a quiet meadow",
+        "correct": false
+      },
+      {
+        "text": "a wooden shelter",
+        "correct": false
+      }
+    ],
+    "explanation": "In nature writing, a \"cataract\" is a large waterfall or rush of water. The other choices are different places or objects."
+  },
+  {
+    "id": "eng-vocab-0290",
+    "type": "reverse_meaning",
+    "target_word": "slovenly",
+    "prompt": {
+      "meaning": "untidy or careless in appearance"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "elegant",
+        "correct": false
+      },
+      {
+        "text": "slovenly",
+        "correct": true
+      },
+      {
+        "text": "cautious",
+        "correct": false
+      },
+      {
+        "text": "hopeful",
+        "correct": false
+      },
+      {
+        "text": "speedy",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Slovenly\" means untidy or careless-looking. Elegant is almost the opposite, while cautious, hopeful, and speedy describe other ideas."
+  },
+  {
+    "id": "eng-vocab-0291",
+    "type": "fill_in_blank",
+    "target_word": "clamour",
+    "prompt": {
+      "sentence": "A loud ______ rose from the crowd when the gates opened."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "glimmer",
+        "correct": false
+      },
+      {
+        "text": "clamour",
+        "correct": true
+      },
+      {
+        "text": "shadow",
+        "correct": false
+      },
+      {
+        "text": "garment",
+        "correct": false
+      },
+      {
+        "text": "whisper",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Clamour\" means a loud noise or shouting. The word \"loud\" points to this. The other options are not loud crowd sounds."
+  },
+  {
+    "id": "eng-vocab-0292",
+    "type": "alternative_word",
+    "target_word": "nonchalant",
+    "prompt": {
+      "sentence": "She looked nonchalant even though everyone else was panicking."
+    },
+    "question": "Which word could replace \"nonchalant\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "furious",
+        "correct": false
+      },
+      {
+        "text": "relaxed",
+        "correct": true
+      },
+      {
+        "text": "ashamed",
+        "correct": false
+      },
+      {
+        "text": "puzzled",
+        "correct": false
+      },
+      {
+        "text": "greedy",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Nonchalant\" means calm and relaxed, often when others are worried. The other choices show anger, shame, confusion, or greed."
+  },
+  {
+    "id": "eng-vocab-0293",
+    "type": "word_meaning",
+    "target_word": "woebegone",
+    "prompt": {},
+    "question": "What does the word \"woebegone\" mean?",
+    "choices": [
+      {
+        "text": "full of sorrow",
+        "correct": true
+      },
+      {
+        "text": "quick to boast",
+        "correct": false
+      },
+      {
+        "text": "ready to fight",
+        "correct": false
+      },
+      {
+        "text": "hard to notice",
+        "correct": false
+      },
+      {
+        "text": "easy to carry",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Woebegone\" means very sad or miserable. The other choices describe pride, aggression, hiddenness, or lightness."
+  },
+  {
+    "id": "eng-vocab-0294",
+    "type": "reverse_meaning",
+    "target_word": "innumerable",
+    "prompt": {
+      "meaning": "too many to be counted easily"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "innumerable",
+        "correct": true
+      },
+      {
+        "text": "limited",
+        "correct": false
+      },
+      {
+        "text": "lonely",
+        "correct": false
+      },
+      {
+        "text": "visible",
+        "correct": false
+      },
+      {
+        "text": "fragile",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Innumerable\" means countless or too many to count. Limited means the opposite, and the other words describe different qualities."
+  },
+  {
+    "id": "eng-vocab-0295",
+    "type": "fill_in_blank",
+    "target_word": "ravine",
+    "prompt": {
+      "sentence": "The stream rushed along the bottom of the narrow ______."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "mirror",
+        "correct": false
+      },
+      {
+        "text": "ravine",
+        "correct": true
+      },
+      {
+        "text": "banner",
+        "correct": false
+      },
+      {
+        "text": "pocket",
+        "correct": false
+      },
+      {
+        "text": "ladder",
+        "correct": false
+      }
+    ],
+    "explanation": "A \"ravine\" is a deep, narrow valley. A stream at the bottom fits this meaning. The other options are objects, not landforms."
+  },
+  {
+    "id": "eng-vocab-0296",
+    "type": "alternative_word",
+    "target_word": "fidgety",
+    "prompt": {
+      "sentence": "The fidgety child kept tapping the desk during the test."
+    },
+    "question": "Which word could replace \"fidgety\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "restless",
+        "correct": true
+      },
+      {
+        "text": "polite",
+        "correct": false
+      },
+      {
+        "text": "ancient",
+        "correct": false
+      },
+      {
+        "text": "wealthy",
+        "correct": false
+      },
+      {
+        "text": "silent",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Fidgety\" means restless and unable to keep still. Tapping the desk supports this. The other words do not mean unable to sit still."
+  },
+  {
+    "id": "eng-vocab-0297",
+    "type": "word_meaning",
+    "target_word": "pristine",
+    "prompt": {},
+    "question": "What does the word \"pristine\" mean?",
+    "choices": [
+      {
+        "text": "dirty and torn",
+        "correct": false
+      },
+      {
+        "text": "new and clean",
+        "correct": true
+      },
+      {
+        "text": "loud and harsh",
+        "correct": false
+      },
+      {
+        "text": "slow and heavy",
+        "correct": false
+      },
+      {
+        "text": "funny and strange",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Pristine\" means very clean, fresh, or like new. The other choices describe mess, sound, movement, or oddness."
+  },
+  {
+    "id": "eng-vocab-0298",
+    "type": "reverse_meaning",
+    "target_word": "unseemly",
+    "prompt": {
+      "meaning": "not proper or suitable behaviour"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "careful",
+        "correct": false
+      },
+      {
+        "text": "unseemly",
+        "correct": true
+      },
+      {
+        "text": "useful",
+        "correct": false
+      },
+      {
+        "text": "peaceful",
+        "correct": false
+      },
+      {
+        "text": "graceful",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Unseemly\" means improper or unsuitable. Careful, useful, peaceful, and graceful do not carry the idea of bad manners."
+  },
+  {
+    "id": "eng-vocab-0299",
+    "type": "fill_in_blank",
+    "target_word": "aftermath",
+    "prompt": {
+      "sentence": "In the ______ of the storm, broken branches covered the road."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "aftermath",
+        "correct": true
+      },
+      {
+        "text": "mixture",
+        "correct": false
+      },
+      {
+        "text": "festival",
+        "correct": false
+      },
+      {
+        "text": "portrait",
+        "correct": false
+      },
+      {
+        "text": "lantern",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Aftermath\" means the period after a difficult event, especially its results. Broken branches after a storm are part of its aftermath."
+  },
+  {
+    "id": "eng-vocab-0300",
+    "type": "alternative_word",
+    "target_word": "contemptuously",
+    "prompt": {
+      "sentence": "He looked contemptuously at the messy work and refused to praise it."
+    },
+    "question": "Which word could replace \"contemptuously\" without changing the meaning much?",
+    "choices": [
+      {
+        "text": "proudly",
+        "correct": false
+      },
+      {
+        "text": "gently",
+        "correct": false
+      },
+      {
+        "text": "angrily",
+        "correct": false
+      },
+      {
+        "text": "scornfully",
+        "correct": true
+      },
+      {
+        "text": "quietly",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Contemptuously\" means in a scornful or disrespectful way. Proudly, gently, angrily, and quietly do not show the same sense of looking down on something."
+  },
+  {
+    "id": "eng-vocab-0301",
+    "type": "word_meaning",
+    "target_word": "fabricate",
+    "prompt": {},
+    "question": "What is the most accurate meaning of the word 'fabricate'?",
+    "choices": [
+      {
+        "text": "To wash clothes carefully.",
+        "correct": false
+      },
+      {
+        "text": "To build a strong bridge.",
+        "correct": false
+      },
+      {
+        "text": "To invent or make up a story, often to deceive.",
+        "correct": true
+      },
+      {
+        "text": "To forget a very important event.",
+        "correct": false
+      },
+      {
+        "text": "To apologize sincerely.",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'fabricate' means to invent something, like a story or a lie, usually to trick someone into believing it."
+  },
+  {
+    "id": "eng-vocab-0302",
+    "type": "word_meaning",
+    "target_word": "hinder",
+    "prompt": {},
+    "question": "Choose the correct definition for the word 'hinder'.",
+    "choices": [
+      {
+        "text": "To help someone succeed.",
+        "correct": false
+      },
+      {
+        "text": "To hide behind a large object.",
+        "correct": false
+      },
+      {
+        "text": "To create difficulties that delay action or progress.",
+        "correct": true
+      },
+      {
+        "text": "To speak in a very low voice.",
+        "correct": false
+      },
+      {
+        "text": "To run extremely fast.",
+        "correct": false
+      }
+    ],
+    "explanation": "When you 'hinder' someone, you are getting in their way or making it harder for them to accomplish a task."
+  },
+  {
+    "id": "eng-vocab-0303",
+    "type": "word_meaning",
+    "target_word": "ignite",
+    "prompt": {},
+    "question": "Which of the following defines 'ignite'?",
+    "choices": [
+      {
+        "text": "To catch fire or cause to catch fire.",
+        "correct": true
+      },
+      {
+        "text": "To freeze water solid.",
+        "correct": false
+      },
+      {
+        "text": "To deliberately ignore a person.",
+        "correct": false
+      },
+      {
+        "text": "To read a book very quickly.",
+        "correct": false
+      },
+      {
+        "text": "To paint a bright picture.",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'ignite' means to spark or set something on fire, either literally (like lighting a match) or figuratively (like sparking an idea)."
+  },
+  {
+    "id": "eng-vocab-0304",
+    "type": "word_meaning",
+    "target_word": "jargon",
+    "prompt": {},
+    "question": "What is the most accurate meaning of the word 'jargon'?",
+    "choices": [
+      {
+        "text": "A large glass container.",
+        "correct": false
+      },
+      {
+        "text": "A sweet, tropical fruit.",
+        "correct": false
+      },
+      {
+        "text": "A long and difficult journey.",
+        "correct": false
+      },
+      {
+        "text": "Special words or expressions used by a particular profession.",
+        "correct": true
+      },
+      {
+        "text": "A sharp tool for cutting wood.",
+        "correct": false
+      }
+    ],
+    "explanation": "'Jargon' refers to the technical language or slang used by a specific group, like doctors or computer programmers, which might be hard for others to understand."
+  },
+  {
+    "id": "eng-vocab-0305",
+    "type": "word_meaning",
+    "target_word": "luminous",
+    "prompt": {},
+    "question": "Choose the correct definition for the word 'luminous'.",
+    "choices": [
+      {
+        "text": "Very dark and spooky.",
+        "correct": false
+      },
+      {
+        "text": "Heavy and hard to lift.",
+        "correct": false
+      },
+      {
+        "text": "Full of or shedding light; bright or shining.",
+        "correct": true
+      },
+      {
+        "text": "Sad and incredibly depressing.",
+        "correct": false
+      },
+      {
+        "text": "Making a loud, annoying noise.",
+        "correct": false
+      }
+    ],
+    "explanation": "If something is 'luminous', it glows or gives off light, much like the moon on a clear night."
+  },
+  {
+    "id": "eng-vocab-0306",
+    "type": "reverse_meaning",
+    "target_word": "paramount",
+    "prompt": {
+      "meaning": "More important than anything else; supreme."
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "minor",
+        "correct": false
+      },
+      {
+        "text": "hidden",
+        "correct": false
+      },
+      {
+        "text": "paramount",
+        "correct": true
+      },
+      {
+        "text": "regular",
+        "correct": false
+      },
+      {
+        "text": "gentle",
+        "correct": false
+      }
+    ],
+    "explanation": "When something is 'paramount', it is the absolute most critical or important thing above all others."
+  },
+  {
+    "id": "eng-vocab-0307",
+    "type": "reverse_meaning",
+    "target_word": "quell",
+    "prompt": {
+      "meaning": "To put an end to a rebellion or other disorder, typically by the use of force."
+    },
+    "question": "Which word best fits this description?",
+    "choices": [
+      {
+        "text": "start",
+        "correct": false
+      },
+      {
+        "text": "quell",
+        "correct": true
+      },
+      {
+        "text": "encourage",
+        "correct": false
+      },
+      {
+        "text": "watch",
+        "correct": false
+      },
+      {
+        "text": "invite",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'quell' means to suppress or crush something, like quelling an argument or a riot."
+  },
+  {
+    "id": "eng-vocab-0308",
+    "type": "reverse_meaning",
+    "target_word": "radiant",
+    "prompt": {
+      "meaning": "Sending out light; shining or glowing brightly."
+    },
+    "question": "What word is defined here?",
+    "choices": [
+      {
+        "text": "gloomy",
+        "correct": false
+      },
+      {
+        "text": "invisible",
+        "correct": false
+      },
+      {
+        "text": "radiant",
+        "correct": true
+      },
+      {
+        "text": "sharp",
+        "correct": false
+      },
+      {
+        "text": "ancient",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'radiant' object or person glows with light, joy, or health."
+  },
+  {
+    "id": "eng-vocab-0309",
+    "type": "reverse_meaning",
+    "target_word": "scurry",
+    "prompt": {
+      "meaning": "To move hurriedly with short quick steps."
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "stroll",
+        "correct": false
+      },
+      {
+        "text": "glide",
+        "correct": false
+      },
+      {
+        "text": "pause",
+        "correct": false
+      },
+      {
+        "text": "scurry",
+        "correct": true
+      },
+      {
+        "text": "float",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'scurry' means to scamper or run quickly, much like a small mouse darting across a floor."
+  },
+  {
+    "id": "eng-vocab-0310",
+    "type": "reverse_meaning",
+    "target_word": "tarnish",
+    "prompt": {
+      "meaning": "To lose or cause to lose luster, especially as a result of exposure to air or moisture."
+    },
+    "question": "Which word best fits this description?",
+    "choices": [
+      {
+        "text": "polish",
+        "correct": false
+      },
+      {
+        "text": "brighten",
+        "correct": false
+      },
+      {
+        "text": "tarnish",
+        "correct": true
+      },
+      {
+        "text": "protect",
+        "correct": false
+      },
+      {
+        "text": "decorate",
+        "correct": false
+      }
+    ],
+    "explanation": "When metal begins to 'tarnish', it loses its shiny finish and looks dull or discolored."
+  },
+  {
+    "id": "eng-vocab-0311",
+    "type": "fill_in_blank",
+    "target_word": "uncouth",
+    "prompt": {
+      "sentence": "His ____ behavior at the fancy dinner party, like eating with his hands and burping loudly, embarrassed his parents."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "polite",
+        "correct": false
+      },
+      {
+        "text": "elegant",
+        "correct": false
+      },
+      {
+        "text": "quiet",
+        "correct": false
+      },
+      {
+        "text": "uncouth",
+        "correct": true
+      },
+      {
+        "text": "mysterious",
+        "correct": false
+      }
+    ],
+    "explanation": "'Uncouth' describes a person or behavior that is lacking good manners, refinement, or grace."
+  },
+  {
+    "id": "eng-vocab-0312",
+    "type": "fill_in_blank",
+    "target_word": "vibrant",
+    "prompt": {
+      "sentence": "The artist used ____ colors to make the painting stand out brilliantly from across the room."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "dull",
+        "correct": false
+      },
+      {
+        "text": "vibrant",
+        "correct": true
+      },
+      {
+        "text": "pale",
+        "correct": false
+      },
+      {
+        "text": "invisible",
+        "correct": false
+      },
+      {
+        "text": "silent",
+        "correct": false
+      }
+    ],
+    "explanation": "'Vibrant' means full of energy and life; in terms of color, it means very bright and striking."
+  },
+  {
+    "id": "eng-vocab-0313",
+    "type": "fill_in_blank",
+    "target_word": "weary",
+    "prompt": {
+      "sentence": "After hiking up the steep mountain trail for six straight hours, the explorers were completely ____."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "energetic",
+        "correct": false
+      },
+      {
+        "text": "refreshed",
+        "correct": false
+      },
+      {
+        "text": "weary",
+        "correct": true
+      },
+      {
+        "text": "wealthy",
+        "correct": false
+      },
+      {
+        "text": "jealous",
+        "correct": false
+      }
+    ],
+    "explanation": "Being 'weary' means feeling extremely tired or exhausted, especially after a long period of hard work or exercise."
+  },
+  {
+    "id": "eng-vocab-0314",
+    "type": "fill_in_blank",
+    "target_word": "zeal",
+    "prompt": {
+      "sentence": "She approached the charity project with such ____ that she quickly managed to raise a record amount of money."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "laziness",
+        "correct": false
+      },
+      {
+        "text": "zeal",
+        "correct": true
+      },
+      {
+        "text": "boredom",
+        "correct": false
+      },
+      {
+        "text": "sorrow",
+        "correct": false
+      },
+      {
+        "text": "fear",
+        "correct": false
+      }
+    ],
+    "explanation": "'Zeal' refers to great energy, enthusiasm, or passion in pursuit of a cause or an objective."
+  },
+  {
+    "id": "eng-vocab-0315",
+    "type": "fill_in_blank",
+    "target_word": "affluent",
+    "prompt": {
+      "sentence": "The highly ____ neighborhood was filled with massive mansions, private tennis courts, and expensive sports cars."
+    },
+    "question": "Choose the word that best fills in the blank.",
+    "choices": [
+      {
+        "text": "poor",
+        "correct": false
+      },
+      {
+        "text": "dangerous",
+        "correct": false
+      },
+      {
+        "text": "crowded",
+        "correct": false
+      },
+      {
+        "text": "abandoned",
+        "correct": false
+      },
+      {
+        "text": "affluent",
+        "correct": true
+      }
+    ],
+    "explanation": "'Affluent' means having a great deal of money; wealthy. The clues like 'mansions' and 'sports cars' point to this."
+  },
+  {
+    "id": "eng-vocab-0316",
+    "type": "alternative_word",
+    "target_word": "barrage",
+    "prompt": {
+      "sentence": "The famous actor faced a sudden barrage of questions from the reporters as he quickly left the building."
+    },
+    "question": "Which word could replace 'barrage' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "trickle",
+        "correct": false
+      },
+      {
+        "text": "absence",
+        "correct": false
+      },
+      {
+        "text": "bombardment",
+        "correct": true
+      },
+      {
+        "text": "whisper",
+        "correct": false
+      },
+      {
+        "text": "shortage",
+        "correct": false
+      }
+    ],
+    "explanation": "A 'barrage' is an overwhelming, concentrated outpouring of something, like a bombardment of questions."
+  },
+  {
+    "id": "eng-vocab-0317",
+    "type": "alternative_word",
+    "target_word": "cajole",
+    "prompt": {
+      "sentence": "He somehow managed to cajole his younger sister into doing his chores by promising to buy her candy later."
+    },
+    "question": "Which word could replace 'cajole' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "force",
+        "correct": false
+      },
+      {
+        "text": "persuade",
+        "correct": true
+      },
+      {
+        "text": "scare",
+        "correct": false
+      },
+      {
+        "text": "ignore",
+        "correct": false
+      },
+      {
+        "text": "block",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'cajole' someone means to persuade them to do something by using coaxing or flattery."
+  },
+  {
+    "id": "eng-vocab-0318",
+    "type": "alternative_word",
+    "target_word": "decipher",
+    "prompt": {
+      "sentence": "It took the hardworking archaeologists weeks to decipher the mysterious ancient symbols carved into the stone wall."
+    },
+    "question": "Which word could replace 'decipher' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "paint",
+        "correct": false
+      },
+      {
+        "text": "destroy",
+        "correct": false
+      },
+      {
+        "text": "ignore",
+        "correct": false
+      },
+      {
+        "text": "decode",
+        "correct": true
+      },
+      {
+        "text": "build",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'decipher' means to succeed in understanding, interpreting, or identifying something that is written in code or is hard to read."
+  },
+  {
+    "id": "eng-vocab-0319",
+    "type": "alternative_word",
+    "target_word": "elicit",
+    "prompt": {
+      "sentence": "The comedian's surprisingly hilarious joke managed to elicit loud, rolling laughter from the entire audience."
+    },
+    "question": "Which word could replace 'elicit' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "suppress",
+        "correct": false
+      },
+      {
+        "text": "provoke",
+        "correct": true
+      },
+      {
+        "text": "hide",
+        "correct": false
+      },
+      {
+        "text": "ignore",
+        "correct": false
+      },
+      {
+        "text": "forget",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'elicit' means to draw out a response or a reaction from someone, which is similar to provoking a reaction."
+  },
+  {
+    "id": "eng-vocab-0320",
+    "type": "alternative_word",
+    "target_word": "facetious",
+    "prompt": {
+      "sentence": "Stop being so facetious; this is a very serious matter and we need to focus on finding a solution."
+    },
+    "question": "Which word could replace 'facetious' without changing the meaning of the sentence?",
+    "choices": [
+      {
+        "text": "helpful",
+        "correct": false
+      },
+      {
+        "text": "angry",
+        "correct": false
+      },
+      {
+        "text": "flippant",
+        "correct": true
+      },
+      {
+        "text": "miserable",
+        "correct": false
+      },
+      {
+        "text": "careful",
+        "correct": false
+      }
+    ],
+    "explanation": "Being 'facetious' means treating serious issues with deliberately inappropriate humor, much like being flippant."
   }
 ]
