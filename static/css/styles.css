@@ -403,6 +403,14 @@ footer {
     background: #245957;
 }
 
+.vocab-button-tertiary {
+    background: #5a6475;
+}
+
+.vocab-button-tertiary:hover {
+    background: #454d5c;
+}
+
 .vocab-button-small {
     min-height: 2.15rem;
     padding: 0.4rem 0.75rem;

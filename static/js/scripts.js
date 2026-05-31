@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const countInput = document.getElementById('vocab-count');
     const countLabel = document.getElementById('vocab-count-label');
     const regenerateButton = document.getElementById('vocab-regenerate');
+    const resetDefaultsButton = document.getElementById('vocab-reset-defaults');
     const scoreElement = document.getElementById('vocab-score');
     const submitStatus = document.getElementById('vocab-submit-status');
     const submitButton = document.getElementById('vocab-submit');
@@ -26,12 +27,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const profileSelect = document.getElementById('vocab-profile');
     const refreshStatus = document.getElementById('vocab-refresh-status');
 
-    if (!quiz || !questionList || !countInput || !countLabel || !regenerateButton || !scoreElement || !submitStatus || !submitButton || !typeContainer || !typeSummary || !profileSelect || !refreshStatus) {
+    if (!quiz || !questionList || !countInput || !countLabel || !regenerateButton || !resetDefaultsButton || !scoreElement || !submitStatus || !submitButton || !typeContainer || !typeSummary || !profileSelect || !refreshStatus) {
         return;
     }
 
-    const allowedCounts = window.vocabAllowedCounts || [5, 10, 15, 20, 25, 30];
+    const allowedCounts = window.vocabAllowedCounts || [1, 5, 10, 15, 20, 25, 30];
     const allowedTypes = window.vocabAllowedTypes || [];
+    const defaultCount = window.vocabDefaultCount || 10;
+    const defaultProfileKey = window.vocabDefaultProfileKey || profileSelect.value;
     let questions = window.vocabInitialQuestions || [];
     let activeProfileKey = window.vocabActiveProfileKey || profileSelect.value;
     let refreshCountdownHandle = null;
@@ -56,6 +59,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const query = params.toString();
         const nextUrl = `${window.location.pathname}${query ? `?${query}` : ''}`;
         window.history.replaceState({}, '', nextUrl);
+    };
+
+    const setSelectedCount = (count) => {
+        const defaultIndex = allowedCounts.indexOf(count);
+        const fallbackIndex = allowedCounts.indexOf(10);
+        countInput.value = String(defaultIndex >= 0 ? defaultIndex : Math.max(fallbackIndex, 0));
+        countLabel.textContent = String(getSelectedCount());
     };
 
     const selectAllTypes = () => {
@@ -250,6 +260,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         regenerateButton.disabled = true;
+        resetDefaultsButton.disabled = true;
         submitButton.disabled = false;
         setStatus('Loading new questions...', 'pending');
 
@@ -271,6 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setStatus('Could not regenerate questions', 'error');
         } finally {
             regenerateButton.disabled = false;
+            resetDefaultsButton.disabled = false;
         }
     };
 
@@ -333,6 +345,20 @@ document.addEventListener('DOMContentLoaded', () => {
         refreshStatus.textContent = '';
         await regenerateQuestions();
         updateUrlQuery();
+    });
+
+    resetDefaultsButton.addEventListener('click', async () => {
+        clearRefreshTimers();
+        refreshStatus.dataset.state = '';
+        refreshStatus.textContent = '';
+        setSelectedCount(defaultCount);
+        selectAllTypes();
+        if (defaultProfileKey) {
+            profileSelect.value = defaultProfileKey;
+            activeProfileKey = defaultProfileKey;
+        }
+        updateUrlQuery();
+        await regenerateQuestions();
     });
 
     quiz.addEventListener('click', (event) => {

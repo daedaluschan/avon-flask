@@ -23,7 +23,8 @@ VOCAB_QUESTION_PATH = os.path.join(
     'Vocabulary',
     'questions.json',
 )
-VOCAB_ALLOWED_COUNTS = [5, 10, 15, 20, 25, 30]
+VOCAB_DEFAULT_COUNT = 10
+VOCAB_ALLOWED_COUNTS = [1, 5, 10, 15, 20, 25, 30]
 VOCAB_ALLOWED_TYPES = [
     'word_meaning',
     'reverse_meaning',
@@ -325,7 +326,7 @@ def _record_vocab_submission(profile_key, word_outcomes, quiz_id=None):
     return {'updated_words': updated_words, 'skipped_updates': False}
 
 
-def _get_vocab_count(default=10):
+def _get_vocab_count(default=VOCAB_DEFAULT_COUNT):
     """Return a supported quiz size, falling back to the default for bad input."""
     count = request.args.get('count', default=default, type=int)
     if count not in VOCAB_ALLOWED_COUNTS:
@@ -418,21 +419,30 @@ def vocab():
             questions=[],
             selected_count=count,
             allowed_counts=VOCAB_ALLOWED_COUNTS,
+            default_count=VOCAB_DEFAULT_COUNT,
             allowed_types=VOCAB_ALLOWED_TYPES,
             page_error=str(error),
             profiles=[],
             active_profile_key='',
+            default_profile_key='',
         ), 500
+
+    default_profile_key = next(
+        (profile['profile_key'] for profile in profiles if profile.get('is_default')),
+        profiles[0]['profile_key'],
+    )
 
     return render_template(
         'vocab.html',
         questions=questions,
         selected_count=count,
         allowed_counts=VOCAB_ALLOWED_COUNTS,
+        default_count=VOCAB_DEFAULT_COUNT,
         allowed_types=VOCAB_ALLOWED_TYPES,
         page_error=None,
         profiles=profiles,
         active_profile_key=active_profile['profile_key'],
+        default_profile_key=default_profile_key,
     )
 
 

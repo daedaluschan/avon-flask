@@ -33,7 +33,7 @@ Renders an HTML page showing best tariff windows for preset durations (`1` to `3
 Renders an HTML vocabulary practice quiz using `static/English/Vocabulary/questions.json`.
 
 - Shows 10 random questions by default.
-- Supports quiz sizes of `5`, `10`, `15`, `20`, `25`, and `30`.
+- Supports quiz sizes of `1`, `5`, `10`, `15`, `20`, `25`, and `30`.
 - Shuffles the selected questions and each question's answer choices.
 - Marks answers in the browser when `Submit` is clicked.
 - Counts unanswered questions as wrong.
@@ -55,7 +55,7 @@ http://127.0.0.1:5000/vocab?count=15
 Returns a fresh random vocabulary question set as JSON for the page's regenerate control.
 
 **Query parameters**
-- `count` (optional, number): requested quiz size. Allowed values are `5`, `10`, `15`, `20`, `25`, and `30`.
+- `count` (optional, number): requested quiz size. Allowed values are `1`, `5`, `10`, `15`, `20`, `25`, and `30`.
 
 ### `POST /vocab/feedback`
 Dummy endpoint that accepts the vocabulary words missed on the first submit attempt.
