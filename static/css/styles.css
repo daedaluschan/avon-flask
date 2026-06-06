@@ -123,6 +123,50 @@ footer {
     color: #52606d;
 }
 
+.octopus-scan-control {
+    max-width: 540px;
+    margin-top: 1.25rem;
+    padding: 1rem;
+    border: 1px solid rgba(15, 23, 42, 0.08);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.76);
+    box-shadow: 0 12px 30px rgba(31, 41, 51, 0.06);
+}
+
+.octopus-scan-label {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 0.65rem;
+    font-weight: 700;
+}
+
+.octopus-scan-label output {
+    color: #2f855a;
+    white-space: nowrap;
+}
+
+.octopus-scan-control input[type="range"] {
+    width: 100%;
+    accent-color: #2f855a;
+}
+
+.octopus-scan-control datalist {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.15rem;
+    color: #52606d;
+    font-size: 0.85rem;
+}
+
+.octopus-scan-control p {
+    margin: 0.65rem 0 0;
+    color: #52606d;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
 .octopus-banner,
 .octopus-card {
     background: rgba(255, 255, 255, 0.88);

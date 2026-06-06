@@ -3,7 +3,8 @@ from datetime import datetime, timedelta
 import pytz
 import requests
 
-SCAN_HOURS = 12
+SCAN_HOURS = 8
+ALLOWED_SCAN_HOURS = [6, 8, 10, 12]
 OCTOPUS_TARIFF_URL = (
     "https://api.octopus.energy/v1/products/AGILE-24-10-01/"
     "electricity-tariffs/E-1R-AGILE-24-10-01-C/standard-unit-rates/"
@@ -104,8 +105,8 @@ def find_best_tariff_window(duration_hours, api_key, available_slots=None):
     return best_window
 
 
-def get_best_tariff_windows(duration_hours_list, api_key):
-    available_slots = _fetch_available_slots(api_key)
+def get_best_tariff_windows(duration_hours_list, api_key, scan_hours=SCAN_HOURS):
+    available_slots = _fetch_available_slots(api_key, scan_hours=scan_hours)
     results = []
 
     for duration_hours in duration_hours_list:
