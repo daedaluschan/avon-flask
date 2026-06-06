@@ -1,5 +1,10 @@
 from flask import Flask, jsonify, request, abort, send_from_directory, render_template, session
-from tariff_utils import calculate_start_time, get_best_tariff_windows
+from tariff_utils import (
+    ALLOWED_SCAN_HOURS,
+    SCAN_HOURS,
+    calculate_start_time,
+    get_best_tariff_windows,
+)
 import os
 import json
 from datetime import datetime, timedelta
@@ -108,15 +113,28 @@ def tariff():
     return jsonify(startTime=start_time_str)
 
 
+def _resolve_octopus_scan_hours(scan_hours_value):
+    try:
+        scan_hours = int(scan_hours_value)
+    except (TypeError, ValueError):
+        return SCAN_HOURS
+
+    if scan_hours not in ALLOWED_SCAN_HOURS:
+        return SCAN_HOURS
+
+    return scan_hours
+
+
 @app.route('/octopus')
 def octopus():
     # The Octopus page presents fixed appliance durations as a compact table.
     durations = [1, 1.5, 2, 2.5, 3, 3.5]
     page_error = None
     window_rows = []
+    scan_hours = _resolve_octopus_scan_hours(request.args.get('scanHours'))
 
     try:
-        window_rows = get_best_tariff_windows(durations, api_key)
+        window_rows = get_best_tariff_windows(durations, api_key, scan_hours=scan_hours)
     except RuntimeError as error:
         page_error = str(error)
 
@@ -145,6 +163,8 @@ def octopus():
         'octopus.html',
         rows=window_rows,
         page_error=page_error,
+        scan_hours=scan_hours,
+        allowed_scan_hours=ALLOWED_SCAN_HOURS,
     )
 
 

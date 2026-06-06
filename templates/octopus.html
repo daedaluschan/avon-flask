@@ -10,11 +10,34 @@
     <main class="octopus-layout">
         <section class="octopus-hero">
             <p class="octopus-kicker">Octopus Agile</p>
-            <h1>Cheapest continuous windows in the next 12 hours</h1>
+            <h1>Cheapest continuous windows in the next {{ scan_hours }} hours</h1>
             <p class="octopus-summary">
                 Each row shows the best upcoming continuous time block for that duration.
                 Negative tariff totals mean you are being credited to use electricity during that window.
             </p>
+            <form class="octopus-scan-control" method="get" action="{{ url_for('octopus') }}">
+                <div class="octopus-scan-label">
+                    <label for="scanHours">Hours in the future to consider</label>
+                    <output id="scanHoursValue" for="scanHours">{{ scan_hours }} hours</output>
+                </div>
+                <input
+                    type="range"
+                    id="scanHours"
+                    name="scanHours"
+                    min="{{ allowed_scan_hours | min }}"
+                    max="{{ allowed_scan_hours | max }}"
+                    step="2"
+                    value="{{ scan_hours }}"
+                    list="scanHourOptions"
+                    aria-describedby="scanHoursHelp"
+                >
+                <datalist id="scanHourOptions">
+                    {% for option in allowed_scan_hours %}
+                    <option value="{{ option }}" label="{{ option }}h"></option>
+                    {% endfor %}
+                </datalist>
+                <p id="scanHoursHelp">Move the dragger to refresh the table for 6, 8, 10, or 12 upcoming hours.</p>
+            </form>
         </section>
 
         {% if page_error %}
@@ -104,5 +127,33 @@
             </div>
         </section>
     </main>
+    <script>
+        const scanHoursInput = document.getElementById('scanHours');
+        const scanHoursValue = document.getElementById('scanHoursValue');
+        const allowedScanHours = {{ allowed_scan_hours | tojson }};
+        let activeScanHours = String(scanHoursInput.value);
+
+        function refreshForScanHours() {
+            if (!allowedScanHours.includes(Number(scanHoursInput.value)) || scanHoursInput.value === activeScanHours) {
+                return;
+            }
+
+            activeScanHours = scanHoursInput.value;
+            scanHoursValue.value = `${activeScanHours} hours`;
+
+            const params = new URLSearchParams(window.location.search);
+            params.set('scanHours', activeScanHours);
+            window.location.href = `${window.location.pathname}?${params.toString()}`;
+        }
+
+        let refreshTimer;
+
+        scanHoursInput.addEventListener('input', () => {
+            scanHoursValue.value = `${scanHoursInput.value} hours`;
+            window.clearTimeout(refreshTimer);
+            refreshTimer = window.setTimeout(refreshForScanHours, 150);
+        });
+        scanHoursInput.addEventListener('change', refreshForScanHours);
+    </script>
 </body>
 </html>
