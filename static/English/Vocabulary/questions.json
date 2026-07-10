@@ -10124,5 +10124,949 @@
       }
     ],
     "explanation": "Being 'facetious' means treating serious issues with deliberately inappropriate humor, much like being flippant."
+  },
+  {
+    "id": "eng-vocab-0321",
+    "type": "word_meaning",
+    "target_word": "absurd",
+    "prompt": {},
+    "question": "What is the meaning of the word 'absurd'?",
+    "choices": [
+      {
+        "text": "Showing great intelligence or skill",
+        "correct": false
+      },
+      {
+        "text": "Extremely tired or exhausted",
+        "correct": false
+      },
+      {
+        "text": "Completely ridiculous or illogical",
+        "correct": true
+      },
+      {
+        "text": "Acting in a very polite manner",
+        "correct": false
+      },
+      {
+        "text": "Having a strong desire to win",
+        "correct": false
+      }
+    ],
+    "explanation": "The word 'absurd' describes something that is wildly unreasonable, illogical, or inappropriate."
+  },
+  {
+    "id": "eng-vocab-0322",
+    "type": "reverse_meaning",
+    "target_word": "abundant",
+    "prompt": {
+      "meaning": "Existing or available in large quantities; plentiful."
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "scarce",
+        "correct": false
+      },
+      {
+        "text": "fragile",
+        "correct": false
+      },
+      {
+        "text": "obscure",
+        "correct": false
+      },
+      {
+        "text": "tedious",
+        "correct": false
+      },
+      {
+        "text": "abundant",
+        "correct": true
+      }
+    ],
+    "explanation": "When something is 'abundant', there is plenty of it available."
+  },
+  {
+    "id": "eng-vocab-0323",
+    "type": "fill_in_blank",
+    "target_word": "accumulate",
+    "prompt": {
+      "sentence": "Over the years, she managed to ________ a large collection of rare stamps."
+    },
+    "question": "Which word best fills the blank?",
+    "choices": [
+      {
+        "text": "diminish",
+        "correct": false
+      },
+      {
+        "text": "accumulate",
+        "correct": true
+      },
+      {
+        "text": "fabricate",
+        "correct": false
+      },
+      {
+        "text": "eliminate",
+        "correct": false
+      },
+      {
+        "text": "scatter",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'accumulate' means to gather or collect things over time."
+  },
+  {
+    "id": "eng-vocab-0324",
+    "type": "alternative_word",
+    "target_word": "accurate",
+    "prompt": {
+      "sentence": "The weather forecast for tomorrow is highly accurate."
+    },
+    "question": "Which word could replace the word 'accurate' in the sentence without significantly changing its meaning?",
+    "choices": [
+      {
+        "text": "precise",
+        "correct": true
+      },
+      {
+        "text": "confusing",
+        "correct": false
+      },
+      {
+        "text": "doubtful",
+        "correct": false
+      },
+      {
+        "text": "incorrect",
+        "correct": false
+      },
+      {
+        "text": "vague",
+        "correct": false
+      }
+    ],
+    "explanation": "'Precise' is a synonym for 'accurate', meaning exact and without mistakes."
+  },
+  {
+    "id": "eng-vocab-0325",
+    "type": "word_meaning",
+    "target_word": "accustomed",
+    "prompt": {},
+    "question": "What is the meaning of the word 'accustomed'?",
+    "choices": [
+      {
+        "text": "Refusing to change one's mind",
+        "correct": false
+      },
+      {
+        "text": "Happening or done without planning",
+        "correct": false
+      },
+      {
+        "text": "Showing a lack of courage",
+        "correct": false
+      },
+      {
+        "text": "Familiar with something through use or experience",
+        "correct": true
+      },
+      {
+        "text": "Involving a lot of physical effort",
+        "correct": false
+      }
+    ],
+    "explanation": "To be 'accustomed' to something means you are used to it because it is part of your normal routine."
+  },
+  {
+    "id": "eng-vocab-0326",
+    "type": "reverse_meaning",
+    "target_word": "acquire",
+    "prompt": {
+      "meaning": "To buy or obtain an object or asset for oneself."
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "relinquish",
+        "correct": false
+      },
+      {
+        "text": "demolish",
+        "correct": false
+      },
+      {
+        "text": "acquire",
+        "correct": true
+      },
+      {
+        "text": "imitate",
+        "correct": false
+      },
+      {
+        "text": "forfeit",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'acquire' means to gain ownership of something or to learn a new skill."
+  },
+  {
+    "id": "eng-vocab-0327",
+    "type": "fill_in_blank",
+    "target_word": "adamant",
+    "prompt": {
+      "sentence": "Despite the bad weather, he was ________ that the match should go ahead."
+    },
+    "question": "Which word best fills the blank?",
+    "choices": [
+      {
+        "text": "adamant",
+        "correct": true
+      },
+      {
+        "text": "hesitant",
+        "correct": false
+      },
+      {
+        "text": "flexible",
+        "correct": false
+      },
+      {
+        "text": "indifferent",
+        "correct": false
+      },
+      {
+        "text": "confused",
+        "correct": false
+      }
+    ],
+    "explanation": "Being 'adamant' means firmly refusing to change your mind about something."
+  },
+  {
+    "id": "eng-vocab-0328",
+    "type": "alternative_word",
+    "target_word": "adequate",
+    "prompt": {
+      "sentence": "The school provided an adequate amount of food for the camping trip."
+    },
+    "question": "Which word could replace the word 'adequate' in the sentence without significantly changing its meaning?",
+    "choices": [
+      {
+        "text": "lacking",
+        "correct": false
+      },
+      {
+        "text": "sufficient",
+        "correct": true
+      },
+      {
+        "text": "excessive",
+        "correct": false
+      },
+      {
+        "text": "inappropriate",
+        "correct": false
+      },
+      {
+        "text": "poisonous",
+        "correct": false
+      }
+    ],
+    "explanation": "Both 'adequate' and 'sufficient' mean having enough of something to meet a need."
+  },
+  {
+    "id": "eng-vocab-0329",
+    "type": "word_meaning",
+    "target_word": "adjacent",
+    "prompt": {},
+    "question": "What is the meaning of the word 'adjacent'?",
+    "choices": [
+      {
+        "text": "Located far away in the distance",
+        "correct": false
+      },
+      {
+        "text": "Broken into many small pieces",
+        "correct": false
+      },
+      {
+        "text": "Happening at the exact same time",
+        "correct": false
+      },
+      {
+        "text": "Hidden from public view completely",
+        "correct": false
+      },
+      {
+        "text": "Next to or adjoining something else",
+        "correct": true
+      }
+    ],
+    "explanation": "'Adjacent' means lying right next to or sharing a boundary with something."
+  },
+  {
+    "id": "eng-vocab-0330",
+    "type": "reverse_meaning",
+    "target_word": "advantage",
+    "prompt": {
+      "meaning": "A condition or circumstance that puts one in a favorable or superior position."
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "obstacle",
+        "correct": false
+      },
+      {
+        "text": "drawback",
+        "correct": false
+      },
+      {
+        "text": "misfortune",
+        "correct": false
+      },
+      {
+        "text": "advantage",
+        "correct": true
+      },
+      {
+        "text": "penalty",
+        "correct": false
+      }
+    ],
+    "explanation": "An 'advantage' gives you a better chance of success compared to others."
+  },
+  {
+    "id": "eng-vocab-0331",
+    "type": "fill_in_blank",
+    "target_word": "advocate",
+    "prompt": {
+      "sentence": "The environmental group will ________ for stricter laws on plastic pollution."
+    },
+    "question": "Which word best fills the blank?",
+    "choices": [
+      {
+        "text": "compromise",
+        "correct": false
+      },
+      {
+        "text": "apologize",
+        "correct": false
+      },
+      {
+        "text": "advocate",
+        "correct": true
+      },
+      {
+        "text": "hesitate",
+        "correct": false
+      },
+      {
+        "text": "withdraw",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'advocate' for something means to publicly support or recommend it."
+  },
+  {
+    "id": "eng-vocab-0332",
+    "type": "alternative_word",
+    "target_word": "affection",
+    "prompt": {
+      "sentence": "She looked at her little brother with deep affection."
+    },
+    "question": "Which word could replace the word 'affection' in the sentence without significantly changing its meaning?",
+    "choices": [
+      {
+        "text": "hostility",
+        "correct": false
+      },
+      {
+        "text": "fondness",
+        "correct": true
+      },
+      {
+        "text": "confusion",
+        "correct": false
+      },
+      {
+        "text": "boredom",
+        "correct": false
+      },
+      {
+        "text": "disgust",
+        "correct": false
+      }
+    ],
+    "explanation": "'Fondness' and 'affection' both mean a feeling of liking or caring for someone."
+  },
+  {
+    "id": "eng-vocab-0333",
+    "type": "word_meaning",
+    "target_word": "aggressive",
+    "prompt": {},
+    "question": "What is the meaning of the word 'aggressive'?",
+    "choices": [
+      {
+        "text": "Ready or likely to attack or confront",
+        "correct": true
+      },
+      {
+        "text": "Quiet and easy to control or manage",
+        "correct": false
+      },
+      {
+        "text": "Slow to understand or respond to things",
+        "correct": false
+      },
+      {
+        "text": "Showing deep sorrow or regret for actions",
+        "correct": false
+      },
+      {
+        "text": "Extremely beautiful or impressive to look at",
+        "correct": false
+      }
+    ],
+    "explanation": "Someone who is 'aggressive' behaves in an angry, violent, or intensely forceful way."
+  },
+  {
+    "id": "eng-vocab-0334",
+    "type": "reverse_meaning",
+    "target_word": "alleviate",
+    "prompt": {
+      "meaning": "To make suffering, deficiency, or a problem less severe."
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "intensify",
+        "correct": false
+      },
+      {
+        "text": "complicate",
+        "correct": false
+      },
+      {
+        "text": "exaggerate",
+        "correct": false
+      },
+      {
+        "text": "provoke",
+        "correct": false
+      },
+      {
+        "text": "alleviate",
+        "correct": true
+      }
+    ],
+    "explanation": "To 'alleviate' means to ease a problem or relieve pain."
+  },
+  {
+    "id": "eng-vocab-0335",
+    "type": "fill_in_blank",
+    "target_word": "ambiguous",
+    "prompt": {
+      "sentence": "The instructions on the box were so ________ that nobody knew what to do."
+    },
+    "question": "Which word best fills the blank?",
+    "choices": [
+      {
+        "text": "obvious",
+        "correct": false
+      },
+      {
+        "text": "transparent",
+        "correct": false
+      },
+      {
+        "text": "helpful",
+        "correct": false
+      },
+      {
+        "text": "ambiguous",
+        "correct": true
+      },
+      {
+        "text": "decisive",
+        "correct": false
+      }
+    ],
+    "explanation": "If something is 'ambiguous', it is unclear because it has more than one possible meaning."
+  },
+  {
+    "id": "eng-vocab-0336",
+    "type": "alternative_word",
+    "target_word": "ambitious",
+    "prompt": {
+      "sentence": "The young athlete is highly ambitious and dreams of winning an Olympic medal."
+    },
+    "question": "Which word could replace the word 'ambitious' in the sentence without significantly changing its meaning?",
+    "choices": [
+      {
+        "text": "lazy",
+        "correct": false
+      },
+      {
+        "text": "content",
+        "correct": false
+      },
+      {
+        "text": "driven",
+        "correct": true
+      },
+      {
+        "text": "careless",
+        "correct": false
+      },
+      {
+        "text": "reluctant",
+        "correct": false
+      }
+    ],
+    "explanation": "Being 'ambitious' means being highly 'driven' and determined to succeed."
+  },
+  {
+    "id": "eng-vocab-0337",
+    "type": "word_meaning",
+    "target_word": "amend",
+    "prompt": {},
+    "question": "What is the meaning of the word 'amend'?",
+    "choices": [
+      {
+        "text": "To completely destroy or remove",
+        "correct": false
+      },
+      {
+        "text": "To make minor changes to improve something",
+        "correct": true
+      },
+      {
+        "text": "To speak very loudly and angrily",
+        "correct": false
+      },
+      {
+        "text": "To guess what will happen next",
+        "correct": false
+      },
+      {
+        "text": "To refuse to accept a presented gift",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'amend' something, like a document or a rule, is to correct or improve it."
+  },
+  {
+    "id": "eng-vocab-0338",
+    "type": "reverse_meaning",
+    "target_word": "ample",
+    "prompt": {
+      "meaning": "Enough or more than enough; plentiful."
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "ample",
+        "correct": true
+      },
+      {
+        "text": "meager",
+        "correct": false
+      },
+      {
+        "text": "insufficient",
+        "correct": false
+      },
+      {
+        "text": "narrow",
+        "correct": false
+      },
+      {
+        "text": "lacking",
+        "correct": false
+      }
+    ],
+    "explanation": "If you have an 'ample' amount, you have plenty to satisfy a need."
+  },
+  {
+    "id": "eng-vocab-0339",
+    "type": "fill_in_blank",
+    "target_word": "anomaly",
+    "prompt": {
+      "sentence": "A snowstorm in the middle of summer is considered a weather ________."
+    },
+    "question": "Which word best fills the blank?",
+    "choices": [
+      {
+        "text": "routine",
+        "correct": false
+      },
+      {
+        "text": "schedule",
+        "correct": false
+      },
+      {
+        "text": "tradition",
+        "correct": false
+      },
+      {
+        "text": "certainty",
+        "correct": false
+      },
+      {
+        "text": "anomaly",
+        "correct": true
+      }
+    ],
+    "explanation": "An 'anomaly' is something that deviates from what is standard, normal, or expected."
+  },
+  {
+    "id": "eng-vocab-0340",
+    "type": "alternative_word",
+    "target_word": "anticipate",
+    "prompt": {
+      "sentence": "We anticipate that a large crowd will gather for the final concert."
+    },
+    "question": "Which word could replace the word 'anticipate' in the sentence without significantly changing its meaning?",
+    "choices": [
+      {
+        "text": "doubt",
+        "correct": false
+      },
+      {
+        "text": "forget",
+        "correct": false
+      },
+      {
+        "text": "regret",
+        "correct": false
+      },
+      {
+        "text": "expect",
+        "correct": true
+      },
+      {
+        "text": "ignore",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'anticipate' means to expect or predict that something will happen."
+  },
+  {
+    "id": "eng-vocab-0341",
+    "type": "word_meaning",
+    "target_word": "apparent",
+    "prompt": {},
+    "question": "What is the meaning of the word 'apparent'?",
+    "choices": [
+      {
+        "text": "Hidden beneath the surface level",
+        "correct": false
+      },
+      {
+        "text": "Extremely difficult to solve or fix",
+        "correct": false
+      },
+      {
+        "text": "Clearly visible or understood; obvious",
+        "correct": true
+      },
+      {
+        "text": "Making no sound at all nearby",
+        "correct": false
+      },
+      {
+        "text": "Belonging strictly to a royal family",
+        "correct": false
+      }
+    ],
+    "explanation": "When something is 'apparent', it is easy to see or clearly understood."
+  },
+  {
+    "id": "eng-vocab-0342",
+    "type": "reverse_meaning",
+    "target_word": "appeal",
+    "prompt": {
+      "meaning": "Make a serious or urgent request, typically to the public."
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "command",
+        "correct": false
+      },
+      {
+        "text": "appeal",
+        "correct": true
+      },
+      {
+        "text": "deny",
+        "correct": false
+      },
+      {
+        "text": "whisper",
+        "correct": false
+      },
+      {
+        "text": "reject",
+        "correct": false
+      }
+    ],
+    "explanation": "An 'appeal' is a heartfelt or desperate plea for help or support."
+  },
+  {
+    "id": "eng-vocab-0343",
+    "type": "fill_in_blank",
+    "target_word": "approximate",
+    "prompt": {
+      "sentence": "Can you give me an ________ cost for repairing the damaged roof?"
+    },
+    "question": "Which word best fills the blank?",
+    "choices": [
+      {
+        "text": "approximate",
+        "correct": true
+      },
+      {
+        "text": "exact",
+        "correct": false
+      },
+      {
+        "text": "invisible",
+        "correct": false
+      },
+      {
+        "text": "unrelated",
+        "correct": false
+      },
+      {
+        "text": "infinite",
+        "correct": false
+      }
+    ],
+    "explanation": "'Approximate' means close to the actual number but not completely exact."
+  },
+  {
+    "id": "eng-vocab-0344",
+    "type": "alternative_word",
+    "target_word": "arbitrary",
+    "prompt": {
+      "sentence": "The teacher's decision to ban red pens seemed completely arbitrary."
+    },
+    "question": "Which word could replace the word 'arbitrary' in the sentence without significantly changing its meaning?",
+    "choices": [
+      {
+        "text": "logical",
+        "correct": false
+      },
+      {
+        "text": "justified",
+        "correct": false
+      },
+      {
+        "text": "calculated",
+        "correct": false
+      },
+      {
+        "text": "fair",
+        "correct": false
+      },
+      {
+        "text": "random",
+        "correct": true
+      }
+    ],
+    "explanation": "An 'arbitrary' decision is based on random choice or personal whim rather than any clear reason or system."
+  },
+  {
+    "id": "eng-vocab-0345",
+    "type": "word_meaning",
+    "target_word": "arrogant",
+    "prompt": {},
+    "question": "What is the meaning of the word 'arrogant'?",
+    "choices": [
+      {
+        "text": "Feeling nervous before a big event",
+        "correct": false
+      },
+      {
+        "text": "Being very generous and kind to all",
+        "correct": false
+      },
+      {
+        "text": "Showing a lack of basic knowledge",
+        "correct": false
+      },
+      {
+        "text": "Having an exaggerated sense of one's importance",
+        "correct": true
+      },
+      {
+        "text": "Acting very silly and entirely childish",
+        "correct": false
+      }
+    ],
+    "explanation": "An 'arrogant' person believes they are much better or more important than other people."
+  },
+  {
+    "id": "eng-vocab-0346",
+    "type": "reverse_meaning",
+    "target_word": "articulate",
+    "prompt": {
+      "meaning": "Having or showing the ability to speak fluently and coherently."
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "mumbled",
+        "correct": false
+      },
+      {
+        "text": "silent",
+        "correct": false
+      },
+      {
+        "text": "articulate",
+        "correct": true
+      },
+      {
+        "text": "confused",
+        "correct": false
+      },
+      {
+        "text": "stuttering",
+        "correct": false
+      }
+    ],
+    "explanation": "To be 'articulate' means you can express your thoughts clearly and effectively in words."
+  },
+  {
+    "id": "eng-vocab-0347",
+    "type": "fill_in_blank",
+    "target_word": "ascertain",
+    "prompt": {
+      "sentence": "The detective needed to ________ the exact time the crime took place."
+    },
+    "question": "Which word best fills the blank?",
+    "choices": [
+      {
+        "text": "fabricate",
+        "correct": false
+      },
+      {
+        "text": "ascertain",
+        "correct": true
+      },
+      {
+        "text": "conceal",
+        "correct": false
+      },
+      {
+        "text": "ignore",
+        "correct": false
+      },
+      {
+        "text": "forget",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'ascertain' means to find something out for certain; to make sure of it."
+  },
+  {
+    "id": "eng-vocab-0348",
+    "type": "alternative_word",
+    "target_word": "astonish",
+    "prompt": {
+      "sentence": "The magician's final trick never failed to astonish the young audience."
+    },
+    "question": "Which word could replace the word 'astonish' in the sentence without significantly changing its meaning?",
+    "choices": [
+      {
+        "text": "amaze",
+        "correct": true
+      },
+      {
+        "text": "bore",
+        "correct": false
+      },
+      {
+        "text": "annoy",
+        "correct": false
+      },
+      {
+        "text": "disappoint",
+        "correct": false
+      },
+      {
+        "text": "insult",
+        "correct": false
+      }
+    ],
+    "explanation": "To 'astonish' someone means to surprise or 'amaze' them greatly."
+  },
+  {
+    "id": "eng-vocab-0349",
+    "type": "word_meaning",
+    "target_word": "authentic",
+    "prompt": {},
+    "question": "What is the meaning of the word 'authentic'?",
+    "choices": [
+      {
+        "text": "Copied from a different source material",
+        "correct": false
+      },
+      {
+        "text": "Made of very cheap and fragile materials",
+        "correct": false
+      },
+      {
+        "text": "Lacking any real flavor or distinctive taste",
+        "correct": false
+      },
+      {
+        "text": "Highly dangerous to touch or approach",
+        "correct": false
+      },
+      {
+        "text": "Of undisputed origin; genuine and true",
+        "correct": true
+      }
+    ],
+    "explanation": "Something that is 'authentic' is real and genuine, not a copy or fake."
+  },
+  {
+    "id": "eng-vocab-0350",
+    "type": "reverse_meaning",
+    "target_word": "awe",
+    "prompt": {
+      "meaning": "A feeling of reverential respect mixed with fear or wonder."
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "boredom",
+        "correct": false
+      },
+      {
+        "text": "disgust",
+        "correct": false
+      },
+      {
+        "text": "indifference",
+        "correct": false
+      },
+      {
+        "text": "awe",
+        "correct": true
+      },
+      {
+        "text": "amusement",
+        "correct": false
+      }
+    ],
+    "explanation": "'Awe' is an overwhelming feeling of wonder or admiration, sometimes combined with a little fear."
   }
 ]
