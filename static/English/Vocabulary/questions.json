@@ -10124,5 +10124,949 @@
       }
     ],
     "explanation": "Being 'facetious' means treating serious issues with deliberately inappropriate humor, much like being flippant."
+  },
+  {
+    "id": "eng-vocab-0321",
+    "type": "word_meaning",
+    "target_word": "adamant",
+    "prompt": {},
+    "question": "What does the word \"adamant\" mean?",
+    "choices": [
+      {
+        "text": "unwilling to change one's mind",
+        "correct": true
+      },
+      {
+        "text": "easily frightened by danger",
+        "correct": false
+      },
+      {
+        "text": "unable to understand instructions",
+        "correct": false
+      },
+      {
+        "text": "keen to please everyone",
+        "correct": false
+      },
+      {
+        "text": "likely to make careless mistakes",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Adamant\" means very firm and unwilling to change your decision or opinion. The other choices describe different attitudes or behaviours."
+  },
+  {
+    "id": "eng-vocab-0322",
+    "type": "reverse_meaning",
+    "target_word": "paramount",
+    "prompt": {
+      "meaning": "more important than anything else"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "modest",
+        "correct": false
+      },
+      {
+        "text": "paramount",
+        "correct": true
+      },
+      {
+        "text": "vague",
+        "correct": false
+      },
+      {
+        "text": "lurid",
+        "correct": false
+      },
+      {
+        "text": "scanty",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Paramount\" means of the greatest importance. The other choices mean humble, unclear, shockingly vivid or insufficient."
+  },
+  {
+    "id": "eng-vocab-0323",
+    "type": "fill_in_blank",
+    "target_word": "scurry",
+    "prompt": {
+      "sentence": "As the lights came on, the mice began to ______ across the kitchen floor."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "linger",
+        "correct": false
+      },
+      {
+        "text": "scurry",
+        "correct": true
+      },
+      {
+        "text": "stumble",
+        "correct": false
+      },
+      {
+        "text": "march",
+        "correct": false
+      },
+      {
+        "text": "wander",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Scurry\" means to move quickly with short, hurried steps. This suits mice rushing away when the lights come on."
+  },
+  {
+    "id": "eng-vocab-0324",
+    "type": "alternative_word",
+    "target_word": "weary",
+    "prompt": {
+      "sentence": "After walking for hours in the rain, the weary travellers finally reached the inn."
+    },
+    "question": "Which word could replace \"weary\" without greatly changing the meaning?",
+    "choices": [
+      {
+        "text": "cheerful",
+        "correct": false
+      },
+      {
+        "text": "exhausted",
+        "correct": true
+      },
+      {
+        "text": "confused",
+        "correct": false
+      },
+      {
+        "text": "wealthy",
+        "correct": false
+      },
+      {
+        "text": "fearless",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Exhausted\" is a good replacement because \"weary\" means very tired. The other choices do not describe tiredness."
+  },
+  {
+    "id": "eng-vocab-0325",
+    "type": "word_meaning",
+    "target_word": "facetious",
+    "prompt": {},
+    "question": "What does the word \"facetious\" mean?",
+    "choices": [
+      {
+        "text": "serious and deeply thoughtful",
+        "correct": false
+      },
+      {
+        "text": "joking when seriousness is expected",
+        "correct": true
+      },
+      {
+        "text": "nervous about speaking in public",
+        "correct": false
+      },
+      {
+        "text": "determined to solve a problem",
+        "correct": false
+      },
+      {
+        "text": "unaware of what is happening",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Facetious\" means treating a serious subject with inappropriate humour. The other choices describe seriousness, nervousness, determination or lack of awareness."
+  },
+  {
+    "id": "eng-vocab-0326",
+    "type": "reverse_meaning",
+    "target_word": "quell",
+    "prompt": {
+      "meaning": "to put an end to something such as a disturbance or fear"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "ignite",
+        "correct": false
+      },
+      {
+        "text": "hinder",
+        "correct": false
+      },
+      {
+        "text": "quell",
+        "correct": true
+      },
+      {
+        "text": "elicit",
+        "correct": false
+      },
+      {
+        "text": "fabricate",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Quell\" means to stop or suppress something. The other words mean set alight, obstruct, draw out or invent."
+  },
+  {
+    "id": "eng-vocab-0327",
+    "type": "fill_in_blank",
+    "target_word": "luminous",
+    "prompt": {
+      "sentence": "The jellyfish gave off a ______ glow beneath the dark water."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "luminous",
+        "correct": true
+      },
+      {
+        "text": "threadbare",
+        "correct": false
+      },
+      {
+        "text": "grubby",
+        "correct": false
+      },
+      {
+        "text": "doleful",
+        "correct": false
+      },
+      {
+        "text": "scanty",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Luminous\" means giving off or reflecting light. A glowing jellyfish can therefore be described as luminous."
+  },
+  {
+    "id": "eng-vocab-0328",
+    "type": "alternative_word",
+    "target_word": "shrewd",
+    "prompt": {
+      "sentence": "The shrewd shopkeeper quickly realised which products would sell best."
+    },
+    "question": "Which word could replace \"shrewd\" without greatly changing the meaning?",
+    "choices": [
+      {
+        "text": "careless",
+        "correct": false
+      },
+      {
+        "text": "clever",
+        "correct": true
+      },
+      {
+        "text": "generous",
+        "correct": false
+      },
+      {
+        "text": "silent",
+        "correct": false
+      },
+      {
+        "text": "impatient",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Clever\" fits because \"shrewd\" means showing sharp judgement and practical intelligence. The other options do not express good judgement."
+  },
+  {
+    "id": "eng-vocab-0329",
+    "type": "word_meaning",
+    "target_word": "destitute",
+    "prompt": {},
+    "question": "What does the word \"destitute\" mean?",
+    "choices": [
+      {
+        "text": "extremely poor and lacking necessities",
+        "correct": true
+      },
+      {
+        "text": "highly respected by the community",
+        "correct": false
+      },
+      {
+        "text": "completely hidden from public view",
+        "correct": false
+      },
+      {
+        "text": "strong enough to resist an attack",
+        "correct": false
+      },
+      {
+        "text": "uncertain about making a decision",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Destitute\" means extremely poor and without basic necessities. The other choices describe respect, secrecy, strength or uncertainty."
+  },
+  {
+    "id": "eng-vocab-0330",
+    "type": "reverse_meaning",
+    "target_word": "eloquent",
+    "prompt": {
+      "meaning": "able to express ideas clearly and effectively"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "eloquent",
+        "correct": true
+      },
+      {
+        "text": "morose",
+        "correct": false
+      },
+      {
+        "text": "gruff",
+        "correct": false
+      },
+      {
+        "text": "vague",
+        "correct": false
+      },
+      {
+        "text": "sulky",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Eloquent\" describes someone who speaks or writes clearly and persuasively. The other words suggest gloominess, roughness, uncertainty or bad temper."
+  },
+  {
+    "id": "eng-vocab-0331",
+    "type": "fill_in_blank",
+    "target_word": "hinder",
+    "prompt": {
+      "sentence": "Heavy snow may ______ the rescue team and slow their progress up the mountain."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "reward",
+        "correct": false
+      },
+      {
+        "text": "hinder",
+        "correct": true
+      },
+      {
+        "text": "welcome",
+        "correct": false
+      },
+      {
+        "text": "amuse",
+        "correct": false
+      },
+      {
+        "text": "praise",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Hinder\" means to make progress difficult or slow. Heavy snow could prevent the rescue team from moving quickly."
+  },
+  {
+    "id": "eng-vocab-0332",
+    "type": "alternative_word",
+    "target_word": "ominous",
+    "prompt": {
+      "sentence": "An ominous rumble came from the volcano as smoke rose into the sky."
+    },
+    "question": "Which word could replace \"ominous\" without greatly changing the meaning?",
+    "choices": [
+      {
+        "text": "reassuring",
+        "correct": false
+      },
+      {
+        "text": "threatening",
+        "correct": true
+      },
+      {
+        "text": "musical",
+        "correct": false
+      },
+      {
+        "text": "distant",
+        "correct": false
+      },
+      {
+        "text": "ordinary",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Threatening\" is correct because \"ominous\" suggests that something bad may happen. The volcano's rumble creates a sense of danger."
+  },
+  {
+    "id": "eng-vocab-0333",
+    "type": "word_meaning",
+    "target_word": "palpable",
+    "prompt": {},
+    "question": "What does the word \"palpable\" mean?",
+    "choices": [
+      {
+        "text": "so strong that it can almost be felt",
+        "correct": true
+      },
+      {
+        "text": "too small to be clearly noticed",
+        "correct": false
+      },
+      {
+        "text": "carefully hidden from other people",
+        "correct": false
+      },
+      {
+        "text": "likely to change without warning",
+        "correct": false
+      },
+      {
+        "text": "related to events in the distant past",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Palpable\" means so obvious or intense that it seems almost possible to touch or feel. The other definitions do not match."
+  },
+  {
+    "id": "eng-vocab-0334",
+    "type": "reverse_meaning",
+    "target_word": "resolute",
+    "prompt": {
+      "meaning": "firmly determined and unwilling to give up"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "irresolute",
+        "correct": false
+      },
+      {
+        "text": "languid",
+        "correct": false
+      },
+      {
+        "text": "resolute",
+        "correct": true
+      },
+      {
+        "text": "distraught",
+        "correct": false
+      },
+      {
+        "text": "morose",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Resolute\" means firmly determined. The other choices suggest indecision, lack of energy, distress or gloominess."
+  },
+  {
+    "id": "eng-vocab-0335",
+    "type": "fill_in_blank",
+    "target_word": "decipher",
+    "prompt": {
+      "sentence": "The writing on the ancient map was faded, but the historian managed to ______ the message."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "tarnish",
+        "correct": false
+      },
+      {
+        "text": "decipher",
+        "correct": true
+      },
+      {
+        "text": "quell",
+        "correct": false
+      },
+      {
+        "text": "scurry",
+        "correct": false
+      },
+      {
+        "text": "ignite",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Decipher\" means to work out the meaning of something difficult to read or understand. This suits a faded ancient message."
+  },
+  {
+    "id": "eng-vocab-0336",
+    "type": "alternative_word",
+    "target_word": "morose",
+    "prompt": {
+      "sentence": "He became morose after hearing that the trip had been cancelled."
+    },
+    "question": "Which word could replace \"morose\" without greatly changing the meaning?",
+    "choices": [
+      {
+        "text": "gloomy",
+        "correct": true
+      },
+      {
+        "text": "energetic",
+        "correct": false
+      },
+      {
+        "text": "generous",
+        "correct": false
+      },
+      {
+        "text": "curious",
+        "correct": false
+      },
+      {
+        "text": "relieved",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Gloomy\" is a suitable replacement because \"morose\" means unhappy and bad-tempered. The other choices describe different moods or qualities."
+  },
+  {
+    "id": "eng-vocab-0337",
+    "type": "word_meaning",
+    "target_word": "impropriety",
+    "prompt": {},
+    "question": "What does the word \"impropriety\" mean?",
+    "choices": [
+      {
+        "text": "behaviour that is unsuitable or improper",
+        "correct": true
+      },
+      {
+        "text": "a sudden increase in physical strength",
+        "correct": false
+      },
+      {
+        "text": "a difficult journey through rough land",
+        "correct": false
+      },
+      {
+        "text": "an agreement between opposing groups",
+        "correct": false
+      },
+      {
+        "text": "a reward given for excellent service",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Impropriety\" means behaviour that is improper or socially unacceptable. The other choices describe unrelated ideas."
+  },
+  {
+    "id": "eng-vocab-0338",
+    "type": "reverse_meaning",
+    "target_word": "affluent",
+    "prompt": {
+      "meaning": "having a great deal of money or wealth"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "destitute",
+        "correct": false
+      },
+      {
+        "text": "threadbare",
+        "correct": false
+      },
+      {
+        "text": "affluent",
+        "correct": true
+      },
+      {
+        "text": "grubby",
+        "correct": false
+      },
+      {
+        "text": "doleful",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Affluent\" means wealthy or rich. The other words suggest poverty, worn condition, dirtiness or sadness."
+  },
+  {
+    "id": "eng-vocab-0339",
+    "type": "fill_in_blank",
+    "target_word": "elicit",
+    "prompt": {
+      "sentence": "The teacher asked an interesting question to ______ thoughtful responses from the class."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "elicit",
+        "correct": true
+      },
+      {
+        "text": "hinder",
+        "correct": false
+      },
+      {
+        "text": "tarnish",
+        "correct": false
+      },
+      {
+        "text": "quell",
+        "correct": false
+      },
+      {
+        "text": "fabricate",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Elicit\" means to draw out a response or reaction. The teacher's question is intended to produce thoughtful answers."
+  },
+  {
+    "id": "eng-vocab-0340",
+    "type": "alternative_word",
+    "target_word": "vile",
+    "prompt": {
+      "sentence": "A vile smell drifted from the rubbish bin that had been left in the sun."
+    },
+    "question": "Which word could replace \"vile\" without greatly changing the meaning?",
+    "choices": [
+      {
+        "text": "pleasant",
+        "correct": false
+      },
+      {
+        "text": "faint",
+        "correct": false
+      },
+      {
+        "text": "disgusting",
+        "correct": true
+      },
+      {
+        "text": "familiar",
+        "correct": false
+      },
+      {
+        "text": "sweet",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Disgusting\" is correct because \"vile\" means extremely unpleasant or revolting. The other choices do not fit the unpleasant smell."
+  },
+  {
+    "id": "eng-vocab-0341",
+    "type": "word_meaning",
+    "target_word": "beseech",
+    "prompt": {},
+    "question": "What does the word \"beseech\" mean?",
+    "choices": [
+      {
+        "text": "to beg someone urgently",
+        "correct": true
+      },
+      {
+        "text": "to accuse someone publicly",
+        "correct": false
+      },
+      {
+        "text": "to warn someone secretly",
+        "correct": false
+      },
+      {
+        "text": "to follow someone silently",
+        "correct": false
+      },
+      {
+        "text": "to praise someone warmly",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Beseech\" means to beg or plead with someone urgently. The other choices describe accusing, warning, following or praising."
+  },
+  {
+    "id": "eng-vocab-0342",
+    "type": "reverse_meaning",
+    "target_word": "uncouth",
+    "prompt": {
+      "meaning": "rude, badly mannered or lacking social grace"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "courtly",
+        "correct": false
+      },
+      {
+        "text": "modest",
+        "correct": false
+      },
+      {
+        "text": "uncouth",
+        "correct": true
+      },
+      {
+        "text": "eloquent",
+        "correct": false
+      },
+      {
+        "text": "stately",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Uncouth\" means rude or lacking good manners. The other choices suggest politeness, humility, skilled speech or dignity."
+  },
+  {
+    "id": "eng-vocab-0343",
+    "type": "fill_in_blank",
+    "target_word": "cajole",
+    "prompt": {
+      "sentence": "Maya tried to ______ her brother into helping her by praising his excellent painting skills."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "cajole",
+        "correct": true
+      },
+      {
+        "text": "scorch",
+        "correct": false
+      },
+      {
+        "text": "renounce",
+        "correct": false
+      },
+      {
+        "text": "quell",
+        "correct": false
+      },
+      {
+        "text": "outstrip",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Cajole\" means to persuade someone through praise or gentle pressure. Maya is using compliments to gain her brother's help."
+  },
+  {
+    "id": "eng-vocab-0344",
+    "type": "alternative_word",
+    "target_word": "doleful",
+    "prompt": {
+      "sentence": "The dog gave a doleful whine when its owner left the house."
+    },
+    "question": "Which word could replace \"doleful\" without greatly changing the meaning?",
+    "choices": [
+      {
+        "text": "joyful",
+        "correct": false
+      },
+      {
+        "text": "sorrowful",
+        "correct": true
+      },
+      {
+        "text": "furious",
+        "correct": false
+      },
+      {
+        "text": "playful",
+        "correct": false
+      },
+      {
+        "text": "proud",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Sorrowful\" is correct because \"doleful\" means sad or mournful. The dog's whine shows sadness."
+  },
+  {
+    "id": "eng-vocab-0345",
+    "type": "word_meaning",
+    "target_word": "renounce",
+    "prompt": {},
+    "question": "What does the word \"renounce\" mean?",
+    "choices": [
+      {
+        "text": "to formally give up or reject something",
+        "correct": true
+      },
+      {
+        "text": "to improve something by careful practice",
+        "correct": false
+      },
+      {
+        "text": "to discover something by accident",
+        "correct": false
+      },
+      {
+        "text": "to protect something from damage",
+        "correct": false
+      },
+      {
+        "text": "to divide something into equal parts",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Renounce\" means to formally give up, reject or abandon something. The other choices describe improvement, discovery, protection or division."
+  },
+  {
+    "id": "eng-vocab-0346",
+    "type": "reverse_meaning",
+    "target_word": "veneration",
+    "prompt": {
+      "meaning": "great respect or admiration for someone or something"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "enmity",
+        "correct": false
+      },
+      {
+        "text": "indifference",
+        "correct": false
+      },
+      {
+        "text": "veneration",
+        "correct": true
+      },
+      {
+        "text": "dismay",
+        "correct": false
+      },
+      {
+        "text": "impropriety",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Veneration\" means deep respect or admiration. The other words suggest hostility, lack of concern, distress or improper behaviour."
+  },
+  {
+    "id": "eng-vocab-0347",
+    "type": "fill_in_blank",
+    "target_word": "fabricate",
+    "prompt": {
+      "sentence": "The witness was warned not to ______ a story about events that had never happened."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "decipher",
+        "correct": false
+      },
+      {
+        "text": "fabricate",
+        "correct": true
+      },
+      {
+        "text": "quell",
+        "correct": false
+      },
+      {
+        "text": "ignite",
+        "correct": false
+      },
+      {
+        "text": "scurry",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Fabricate\" can mean to invent a false story or piece of information. The witness must not make up events."
+  },
+  {
+    "id": "eng-vocab-0348",
+    "type": "alternative_word",
+    "target_word": "majestic",
+    "prompt": {
+      "sentence": "The majestic eagle circled above the mountains with its enormous wings spread wide."
+    },
+    "question": "Which word could replace \"majestic\" without greatly changing the meaning?",
+    "choices": [
+      {
+        "text": "clumsy",
+        "correct": false
+      },
+      {
+        "text": "magnificent",
+        "correct": true
+      },
+      {
+        "text": "timid",
+        "correct": false
+      },
+      {
+        "text": "ordinary",
+        "correct": false
+      },
+      {
+        "text": "restless",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Magnificent\" is a suitable replacement because \"majestic\" means grand and impressive. The other words do not express grandeur."
+  },
+  {
+    "id": "eng-vocab-0349",
+    "type": "word_meaning",
+    "target_word": "outstrip",
+    "prompt": {},
+    "question": "What does the word \"outstrip\" mean?",
+    "choices": [
+      {
+        "text": "to do better than or move ahead of",
+        "correct": true
+      },
+      {
+        "text": "to copy someone exactly",
+        "correct": false
+      },
+      {
+        "text": "to avoid making any decision",
+        "correct": false
+      },
+      {
+        "text": "to remove something by force",
+        "correct": false
+      },
+      {
+        "text": "to travel without a clear direction",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Outstrip\" means to surpass or do better than someone or something. The other choices describe copying, avoiding, removing or wandering."
+  },
+  {
+    "id": "eng-vocab-0350",
+    "type": "reverse_meaning",
+    "target_word": "lurid",
+    "prompt": {
+      "meaning": "shockingly vivid, dramatic or unpleasant"
+    },
+    "question": "Which word best matches this meaning?",
+    "choices": [
+      {
+        "text": "modest",
+        "correct": false
+      },
+      {
+        "text": "lurid",
+        "correct": true
+      },
+      {
+        "text": "stately",
+        "correct": false
+      },
+      {
+        "text": "cordial",
+        "correct": false
+      },
+      {
+        "text": "vague",
+        "correct": false
+      }
+    ],
+    "explanation": "\"Lurid\" describes something shockingly vivid, sensational or unpleasant. The other choices suggest humility, dignity, friendliness or lack of clarity."
   }
 ]
