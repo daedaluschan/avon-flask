@@ -11068,5 +11068,481 @@
       }
     ],
     "explanation": "\"Lurid\" describes something shockingly vivid, sensational or unpleasant. The other choices suggest humility, dignity, friendliness or lack of clarity."
+  },
+  {
+    "id": "eng-vocab-0351",
+    "type": "word_meaning",
+    "target_word": "Gorge",
+    "prompt": {},
+    "question": "What does \"Gorge\" mean?",
+    "choices": [
+      {
+        "text": "A smooth open field",
+        "correct": false
+      },
+      {
+        "text": "A deep narrow valley",
+        "correct": true
+      },
+      {
+        "text": "A line of market stalls",
+        "correct": false
+      },
+      {
+        "text": "A pile of building bricks",
+        "correct": false
+      },
+      {
+        "text": "A shallow sandy beach",
+        "correct": false
+      }
+    ],
+    "explanation": "A gorge is a deep narrow valley, usually with steep rocky sides."
+  },
+  {
+    "id": "eng-vocab-0352",
+    "type": "word_meaning",
+    "target_word": "hazard",
+    "prompt": {},
+    "question": "What does \"hazard\" mean?",
+    "choices": [
+      {
+        "text": "A danger or risk",
+        "correct": true
+      },
+      {
+        "text": "A cheerful surprise",
+        "correct": false
+      },
+      {
+        "text": "A useful spare tool",
+        "correct": false
+      },
+      {
+        "text": "A quiet hiding place",
+        "correct": false
+      },
+      {
+        "text": "A formal written promise",
+        "correct": false
+      }
+    ],
+    "explanation": "A hazard is something that could cause harm or create risk."
+  },
+  {
+    "id": "eng-vocab-0353",
+    "type": "reverse_meaning",
+    "target_word": "Beseech",
+    "prompt": {
+      "meaning": "To ask someone urgently and seriously for help or action."
+    },
+    "question": "Which word matches the meaning given?",
+    "choices": [
+      {
+        "text": "ignore",
+        "correct": false
+      },
+      {
+        "text": "Beseech",
+        "correct": true
+      },
+      {
+        "text": "stumble",
+        "correct": false
+      },
+      {
+        "text": "collect",
+        "correct": false
+      },
+      {
+        "text": "inspect",
+        "correct": false
+      }
+    ],
+    "explanation": "Beseech means to beg or ask urgently for something important."
+  },
+  {
+    "id": "eng-vocab-0354",
+    "type": "reverse_meaning",
+    "target_word": "Ominous",
+    "prompt": {
+      "meaning": "Suggesting that something bad is about to happen."
+    },
+    "question": "Which word matches the meaning given?",
+    "choices": [
+      {
+        "text": "distant",
+        "correct": false
+      },
+      {
+        "text": "playful",
+        "correct": false
+      },
+      {
+        "text": "Ominous",
+        "correct": true
+      },
+      {
+        "text": "ordinary",
+        "correct": false
+      },
+      {
+        "text": "steady",
+        "correct": false
+      }
+    ],
+    "explanation": "Ominous describes a sign or feeling that warns of trouble ahead."
+  },
+  {
+    "id": "eng-vocab-0355",
+    "type": "fill_in_blank",
+    "target_word": "grim",
+    "prompt": {
+      "sentence": "The coach gave a ______ look when the team stopped listening during practice."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "gentle",
+        "correct": false
+      },
+      {
+        "text": "curly",
+        "correct": false
+      },
+      {
+        "text": "grim",
+        "correct": true
+      },
+      {
+        "text": "sleepy",
+        "correct": false
+      },
+      {
+        "text": "fragile",
+        "correct": false
+      }
+    ],
+    "explanation": "Grim fits because it describes a serious, stern expression in that situation."
+  },
+  {
+    "id": "eng-vocab-0356",
+    "type": "fill_in_blank",
+    "target_word": "Muffled",
+    "prompt": {
+      "sentence": "We could hear ______ voices through the closed classroom door, but not the exact words."
+    },
+    "question": "Which word best completes the sentence?",
+    "choices": [
+      {
+        "text": "shiny",
+        "correct": false
+      },
+      {
+        "text": "muffled",
+        "correct": true
+      },
+      {
+        "text": "joyful",
+        "correct": false
+      },
+      {
+        "text": "hungry",
+        "correct": false
+      },
+      {
+        "text": "empty",
+        "correct": false
+      }
+    ],
+    "explanation": "Muffled means the sound is unclear and softened, which matches voices heard through a closed door."
+  },
+  {
+    "id": "eng-vocab-0357",
+    "type": "alternative_word",
+    "target_word": "alternative",
+    "prompt": {
+      "sentence": "When the hall was already booked, the teacher suggested an alternative venue for the debate."
+    },
+    "question": "Which word could best replace \"alternative\" without changing the meaning?",
+    "choices": [
+      {
+        "text": "different",
+        "correct": true
+      },
+      {
+        "text": "broken",
+        "correct": false
+      },
+      {
+        "text": "famous",
+        "correct": false
+      },
+      {
+        "text": "noisy",
+        "correct": false
+      },
+      {
+        "text": "crowded",
+        "correct": false
+      }
+    ],
+    "explanation": "In this sentence, alternative means another possible choice, so different is the best replacement in context."
+  },
+  {
+    "id": "eng-vocab-0358",
+    "type": "alternative_word",
+    "target_word": "lilting",
+    "prompt": {
+      "sentence": "A lilting tune drifted across the field while the fair was closing for the night."
+    },
+    "question": "Which word could best replace \"lilting\" without changing the meaning?",
+    "choices": [
+      {
+        "text": "rhythmic",
+        "correct": true
+      },
+      {
+        "text": "silent",
+        "correct": false
+      },
+      {
+        "text": "dusty",
+        "correct": false
+      },
+      {
+        "text": "crooked",
+        "correct": false
+      },
+      {
+        "text": "anxious",
+        "correct": false
+      }
+    ],
+    "explanation": "In this sentence, lilting describes a light musical flow, so rhythmic is the best match in context."
+  },
+  {
+    "id": "eng-vocab-0359",
+    "type": "part_of_speech",
+    "target_word": "becalmed",
+    "prompt": {
+      "sentence": "The becalmed yacht drifted almost nowhere on the windless sea."
+    },
+    "question": "In this sentence, what part of speech is \"becalmed\"?",
+    "choices": [
+      {
+        "text": "Adverb",
+        "correct": false
+      },
+      {
+        "text": "Adjective",
+        "correct": true
+      },
+      {
+        "text": "Verb",
+        "correct": false
+      },
+      {
+        "text": "Noun",
+        "correct": false
+      },
+      {
+        "text": "Preposition",
+        "correct": false
+      }
+    ],
+    "explanation": "Becalmed is an adjective here because it describes the yacht."
+  },
+  {
+    "id": "eng-vocab-0360",
+    "type": "part_of_speech",
+    "target_word": "precipices",
+    "prompt": {
+      "sentence": "Warning signs had been placed near the precipices to keep walkers safe."
+    },
+    "question": "In this sentence, what part of speech is \"precipices\"?",
+    "choices": [
+      {
+        "text": "Conjunction",
+        "correct": false
+      },
+      {
+        "text": "Verb",
+        "correct": false
+      },
+      {
+        "text": "Noun",
+        "correct": true
+      },
+      {
+        "text": "Adjective",
+        "correct": false
+      },
+      {
+        "text": "Adverb",
+        "correct": false
+      }
+    ],
+    "explanation": "Precipices is a noun here because it names the dangerous cliffs."
+  },
+  {
+    "id": "eng-vocab-0361",
+    "type": "alternative_word",
+    "target_word": "Gorge",
+    "prompt": {
+      "sentence": "From the cliff path, we looked down into the Gorge below and watched the river winding through it."
+    },
+    "question": "Which word could best replace \"Gorge\" without changing the meaning?",
+    "choices": [
+      {
+        "text": "valley",
+        "correct": true
+      },
+      {
+        "text": "village",
+        "correct": false
+      },
+      {
+        "text": "harbour",
+        "correct": false
+      },
+      {
+        "text": "staircase",
+        "correct": false
+      },
+      {
+        "text": "garden",
+        "correct": false
+      }
+    ],
+    "explanation": "In this sentence, Gorge means a deep valley with steep sides, so valley is the best replacement in context."
+  },
+  {
+    "id": "eng-vocab-0362",
+    "type": "alternative_word",
+    "target_word": "effrontery",
+    "prompt": {
+      "sentence": "Leo had the effrontery to demand a prize after refusing to help with the project."
+    },
+    "question": "Which word could best replace \"effrontery\" without changing the meaning?",
+    "choices": [
+      {
+        "text": "rudeness",
+        "correct": true
+      },
+      {
+        "text": "silence",
+        "correct": false
+      },
+      {
+        "text": "patience",
+        "correct": false
+      },
+      {
+        "text": "wisdom",
+        "correct": false
+      },
+      {
+        "text": "fear",
+        "correct": false
+      }
+    ],
+    "explanation": "In this sentence, effrontery means bold disrespect or shocking rudeness, so rudeness is the best replacement in context."
+  },
+  {
+    "id": "eng-vocab-0363",
+    "type": "alternative_word",
+    "target_word": "despaired",
+    "prompt": {
+      "sentence": "After days of searching without success, the climbers despaired of finding the missing map."
+    },
+    "question": "Which word could best replace \"despaired\" without changing the meaning?",
+    "choices": [
+      {
+        "text": "lost hope",
+        "correct": true
+      },
+      {
+        "text": "hurried",
+        "correct": false
+      },
+      {
+        "text": "laughed",
+        "correct": false
+      },
+      {
+        "text": "boasted",
+        "correct": false
+      },
+      {
+        "text": "returned",
+        "correct": false
+      }
+    ],
+    "explanation": "In this sentence, despaired means gave up hope, so lost hope is the best replacement in context."
+  },
+  {
+    "id": "eng-vocab-0364",
+    "type": "alternative_word",
+    "target_word": "Destitute",
+    "prompt": {
+      "sentence": "The charity organised food parcels for destitute families who had no money for basic supplies."
+    },
+    "question": "Which word could best replace \"Destitute\" without changing the meaning?",
+    "choices": [
+      {
+        "text": "poor",
+        "correct": true
+      },
+      {
+        "text": "cheerful",
+        "correct": false
+      },
+      {
+        "text": "famous",
+        "correct": false
+      },
+      {
+        "text": "restless",
+        "correct": false
+      },
+      {
+        "text": "tidy",
+        "correct": false
+      }
+    ],
+    "explanation": "In this sentence, Destitute means extremely poor and lacking basic needs, so poor is the best replacement in context."
+  },
+  {
+    "id": "eng-vocab-0365",
+    "type": "alternative_word",
+    "target_word": "crude",
+    "prompt": {
+      "sentence": "The inventor showed us a crude sketch of the machine before drawing a more detailed plan."
+    },
+    "question": "Which word could best replace \"crude\" without changing the meaning?",
+    "choices": [
+      {
+        "text": "rough",
+        "correct": true
+      },
+      {
+        "text": "colourful",
+        "correct": false
+      },
+      {
+        "text": "secret",
+        "correct": false
+      },
+      {
+        "text": "modern",
+        "correct": false
+      },
+      {
+        "text": "fragile",
+        "correct": false
+      }
+    ],
+    "explanation": "In this sentence, crude means simple and not yet refined, so rough is the best replacement in context."
   }
 ]

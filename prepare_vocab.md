@@ -1,6 +1,6 @@
 # Preparing Vocabulary Question JSON
 
-Use this guide to convert plain-text vocabulary multiple choice questions into the app's JSON format.
+Use this guide to convert plain-text vocabulary multiple choice questions into the app's JSON format and to run the subagent authoring workflow safely.
 
 ## Target File
 
@@ -38,6 +38,55 @@ The file must contain a raw JSON array:
 Do not wrap the array in a top-level object. Do not add `level` or `difficulty`.
 
 The same vocabulary word may appear in more than one question as long as the questions are different. For example, `prudent` may be used once in a word meaning question and again in an alternative word question.
+
+## Generation Workflow
+
+Before every new generation run:
+
+1. Back up `static/English/Vocabulary/word_bank.txt`.
+2. Remove any word from `word_bank.txt` that already appears `2` or more times as a `target_word` in `questions.json`.
+3. Assign non-overlapping target-word lists to the type-specific generators.
+4. Validate each generator batch with a separate validator before merge.
+5. Merge only validated batches and re-run JSON validation.
+
+Quality guardrails:
+
+- Skip any target listed in `static/English/Vocabulary/quality_blocklist.txt` during automatic assignment.
+- For synonym questions, use only high-confidence in-context replacements.
+- If a word has a tricky or offensive sense that may confuse the question, block it and choose a different target.
+
+The repo now includes a coordinator CLI for this workflow:
+
+```bash
+python3 tools/vocab_pipeline.py prepare-run \
+  --count word_meaning=10 \
+  --count reverse_meaning=10 \
+  --count fill_in_blank=10 \
+  --count alternative_word=10 \
+  --count part_of_speech=10 \
+  --output /tmp/vocab-assignments.json
+```
+
+That command performs the mandatory re-balance first, then writes the assignment packet for the generator agents.
+
+Validate each subagent batch:
+
+```bash
+python3 tools/vocab_pipeline.py validate-batch \
+  --assignment /tmp/vocab-assignments.json \
+  --question-type word_meaning \
+  --batch /tmp/word-meaning-batch.json \
+  --report /tmp/word-meaning-report.json
+```
+
+Merge approved batches:
+
+```bash
+python3 tools/vocab_pipeline.py merge-batches \
+  --batch /tmp/word-meaning-batch.json \
+  --batch /tmp/reverse-meaning-batch.json
+python3 -m json.tool static/English/Vocabulary/questions.json >/dev/null
+```
 
 ## Required Fields
 
