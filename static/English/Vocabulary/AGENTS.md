@@ -2,6 +2,10 @@
 
 These instructions apply to files under `static/English/Vocabulary/`.
 
+## Primary Handoff
+- Read `PIPELINE_INSTRUCTION.md` first for the full multi-agent workflow, artifact contract, quality policy, and command sequence.
+- Use this file together with `Question_instruction.txt` when generating or validating vocabulary questions.
+
 ## Source Material
 - Use `word_bank.txt` as the source of tested vocabulary words.
 - Tested word (or clear derivative) must come from `word_bank.txt`.
@@ -16,6 +20,15 @@ These instructions apply to files under `static/English/Vocabulary/`.
 - Select words randomly, preferring words used least often so far.
 - Reusing the same target word is allowed when the question itself is different.
 - Derived forms are allowed when clearly linked to a word-bank base word.
+
+## Generation Workflow Requirement
+- Before every new question-generation run, perform the "Questions Re-balance" procedure below.
+- Use the post-rebalance `word_bank.txt` as the only target-word source for that run.
+- When splitting work across multiple agents, assign non-overlapping target-word lists per agent.
+- Use a separate validator agent to review each generation batch before any questions are merged back into `questions.json`.
+- Merge only validator-approved questions.
+- Exclude any target listed in `quality_blocklist.txt` from automatic assignment unless the user explicitly asks for it.
+- For Type 4 questions, prefer high-confidence synonyms and reject borderline replacements that only partly match the sentence meaning.
 
 ## Maintaining `word_bank.txt`
 - When asked to add new words or phrases to `word_bank.txt`, first check whether each item already exists in the word bank using a case-insensitive comparison.

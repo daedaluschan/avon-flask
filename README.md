@@ -101,3 +101,26 @@ export DATABASE_URL="postgresql://user:password@host:5432/dbname?sslmode=require
 - `OCTOPUS_KEY` (required for tariff endpoints): Octopus API key used by `/tariff` and `/octopus`.
 - `FLASK_SECRET_KEY` (recommended): Flask session signing key. If omitted, the app falls back to `dev-secret-key`.
 - `DATABASE_URL` (required for vocabulary profile/weight features): Primary PostgreSQL connection string.
+
+## Vocabulary Authoring Workflow
+
+The repo includes `tools/vocab_pipeline.py` for multi-agent vocabulary authoring. It supports:
+
+- `rebalance`: back up `static/English/Vocabulary/word_bank.txt` and remove words already used `2+` times as `target_word`
+- `prepare-run`: perform the mandatory re-balance step and generate non-overlapping target-word assignments per question type
+- `validate-batch`: validate one generator batch against its assignment packet before merge
+- `merge-batches`: append validated batches into `static/English/Vocabulary/questions.json`
+
+Automatic assignment also skips any vocabulary listed in `static/English/Vocabulary/quality_blocklist.txt`, which is intended for ambiguous or poor-fit targets that need manual review before use.
+
+Example:
+
+```bash
+python3 tools/vocab_pipeline.py prepare-run \
+  --count word_meaning=10 \
+  --count reverse_meaning=10 \
+  --count fill_in_blank=10 \
+  --count alternative_word=10 \
+  --count part_of_speech=10 \
+  --output /tmp/vocab-assignments.json
+```
